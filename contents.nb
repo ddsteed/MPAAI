@@ -1,0 +1,3554 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 14.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[    153254,       3546]
+NotebookOptionsPosition[    125682,       3262]
+NotebookOutlinePosition[    127118,       3299]
+CellTagsIndexPosition[    127075,       3296]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Contents", "TOCTitle",ExpressionUUID->"be8d4048-7b82-471a-98c4-292a6563a891"],
+
+Cell[TextData[ButtonBox["Preface",
+ BaseStyle->"TOCSection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-0-preface.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "779ac440-64b9-421f-a613-32e9713c20c1", All,
+      ExpressionUUID]]]], "TOCSection",ExpressionUUID->"b388d0fe-9a89-4247-\
+8a5d-a5b580612fe2"],
+
+Cell[TextData[ButtonBox["The history of this project",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-0-preface.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "c33ee7ac-748e-4bcf-9781-7264a8344333", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"2d6d80b2-0260-475b-\
+855d-4fbfafabe228"],
+
+Cell[TextData[ButtonBox["The audience for this book",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-0-preface.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "dc995945-7e53-45f1-9f02-2ea04c55a81b", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"ffa37293-eab0-4730-\
+8090-1063aec2d0dd"],
+
+Cell[TextData[ButtonBox["?",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-0-preface.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "08ef68ee-a647-478a-9f6d-2fb1575ff5f6", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"9ae55950-596f-4150-\
+af7f-85075fc8c0a1"],
+
+Cell[TextData[ButtonBox["The choice of the material",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-0-preface.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "14dc57c6-7ce5-48e5-8105-55d276702e32", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"873450a4-a42c-4c02-\
+8bf9-a0aa74d59a1c"],
+
+Cell[TextData[ButtonBox["The style of presentation",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-0-preface.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "f2b80165-b976-4d69-9c43-102eafc90582", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"6d11c7de-82c6-4c2e-\
+966a-0a3db3198c5b"],
+
+Cell[TextData[ButtonBox["Prerequisites",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-0-preface.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "cd19c2a2-441b-4cfb-9a87-af45c2863ba1", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"e9441174-868d-423f-\
+808c-8744ee3c45a0"],
+
+Cell[TextData[ButtonBox["The organization of the book",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-0-preface.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "501915be-30ba-4f52-a4a5-6fe6537a4235", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"79da7ada-487b-4ba8-\
+9491-129d794eaf7f"],
+
+Cell[TextData[ButtonBox["How to use the book",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-0-preface.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "6f0ddd9c-5459-4972-ad9d-35fb47b9c44b", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"3857d71f-4958-430c-\
+a2c5-2d69f09250eb"],
+
+Cell[TextData[ButtonBox["Important topics not covered",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-0-preface.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "edc28a2d-21a4-4bff-bfec-d11bbe74dbfa", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"cedf080f-5f86-45db-\
+a487-76b97a8aefb8"],
+
+Cell[TextData[ButtonBox["Introduction",
+ BaseStyle->"TOCSection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "cee61c47-f513-4d72-ab91-3d1fb7a17961", All,
+      ExpressionUUID]]]], "TOCSection",ExpressionUUID->"5bdbcefb-2359-4242-\
+9ff3-6b7419a2498c"],
+
+Cell[TextData[ButtonBox["First principle: everything is an expression",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "006b50c4-f5e0-4f5d-a818-2208eaec7595", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"b97f6fc2-5a40-479c-\
+94ca-310f4e6b300e"],
+
+Cell[TextData[ButtonBox["Atoms and the built-in AtomQ predicate",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "b49a9163-df99-4743-8746-2359abdea57b", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"0e04fcaa-d9e7-\
+44dd-b0ec-cd6cecbae79b"],
+
+Cell[TextData[ButtonBox["Mathematica normal (composite) expressions",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "89092c87-4c95-4999-a942-25046b83c396", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"c0a42676-01f0-\
+40a9-84d8-b52b5b8d9a17"],
+
+Cell[TextData[ButtonBox["Literal equivalents of built-in functions, and \
+FullForm command",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "d094f2f3-3dbc-43d7-b73a-f48902e35125", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"b4da2f5a-05e3-\
+4b9b-81ce-eed70c4c29a2"],
+
+Cell[TextData[ButtonBox["All normal expressions are trees - TreeForm command",
+ 
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "9071d31e-e64e-4b37-a11a-fe07214cfe56", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"f2b9a9c9-a0c3-\
+4d91-9c63-c6c5d8399df0"],
+
+Cell[TextData[ButtonBox["Heads of expressions and the Head command",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "fc6adec8-0a59-4323-88e0-f2ff01e01b0b", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"e8ad8b8c-3dc5-\
+467e-8d47-c1b1d4ceddd9"],
+
+Cell[TextData[ButtonBox["Accessing individual parts of expressions through \
+indexing",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "505c5bc0-01bf-4ca7-80aa-d6ea5b4080f1", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"e1dd5dac-79fd-\
+4578-b75c-b1a5608cb755"],
+
+Cell[TextData[ButtonBox["Levels of expressions and the Level command",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "1166c989-5d3f-4b07-8583-1ba19996ab0a", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"b82d77fc-7a56-\
+4cf6-8df7-e9d732bf8c60"],
+
+Cell[TextData[ButtonBox["Second principle: pattern-matching and rule \
+substitution",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "bbbe4f8c-189a-4114-9cd4-f35fa85e06a1", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"f5afcb76-176f-4d1d-\
+b51b-b13e363a98fd"],
+
+Cell[TextData[ButtonBox["Rewrite Rules",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "d2f42d8d-bae2-4ad7-b9ba-33935376f483", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"d9000995-3cf0-\
+4261-8b1f-d9aec038e1b6"],
+
+Cell[TextData[ButtonBox["An example of a simple pattern-defined function",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "48b2d332-d24d-495c-b42e-fb10158ebaad", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"f3646b87-8f80-\
+47f3-ab19-81eddd4bdd81"],
+
+Cell[TextData[ButtonBox["Functions are really rules : DownValues command",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "2459bb28-a9f1-4983-8d3e-4aab57d78925", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"0caba9c8-8b75-\
+44ac-b5ab-df287c846a18"],
+
+Cell[TextData[ButtonBox["Example of a function based on a restricted pattern",
+ 
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "60895561-6478-4674-b34f-2f24d996bd73", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"7bd77bff-87f4-\
+4b5c-b59f-7aa630abb1c8"],
+
+Cell[TextData[ButtonBox["A bit about evaluation",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "eee74863-49d8-4013-9bdd-939096d55940", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"a78f73c8-335e-\
+4276-9ab4-e1969e7a7a25"],
+
+Cell[TextData[ButtonBox["Patterns allow for multiple definitions of the same \
+function",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "39a98318-417a-4306-9a39-60d94c1768c8", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"90ba6106-18e9-\
+4a42-a138-33ec3a713cfd"],
+
+Cell[TextData[ButtonBox["Non-commutativity of rules substitution",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "990fcc0a-df41-4e79-8f31-9d952360f6f3", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"69068443-ecf7-\
+4ce6-927f-6e1677d6d1aa"],
+
+Cell[TextData[ButtonBox["Automatic rule reordering",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "dfb51fbe-5e42-47a5-85e0-e80d8ba8d6fc", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"f02052de-bb16-\
+4d0e-a9fd-550fcf8286f7"],
+
+Cell[TextData[ButtonBox["Third principle: expression evaluation",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "d4decd33-d8fc-41be-9fd8-449b7850f3ab", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"895325f9-5952-4bb0-\
+a6ba-a60ebc6dbc79"],
+
+Cell[TextData[ButtonBox["Summary",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "ebdffbd3-fcb5-46d5-a678-fa9f204ed265", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"9f648603-1450-4e4a-\
+9229-7cf87b2e7afc"],
+
+Cell[TextData[ButtonBox["Elementary operations",
+ BaseStyle->"TOCSection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "e314572c-7e82-48c1-9a0a-0b5d8a996039", All,
+      ExpressionUUID]]]], "TOCSection",ExpressionUUID->"07ea8a8f-16ed-450a-\
+9f92-a9ee3170b30c"],
+
+Cell[TextData[ButtonBox["Introduction",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "b0819c58-18f6-4dd0-a824-6c5562ad7f5e", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"e35eec34-c5e9-4801-\
+b713-d5c99de7067b"],
+
+Cell[TextData[ButtonBox["Symbols and variables",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "894a3169-6ada-48be-bf1b-fc42c0b40915", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"f35a633e-80a9-4663-\
+b1a7-6d7c245131fd"],
+
+Cell[TextData[ButtonBox["Legitimate symbol names",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "4476aa31-9bfe-4a10-b249-68fe83d49df5", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"e220b366-1757-\
+4668-bef5-0a3d3ec35ffd"],
+
+Cell[TextData[ButtonBox["Getting information about symbols",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "7cb30dbc-b724-4430-a08a-3660903b4e60", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"ed0e7b43-06ff-\
+48ac-8f2a-f65e305ba1ec"],
+
+Cell[TextData[ButtonBox["\[OpenCurlyDoubleQuote]Proper\[CloseCurlyDoubleQuote]\
+ variables and OwnValues",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "06a07706-084a-498d-9ac2-7b1bd3d413f9", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"dc4bbb7b-a443-\
+444c-b9f4-8f6d358ea80a"],
+
+Cell[TextData[ButtonBox["Indexed variables and DownValues",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "4d1c4bbf-9fa8-47c2-adb8-575a44cbea31", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"f4fa6507-82fe-\
+416e-b91e-b1f84652a0ae"],
+
+Cell[TextData[ButtonBox["Composite variables and SubValues",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "389d64f3-706c-4efb-8c59-df72f4b2085e", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"f109e88d-4629-\
+4c62-bc87-7760b36ba7f5"],
+
+Cell[TextData[ButtonBox["Clearing variables",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "e469247e-487e-422b-ac42-65541dd68478", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"c2de7bba-b440-\
+4e60-86f2-6adb092dcc59"],
+
+Cell[TextData[ButtonBox["Does a variable have a value? ValueQ",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "a9356523-80a0-45e6-8373-47dee00b8640", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"1c241afd-6d3d-\
+4510-989e-615585f12fe4"],
+
+Cell[TextData[ButtonBox["Assignments attach rules to Symbol-s",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "fb29013b-f317-478d-920e-798c25c635c9", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"ced4cae5-157d-\
+4830-be34-dfcd7c504239"],
+
+Cell[TextData[ButtonBox["Summary",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "17d8523b-92b1-409e-8159-9a58aa5a64d0", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"6de85c64-027f-\
+43e8-a487-1e40003d88b8"],
+
+Cell[TextData[ButtonBox["Dynamic data typing",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "a1150c09-a870-49f5-a60b-2af5d58a497f", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"9fff1d67-e2d4-48e7-\
+8e6e-3e96f3a49017"],
+
+Cell[TextData[ButtonBox["Assignments",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "f2201acc-2348-45bf-88c6-a215852090fd", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"d1305e8d-5451-428b-\
+b3b7-06874966b014"],
+
+Cell[TextData[ButtonBox["Immediate and delayed assignments: Set and \
+SetDelayed",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "e9b15afd-52ab-4ffd-94e1-81e4a5d32f12", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"6b1feb63-b738-\
+4e54-b24c-36e393df34d3"],
+
+Cell[TextData[ButtonBox["The difference between Set and SetDelayed : an \
+example",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "31bbfea3-9638-463a-80c7-f8272c340796", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"bad8febb-f8f7-\
+426c-9a3b-b34633591a21"],
+
+Cell[TextData[ButtonBox["Chain assignments",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "2ed539b7-28a2-4d77-90c5-7d1f5a5f31d8", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"2ac22b66-6259-\
+4f3f-a26f-026cd4cfb849"],
+
+Cell[TextData[ButtonBox["Don\[CloseCurlyQuote] t use SetDelayed with more \
+than two arguments",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "dd132c24-d240-45a6-b052-b0373c17bf39", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"2e274ed4-fe1c-\
+4363-9520-82bbb7de7441"],
+
+Cell[TextData[ButtonBox["Set and SetDelayed : when which one is used",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "36ffde54-d349-4121-8886-1244be894a5d", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"23bcfc18-61bd-\
+4e13-b32a-4f95b20878e6"],
+
+Cell[TextData[ButtonBox["Equality checks",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "017912c1-1506-4cda-821b-93efd7c340c4", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"04a123a2-c21d-4d1b-\
+871e-f09eb6645c78"],
+
+Cell[TextData[ButtonBox["Equal",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "7bcddf79-2321-4273-b377-7000106736e8", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"d1a3086a-fe4f-\
+49a3-a2fb-d290bea4cda8"],
+
+Cell[TextData[ButtonBox["Beware: Equal may return \
+\[OpenCurlyDoubleQuote]unevaluated\[CloseCurlyDoubleQuote]",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "ca4dc73d-a0cf-4881-b0f2-e042a171f4ce", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"86318b19-fd04-\
+4031-9a07-14fc247d59f5"],
+
+Cell[TextData[ButtonBox["Equal is used by built-in solvers to build equations",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "0fdd9ec2-62e4-428d-960d-4d2c26ac36eb", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"c72ae64a-4f2d-\
+4cdb-b76e-de732209e8e0"],
+
+Cell[TextData[ButtonBox["Assigning the result of Equal to a variable, and \
+more on evaluation",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "f2f7ab04-2234-439a-a1f2-93973d572af8", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"7030d1ff-5f32-\
+43b3-b167-76bf1817cded"],
+
+Cell[TextData[ButtonBox["The role of side effects",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "96f584f9-8db9-40d3-94a7-8933fdb9097a", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"8bd47aee-7787-\
+47e8-9420-788f6252eb00"],
+
+Cell[TextData[ButtonBox["A digression: standard and non-standard evaluation",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "eb2bd77c-dc7a-4ba3-afb1-d9cdb9faaf05", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"1bfebc56-3b0f-\
+4d98-8b91-edae2d84c582"],
+
+Cell[TextData[ButtonBox["Pass by reference semantics - possible to imitate",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "1096c9cb-062e-4aa8-bea7-5c8470fece2a", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"c4b50f5f-6bcb-\
+483f-a779-a940dfaaa9af"],
+
+Cell[TextData[ButtonBox["SameQ",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "f089a4b7-f588-401c-ab49-ca65226aafc9", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"6bcd75b0-b364-\
+4abe-8e17-5b13a36ec8b3"],
+
+Cell[TextData[ButtonBox["TrueQ",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "22697f59-5f46-404a-84f7-139244cf8c17", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"1f1bdeb3-54c3-\
+441f-9748-0ed676d2c5b9"],
+
+Cell[TextData[ButtonBox["Logical operators",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "35f18602-f348-4999-bc09-1c903f1ec0ea", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"05419d47-298f-4119-\
+bb60-564fe0b7af34"],
+
+Cell[TextData[ButtonBox["Conditionals",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "cd026b49-e117-4726-99d3-78cc88fef720", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"2eb46f3b-a4f8-4e6f-\
+969d-374bcd7ba3ab"],
+
+Cell[TextData[ButtonBox["The If operator",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "44dfc74a-4a86-40c7-865c-1db3e6ff0973", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"23090d7e-fc34-\
+436e-89f2-7dca4037e6db"],
+
+Cell[TextData[ButtonBox["If may return \[OpenCurlyDoubleQuote]unevaluated\
+\[CloseCurlyDoubleQuote]",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "13d0576c-0200-43ed-bc8c-200ce99ea099", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"0ad8882c-4083-\
+4cbd-bf76-862a29755073"],
+
+Cell[TextData[ButtonBox["If returns a value",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "6960dc82-3692-43ca-b81d-5ddbca2026c4", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"9a06488b-91a4-\
+4bc0-a7f7-5e042c1ebd99"],
+
+Cell[TextData[ButtonBox["Operators Which and Switch",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "78873fac-e1f5-47a9-bddc-6402fb699bcb", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"3a18ad62-2283-\
+4dfa-a525-f49d6cc8a2bc"],
+
+Cell[TextData[ButtonBox["Loops",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "7439fd04-3b52-4cbb-9b34-f327eaf193c7", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"62ab4a6f-80b1-4c8a-\
+8676-1f9477b1ab97"],
+
+Cell[TextData[ButtonBox["For loop",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "9168a6ef-f307-4575-8878-40696a9eae40", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"d67b3c51-a6da-\
+4aba-8794-9fecab0861c7"],
+
+Cell[TextData[ButtonBox["While loop",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "93d5078b-6b91-4443-9408-881565609ebb", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"50999b73-b184-\
+4da2-91b3-55a918a02d05"],
+
+Cell[TextData[ButtonBox["Do loop",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "650a3337-f193-4b94-bb07-8e3a4beeddb3", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"fe1c1b12-56fc-\
+49f0-aa96-ba8d03aebc88"],
+
+Cell[TextData[ButtonBox["Side effects induced by loops",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "29570174-9af6-44d6-bd83-2dcaf8b6d28f", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"80fff4b0-f8e6-\
+4d75-9019-050d6d745656"],
+
+Cell[TextData[ButtonBox["Blocks of operators - the CompoundExpression command",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "12acd2c9-744c-4263-8955-ea90248423ba", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"7511d860-f1ff-\
+43e8-b714-df0ff650accb"],
+
+Cell[TextData[ButtonBox["Local goto statements: Break , Continue, Return",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "1a91e44c-55d7-4aeb-9ef8-64886910ba67", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"4fcc19e7-785d-\
+4dbd-8720-1ae1a5483b5f"],
+
+Cell[TextData[ButtonBox["Programs using loops are often inefficient in \
+Mathematica",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "7f20f567-8fc5-42ed-8aae-5978c476cbf1", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"03517cc8-1438-\
+4471-9ac5-c521ccce49cd"],
+
+Cell[TextData[ButtonBox["Four types of brackets in Mathematica",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "b6979840-59d6-4eff-ad7f-b8869f62a672", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"7671d890-1105-4bb1-\
+ac92-ec1873296455"],
+
+Cell[TextData[ButtonBox["Parentheses ()",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "977e8799-fa1c-45e3-8311-05fe082aad26", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"4412111b-d34b-\
+4ad1-9442-06c3002ea1f6"],
+
+Cell[TextData[ButtonBox["Curly braces {}",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "8357a15f-2352-4a3b-8d17-837768981ded", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"f1e85905-335d-\
+4d35-9ff9-48788b9a578f"],
+
+Cell[TextData[ButtonBox["Single square brackets []",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "d8f7713c-21e0-49c7-a3eb-495405d17255", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"bdadcb0e-17d2-\
+40e5-a92a-b09866d02303"],
+
+Cell[TextData[ButtonBox["Double square brackets [[ ]]",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "f5e941c5-e045-41f2-b7e9-a139066d4e47", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"2017f181-fde2-\
+47f1-94c6-959613827a35"],
+
+Cell[TextData[ButtonBox["Summary",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "6f0dd9da-685d-4e27-a29d-36f5a81407fe", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"d7600b64-e71f-4568-\
+be6f-c536d00f959b"],
+
+Cell[TextData[ButtonBox["Lists",
+ BaseStyle->"TOCSection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "76472712-eadd-44eb-98de-42fb8a27a2d4", All,
+      ExpressionUUID]]]], "TOCSection",ExpressionUUID->"3e04f709-31d4-4655-\
+a44a-39f8a67e0621"],
+
+Cell[TextData[ButtonBox["Introduction",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "0ced549c-1195-4094-b143-6cb1aaab8da3", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"8255a8f7-d8d6-4596-\
+9106-554d5b00c541"],
+
+Cell[TextData[ButtonBox["The main rule of thumb when working with lists in \
+Mathematica",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "0c671e56-8186-4222-8d78-ce48fe96b10b", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"e8bc0ae2-6511-4f37-\
+b1b2-15aed8d84273"],
+
+Cell[TextData[ButtonBox["The content of lists",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "fc21000b-1ccd-4183-82a4-ad08ca093de3", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"9cfa23de-cb39-4be7-\
+bc0c-ce992703ae45"],
+
+Cell[TextData[ButtonBox["Generation of lists",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "a08efdb1-28e4-486a-8cb4-ef7be4e13518", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"1943bff5-620e-427f-\
+8802-b885bd33117b"],
+
+Cell[TextData[ButtonBox["Generating a list by hand",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "98b8b983-c39c-4b90-9733-910aec2ed6f3", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"f51511c7-4486-\
+4737-a9aa-efd3ff145d7d"],
+
+Cell[TextData[ButtonBox["Generation of lists of equidistant numbers by the \
+Range command",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "038e8624-06a5-41e0-920f-5cfb26456fa8", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"cc43587c-1c1d-\
+4f81-a3fd-5c57c9fdb655"],
+
+Cell["", "TOCSubsubsection",ExpressionUUID->"76a1e201-2dba-4b3c-bc06-ab7f5b181a07"],
+
+Cell[TextData[ButtonBox["Generation of lists with the Table command",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "b9847a09-d3e2-429a-a777-68fbb92ea886", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"7038e7da-a831-\
+41d5-b6fe-abe34ab0574a"],
+
+Cell[TextData[ButtonBox["A comment on universality of Range",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "e3b31785-b470-4c17-a8e9-96d239670d68", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"13d82444-6ee5-\
+4c5f-b53f-95183e562bd1"],
+
+Cell[TextData[ButtonBox["Generation of lists inside loops",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "5865d26f-9031-4d70-a325-51c99e76892b", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"a0a757ff-d06f-\
+4776-9129-d947dd837a5d"],
+
+Cell[TextData[ButtonBox["Internal (full) form of lists",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "8114e080-fdf6-4ea1-8e99-47f45238a21c", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"6211c9af-0848-402e-\
+a0e7-eeaa710498b2"],
+
+Cell[TextData[ButtonBox["Working with lists and their parts",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "ec5685ef-6001-47d0-998b-3d52863ab502", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"417c9add-d78c-4fd7-\
+ab1e-6a0d075ee3e9"],
+
+Cell[TextData[ButtonBox["List indexing and element extraction with the Part \
+command",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "a1e6b2ce-e205-45c5-94fe-fa2497eb152f", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"1d44a957-5bb4-\
+4b42-a77e-14e0545dcf00"],
+
+Cell[TextData[ButtonBox["Extract",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "55654bde-572a-4a63-9eeb-c83af4acacd4", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"cd942d7d-91ba-\
+4a40-a749-ed1b843f48ff"],
+
+Cell[TextData[ButtonBox["Take and Drop",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "de14a43d-9eb6-4da8-87a5-91b2b828b8ef", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"708f5654-513d-\
+43df-83af-e04d3974da5e"],
+
+Cell[TextData[ButtonBox["First, Rest, Last and Most",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "8813451a-4d32-4631-b50f-99a24bab1f09", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"f0062bd8-df54-\
+476e-ab0b-5950efc2fd28"],
+
+Cell[TextData[ButtonBox["Length",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "6a93351e-cf95-47ae-ae16-137251e2073a", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"e3c376db-578f-\
+4267-87f8-ed10ad3d9cda"],
+
+Cell[TextData[ButtonBox["Modification of list elements by direct indexing \
+(using Part)",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "8962849f-4ed1-43a4-a39a-078778769476", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"65591364-a94d-\
+4589-a2f4-bc611e53b5c7"],
+
+Cell[TextData[ButtonBox["ReplacePart",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "748199af-d81b-4a3f-a504-9a94d188c383", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"e674ac5b-0996-\
+48c1-b8b9-a024c0713d91"],
+
+Cell[TextData[ButtonBox["Position",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "9181ef42-b336-4f48-b836-1fafaf46de0a", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"0aac5ae1-e9da-\
+411b-801c-4dac8a788815"],
+
+Cell[TextData[ButtonBox["Adding elements to the list and removing them from \
+the list",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "1690f11e-bbfe-4b90-8d0f-64f3b5d1fc92", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"a3cebda6-bf97-4a5c-\
+819b-29a317754b67"],
+
+Cell[TextData[ButtonBox["Append, Prepend, AppendTo and PrependTo",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "4e1f28b1-a5b9-453f-9c3d-d135d2595910", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"1cc65a0e-b650-\
+455d-91ff-b544bc705038"],
+
+Cell[TextData[ButtonBox["Insert and Delete",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "547e4b0e-7f97-442d-8606-85e5b0cfb05a", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"2f2a06eb-378f-\
+47a8-acd7-f8bb7bd3b736"],
+
+Cell[TextData[ButtonBox["Working with nested lists",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "840a7ae6-5313-4ca2-9af6-fd343162f49e", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"bf0a1f01-dbb8-4212-\
+81c2-a3cf353456fc"],
+
+Cell[TextData[ButtonBox["Partition",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "2aa8a54e-1b2a-4ad1-96de-32855fc48a42", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"8a51081c-8c9b-\
+447a-855c-692ff87eaf52"],
+
+Cell[TextData[ButtonBox["Transpose",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "f02450c7-305e-45b4-b7bf-ba165f01ba0e", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"61ad7479-6cd8-\
+4469-b3c5-bf72ebad33d3"],
+
+Cell[TextData[ButtonBox["Flatten",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "66b4aeb0-9862-4dc0-b456-82e836dfbe48", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"0b30e7fd-88b5-\
+40eb-899e-c241843ed961"],
+
+Cell[TextData[ButtonBox["Working with several lists",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "5a4fb234-5bca-4781-bdd9-ebfb5d31b5b6", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"2c79b100-b783-4fcb-\
+bd56-d4b6c876624e"],
+
+Cell[TextData[ButtonBox["The Join command",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "1223e83a-7f3a-4884-9206-95efed1c98a1", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"d05b81d3-8428-\
+4f21-be97-dd907c5757fd"],
+
+Cell[TextData[ButtonBox["The Intersection command",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "d9c635b3-77d0-4102-b61e-65a1365cddcc", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"8c7b9f50-8ebd-\
+4630-8679-05b2e902a5be"],
+
+Cell[TextData[ButtonBox["The Complement command",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "2fea1baa-2958-45f4-86cc-2766266297e5", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"1a2ad765-d355-\
+429f-af0f-db5dbbb66d36"],
+
+Cell[TextData[ButtonBox["Functions related to list sorting",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "d203352b-b075-484d-8808-ab3446047f68", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"0c4cfa87-00f5-4f50-\
+ac15-dc2ae999a70d"],
+
+Cell[TextData[ButtonBox["The Sort command",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "84420316-ae38-4184-a63c-fcd325891b06", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"8a7eae0f-b7d7-\
+4c90-94f2-e88ee962d5e1"],
+
+Cell[TextData[ButtonBox["The Union command",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "f939b970-f25f-41c1-b6bf-9beeac21eafd", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"5d69c722-b892-\
+4d5b-a90e-f357fd671341"],
+
+Cell[TextData[ButtonBox["The Split command",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "9643fc8f-bb04-4827-af80-a26a67afb378", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"d6fe403f-3f81-\
+4dd0-bea0-2ecdc882218f"],
+
+Cell[TextData[ButtonBox["Summary",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "a4d952f1-9a76-4ce5-ad6b-f8e65dad856f", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"d79cf308-a15d-4817-\
+889b-bfc39e062a3b"],
+
+Cell[TextData[ButtonBox["Rules, patters and functions",
+ BaseStyle->"TOCSection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "ab1e0e41-9b8d-48e3-9e22-95ddddf79b73", All,
+      ExpressionUUID]]]], "TOCSection",ExpressionUUID->"432a4662-2b59-4e18-\
+bd7f-6e818e99b2cc"],
+
+Cell[TextData[ButtonBox["Introduction",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "cd559798-99c6-4816-9623-4454de32afeb", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"906ab288-8d76-4cf3-\
+841d-c97c66d52649"],
+
+Cell[TextData[ButtonBox["Rules and patterns",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "257fd94d-9b99-490d-949c-a17523e36c35", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"6b553e0b-a58c-4e30-\
+9015-0b2604887aa1"],
+
+Cell[TextData[ButtonBox["Rule, RuleDelayed, Replace and ReplaceAll commands",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "9d0a99ef-df5a-433a-8673-b893c38c619e", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"ef849446-d8c9-\
+4438-a69f-28f3419a80b6"],
+
+Cell[TextData[ButtonBox["Rule substitution is not commutative",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "95d18353-1193-4fb7-aab0-865ccb031450", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"0684ba80-b593-\
+4cfd-9030-35103ac0fbaa"],
+
+Cell[TextData[ButtonBox["An interplay between rules and evaluation process",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "949ae218-618e-4980-b5b6-577dbcfb6c33", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"bfe90d70-7ffe-\
+4067-936f-f7d0a3d3c4e2"],
+
+Cell[TextData[ButtonBox["Rules and simple (unrestricted) patterns",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "9894d69c-8880-4842-a90c-ac2960d417f5", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"50e3d790-f33b-\
+4d3f-a229-c785deb655bb"],
+
+Cell[TextData[ButtonBox["Applying rules repeatedly - the ReplaceRepeated \
+function",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "2ed84018-8d1a-4b31-b3a3-cd025bc9cb02", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"9e768b3c-3555-\
+4505-b44e-405c0e2c0511"],
+
+Cell[TextData[ButtonBox["Conditional (restricted) patterns",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "09784536-1a61-4611-8aec-f64e489a6923", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"e2916992-3f07-\
+4501-98de-d02b8a965542"],
+
+Cell[TextData[ButtonBox["Alternative patterns",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "2e0a85f0-8c16-48a4-b30b-7578a7662ad6", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"86253bd8-100c-\
+4602-9a98-1fe2e3cbd959"],
+
+Cell[TextData[ButtonBox["Giving names to entire patterns - the Pattern \
+command",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "ccba9749-6a1a-4e5d-84c0-1671f02fb3f0", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"6c868461-f783-\
+4d48-84c5-5538397a08db"],
+
+Cell[TextData[ButtonBox["Optional patterns",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "bcca35df-190a-491d-898b-87e231cbb5a4", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"0788bb8a-7ad5-\
+4b5d-96bb-9eb4e928b2d5"],
+
+Cell[TextData[ButtonBox["Repeated patterns",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "e4c2778c-62e3-446b-8d1a-648aa8804d05", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"4939f887-0906-\
+4b3f-a7a6-7d1560db0394"],
+
+Cell[TextData[ButtonBox["Built-in functions that use patterns",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "43e48320-95a9-4e24-98d7-c4968cba4e22", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"89fa6223-de91-4fe1-\
+b85f-34587da2b5e3"],
+
+Cell[TextData[ButtonBox["Cases",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "aa02dc52-d979-450c-aa2f-c73e8bfdad8c", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"881dcad4-19d4-\
+4603-a87d-7e553297e6eb"],
+
+Cell[TextData[ButtonBox["DeleteCases",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "f1d97d10-165c-4ff7-8f9f-17c3dbccf6a7", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"49cea07a-ebd0-\
+4c8f-afa6-e3b0a5219dbe"],
+
+Cell[TextData[ButtonBox["MemberQ",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "854907db-69b8-444f-8ca4-342ec52e5eb1", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"49c432dc-7a66-\
+4833-bf1a-be9dacc8e7b3"],
+
+Cell[TextData[ButtonBox["Position - a second look",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "2dca1705-fe2d-438f-9109-035cbcc67a62", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"9b50a551-33e3-\
+40d0-a39c-a4b0bde29c3e"],
+
+Cell[TextData[ButtonBox["Count",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "00e50bef-6904-425e-a1db-4d7719d6ff7d", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"24722562-f522-\
+45e4-ad62-9136dbf9da84"],
+
+Cell[TextData[ButtonBox["FreeQ",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "05605aca-b7ce-418b-b1a4-bdd72fc35bc6", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"9c58b318-78da-\
+40f1-af10-1b041fe2dd61"],
+
+Cell[TextData[ButtonBox["A note on the Heads option",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "567c5a48-04f4-4c12-9b67-5ce0bcfd95b5", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"b6bf32b4-6075-\
+4eb7-9b8d-9dde4ec935b4"],
+
+Cell[TextData[ButtonBox["A more complicated example - finding subsequences",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "4da33684-ef88-4569-995d-7a04ef19e578", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"80266735-82e2-\
+4821-a7f7-189f8b8cfe05"],
+
+Cell[TextData[ButtonBox["Functions - starting examples and syntax",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "065cd662-2ab8-45eb-85be-ea5fb5bc4086", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"0c3633f2-4740-42af-\
+b654-a029b584d1ab"],
+
+Cell[TextData[ButtonBox["A definition and a simple example",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "1a40e94a-ea90-44cf-81cf-fa5e953bd031", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"ff7179bd-0586-\
+4e96-95b7-c92c3e8f4178"],
+
+Cell[TextData[ButtonBox["More on function names and evaluation surprises",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "54e60f1f-dff4-4512-aebb-8238383804f7", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"f3e0a7fb-03bc-\
+4f1e-9940-f5f2abc6fbbe"],
+
+Cell[TextData[ButtonBox["On the necessity of patterns",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "cad912e4-7f59-448f-bc82-4017128aa018", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"1b15aac3-5a06-\
+4c47-989c-46b9a4371aec"],
+
+Cell[TextData[ButtonBox["More on the correct syntax of the function calls",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "b4fc0f32-2b3a-4291-aeba-a3482bf42c63", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"f83df31b-4f07-\
+40fb-9707-32736a80578f"],
+
+Cell[TextData[ButtonBox["On function definitions and assignment operators",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "5e8adaa6-5baf-4d27-8e7a-cf2dfc7bd9a9", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"83771497-c4da-\
+4826-be93-08652ac2bef1"],
+
+Cell[TextData[ButtonBox["Assigning values to function symbols (names)",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "5b8e87a2-b0af-4ebc-92ba-ac7eebd7d091", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"a0f9c97d-3e2d-\
+4cd1-8998-18585f2dd212"],
+
+Cell[TextData[ButtonBox["Advanced topic: parameter passing",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "13c766c3-a4ef-4976-b20d-d241dc8532af", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"a745f431-9e78-\
+42b5-89a0-59d214339ec5"],
+
+Cell[TextData[ButtonBox["Function calls: prefix and postfix syntax",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "f6f7cba7-c2cc-4ac3-bdff-1aee634933bd", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"b79c55b2-e952-\
+4b1a-b83e-e4030020a298"],
+
+Cell[TextData[ButtonBox["Function name conventions",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "2a14c8fe-35a2-4cac-8f73-fea8bdb694c5", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"e160da4a-95d8-\
+4018-a121-8980989568b7"],
+
+Cell[TextData[ButtonBox["Examples of functions of a single argument",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "59cda628-e95a-4334-9b97-98765b117125", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"24af9d31-e0b5-4864-\
+ab60-00e5683b80b1"],
+
+Cell[TextData[ButtonBox["Example: Integer part of a number",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "f82d6289-90d4-4517-a5a9-f4ea01d870c6", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"ee509372-aefb-\
+4d3f-90f6-0b3c35a39e15"],
+
+Cell[TextData[ButtonBox["What we will not call a function definition",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "74efea8e-ed6f-4f85-a7cb-62316ce9eee1", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"faf737ec-e9be-\
+4c54-b2f2-a8c3f5dfb620"],
+
+Cell[TextData[ButtonBox["Example: some trigonometric function",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "70de6487-f80a-4643-bb46-a66c4cc35c63", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"2f18e400-5712-\
+4997-b4b7-e316687c1504"],
+
+Cell[TextData[ButtonBox["Example: a function to reverse a string of symbols",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "4309f065-275f-4f4b-b39d-5baf0dd37ab4", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"2838a29e-6cd4-\
+46e1-a0c8-8f16ab78529b"],
+
+Cell[TextData[ButtonBox["Example: A function of function",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "c5e67af3-03cf-4a84-b302-02f9b672fff9", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"eb30bff5-8ff0-\
+418a-8980-46aaa8b8116d"],
+
+Cell[TextData[ButtonBox["Example: a function which exchanges another function \
+and its argument",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "847c42ea-1ca2-40ce-9256-bfd9c99c0b35", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"b0ea087f-ea92-\
+4b1b-8162-6f1f455f17f9"],
+
+Cell[TextData[ButtonBox["Example: a recursive factorial function",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "4896c83d-60bf-473e-bcfc-4b6cb05288ba", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"be8148da-5707-\
+48c8-aef7-533b896fd2c9"],
+
+Cell[TextData[ButtonBox["Infinite iteration and recursion traps",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "2adad933-2781-4856-b142-01b9ccae7c4f", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"0ff033c0-9f2c-\
+4d97-9cdb-d349c2cf9c0b"],
+
+Cell[TextData[ButtonBox["An esoteric example: a self-destructive printing \
+function",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "ffa066fe-d611-4ab3-8faf-a74dee8f91f9", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"736dbf8b-d00d-\
+4315-a03d-0a13ced92d75"],
+
+Cell[TextData[ButtonBox["Mathematical functions and programming functions",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "3146ebfb-a785-4970-8bd5-8e27bbaa7fd0", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"03862f26-0fac-\
+4115-89df-18a2849abc41"],
+
+Cell[TextData[ButtonBox["Functions of several variables",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "3ee283e2-c15f-4b1d-ae99-7a35ffd97773", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"3fa88565-48c4-4a1d-\
+8907-d749a50f7280"],
+
+Cell[TextData[ButtonBox["Starting examples and a definition",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "2626316d-aa8f-4668-a4f8-5738826d45b2", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"0cb94f48-555b-\
+4bfc-9f7c-2a7489435231"],
+
+Cell[TextData[ButtonBox["Putting constraints on the arguments",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "3afed456-ba2b-4ec7-8501-3aef3cdce0d0", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"7969a81d-4eb0-\
+48f0-bb40-d956f4cdcc2f"],
+
+Cell[TextData[ButtonBox["Examples of functions of several variables \
+(arguments)",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "0e747866-ba7d-4150-8b73-63f3da8d0c41", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"6aa7c9c2-5109-\
+4ca1-88ce-ca3d646d8d1d"],
+
+Cell[TextData[ButtonBox["Functions with variable number of arguments",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "c52481bd-164f-46cf-a266-2a38c0485ec0", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"ecd1550f-74b9-\
+4e0a-a5ac-f1a4df788d66"],
+
+Cell[TextData[ButtonBox["Functions with multiple definitions",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "e311e2a1-7eb2-433b-be71-aed9118a4f01", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"1b86be21-60ec-4d65-\
+b767-52d58d57b035"],
+
+Cell[TextData[ButtonBox["Example: a discontinuous function",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "138351db-c99f-4566-bc67-29a159912ed2", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"b1178782-b4c4-\
+4e10-8c26-538d0cda6261"],
+
+Cell[TextData[ButtonBox["Adding more definitions",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "8fea059e-6094-424c-ab58-1c9507ff94e5", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"0f9d76b5-bdf4-\
+4993-be53-44c196ae2bcd"],
+
+Cell[TextData[ButtonBox["Changing definitions selectively",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "a39aab1f-bfd8-4133-9666-1b9ab75c461a", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"1871fc12-8949-\
+4f85-96bc-655f7e09cfc6"],
+
+Cell[TextData[ButtonBox["Warning: a common mistake",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "72f9240f-2661-46dc-995e-7cabd4587d8f", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"b6596315-bbe9-\
+4d7a-9bef-de1b20aad499"],
+
+Cell[TextData[ButtonBox["Selective removal of the definitions",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "463dcea1-d86f-4595-827a-9c35ab06dcba", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"0c4c8afd-d849-\
+4271-813b-4746a9e4dba8"],
+
+Cell[TextData[ButtonBox["Case study: changing the weights of words",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "0f39afb0-54b3-49f6-8d7d-07f77c4bb8d0", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"64fa402f-55d8-\
+489e-9b8d-287f11c37048"],
+
+Cell[TextData[ButtonBox["Larger functions, local variables and the code \
+modularization",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "2476424b-01fd-4be5-9672-38f9d5796d7f", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"800aee77-c7f1-4639-\
+afae-73f9840dd2f8"],
+
+Cell[TextData[ButtonBox["Module",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "3b76ee7d-ff0c-48fa-bebf-4ecebd7f560f", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"ab2df1d1-6b72-\
+417a-b3f9-589820aeed6f"],
+
+Cell[TextData[ButtonBox["Block",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "d60d815a-16ed-454d-ad9c-100951747856", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"acab3ba2-8cd8-\
+4238-9b40-e34f2dba9998"],
+
+Cell[TextData[ButtonBox["With",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "7196450f-7f79-4708-9fea-84a275890224", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"c3143ad7-b4d8-\
+4a8c-b2bc-b4facc685285"],
+
+Cell[TextData[ButtonBox["Function attributes",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "d6a17d81-69a8-4895-be76-62268df1b3c6", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"45a0f7e8-a509-4360-\
+9c3d-2cfaa60fae60"],
+
+Cell[TextData[ButtonBox["Listable attribute and SetAttributes command",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "9c5e1f3f-5f2a-4d24-a488-a311a38a7997", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"f4dd0664-5500-\
+4ed6-aeff-1c7db598b613"],
+
+Cell[TextData[ButtonBox["Clearing Attributes - the ClearAll command",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "1bf98c1c-aff9-4e4a-9130-073726555782", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"b49b6841-d0e6-\
+48a8-b101-8ef2876ec30c"],
+
+Cell[TextData[ButtonBox["Orderless attribute",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "b516a6c9-6984-45e7-b883-03561ca7aae5", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"773989c2-ce0a-\
+478f-99d9-1d6689b5dd95"],
+
+Cell[TextData[ButtonBox["Flat attribute",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "3a408d91-ae4d-4d45-a8f1-32da96a6bd96", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"c3420c06-8a68-\
+4efe-a903-b1433dbc0ef7"],
+
+Cell[TextData[ButtonBox["Protected attribute",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "4d59d50e-f532-46bf-b156-263a90a45aa8", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"57752570-2872-\
+4d5e-b719-a00d0ffc9894"],
+
+Cell[TextData[ButtonBox["Attributes are properties of symbols",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "8ef247d1-826e-4050-9be5-b2784d6e965c", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"345d0281-9b7a-\
+461e-b9f9-92eccbe2c2e4"],
+
+Cell[TextData[ButtonBox["Attributes HoldFirst, HoldRest and HoldAll",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "36d8df3e-18b0-4aef-a3c8-07f89e041dea", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"2e37cc98-a2e5-\
+4b4f-9c4f-72843199868c"],
+
+Cell[TextData[ButtonBox["Attributes and the evaluation process",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "3c5fa788-5b6d-4dcb-b9d5-3faecdea47ba", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"4fb68256-0be9-\
+4df3-a4b0-1b25fd850119"],
+
+Cell[TextData[ButtonBox["Advanced topic: parameter passing and local \
+variables",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "c01b7c78-72a2-4218-b365-7558e81134ed", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"86d19a4e-f78f-49c5-\
+a864-ad5845ab6584"],
+
+Cell[TextData[ButtonBox["Pure functions",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "9d378ef6-78b6-471b-be88-a705686a7a60", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"4c051993-e0b1-494f-\
+a062-2462cadc4654"],
+
+Cell[TextData[ButtonBox["The #-& notation",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "75356982-2647-4b5c-9d38-17b877effe7e", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"8e32f0f6-19e3-\
+4ba5-9d37-bf0f3007a90d"],
+
+Cell[TextData[ButtonBox["Pure functions defined with Function",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "c58b14ae-6e38-45c8-8689-9fbde9b75156", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"8d2eb904-0a51-\
+4fe4-b1c2-1c8646ddce59"],
+
+Cell[TextData[ButtonBox["Differences between pure functions defined with \
+Function and with #-& notation",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "387d5c7f-08df-407a-ab2f-c9c69bce2c95", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"4868c228-afe0-\
+4bae-8378-10f74600a9ed"],
+
+Cell[TextData[ButtonBox["Functions with defaults and options",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "124069d5-3ddc-4166-807a-223e852f5ff9", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"381be777-5f04-413d-\
+b973-fe78067f5aad"],
+
+Cell[TextData[ButtonBox["Functions with defaults",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "5a59983e-9d04-4466-bd58-4440ed488c76", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"1703130b-6e0f-\
+4e46-a820-49e91c8fd329"],
+
+Cell[TextData[ButtonBox["Functions with options",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "84c7064f-ff97-4854-a65a-4924d8d7abcf", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"348c7515-43a7-\
+4f9e-b672-70ac09645f96"],
+
+Cell[TextData[ButtonBox["Summary",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "09deae97-de45-4a71-aec8-0ea926474c54", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"1b7deeea-fb3f-\
+47dd-b201-755ff0d46664"],
+
+Cell[TextData[ButtonBox["Functions on lists and functional programming",
+ BaseStyle->"TOCSection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "ff742e1f-471b-43b2-80fd-8d1b6fadf197", All,
+      ExpressionUUID]]]], "TOCSection",ExpressionUUID->"625fc2e5-3a3e-4681-\
+ba7e-235ed5e7c8bb"],
+
+Cell[TextData[ButtonBox["Introduction",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "a36bbe05-2f4d-4de7-b468-84b52fef0bbe", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"5f54540c-5a47-400f-\
+bfd8-57fed5815659"],
+
+Cell[TextData[ButtonBox["Core higher-order functions",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "9241180b-c276-4b79-be23-570654d4c454", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"8df24675-772a-4def-\
+b83c-ae8ff138ef0f"],
+
+Cell[TextData[ButtonBox["Introduction",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "cbf5205e-ee40-453d-a792-c0c66893efaf", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"9df34956-b28c-\
+420f-ba7e-01e52eead90e"],
+
+Cell[TextData[ButtonBox["Map - simplest form",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "b4804188-7b09-4273-aed9-dc7b0e89474f", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"240bf0e9-4d12-\
+497e-94cf-d5dae4cb3c00"],
+
+Cell[TextData[ButtonBox["MapAt",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "5a0a86c5-bdf4-408e-89ef-e0cbce7f063b", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"d16f4888-d842-\
+4c26-b74f-8de0af8b1ecf"],
+
+Cell[TextData[ButtonBox["MapAll",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "12b2895f-27be-4751-8b34-7fa46338f4c0", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"2dcbbed0-3655-\
+416c-858d-388d16d1df50"],
+
+Cell[TextData[ButtonBox["Scan",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "63bd88ec-b982-47bb-9737-d72499940096", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"45761614-3375-\
+4915-9892-5134eb0abe77"],
+
+Cell[TextData[ButtonBox["MapIndexed",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "21d167dc-17a0-483f-bbab-33ec54ccc60f", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"f2df5c27-a4ff-\
+461b-b6f7-07f1d7189062"],
+
+Cell[TextData[ButtonBox["Apply",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "2d7d2d00-6b12-4e72-8c90-fcb4bd4a4c46", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"67e66d64-c804-\
+4155-8c7a-5bb37cfa13fd"],
+
+Cell[TextData[ButtonBox["When short-hands let us down: the Heads option",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "7dbf247c-90d8-4fee-ac69-8aee2cc92f62", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"0c630ad5-6569-\
+4c1a-b32d-ea8ec3a1bf64"],
+
+Cell[TextData[ButtonBox["Generalizations",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "11b88833-5c0f-4ea6-8870-e37767532491", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"f5a989b6-e404-43ad-\
+b37b-5640ad448120"],
+
+Cell[TextData[ButtonBox["Thread",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "41050359-68f3-4b06-9698-b3f107b446a3", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"56c09590-151a-\
+4690-8ac3-5f96c9a98822"],
+
+Cell[TextData[ButtonBox["MapThread",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "f99c070d-a94c-40a5-a897-40d56bce7218", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"eabef096-d9ba-\
+4447-b1d1-4710b659d615"],
+
+Cell[TextData[ButtonBox["Inner",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "2d4a3842-8811-4afc-8272-32cbfe624844", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"0a842094-4848-\
+4064-9175-4e9a90f2c7eb"],
+
+Cell[TextData[ButtonBox["Outer",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "e31f5d04-10f9-4b54-b65b-928864308b53", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"433817be-9d7e-\
+4d0d-8385-4cc5a8f87313"],
+
+Cell[TextData[ButtonBox["Nest Family",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "7e6c1de9-75ed-49be-9430-e6a946f9c79c", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"63ae2744-5697-4725-\
+92b5-7654504922b7"],
+
+Cell[TextData[ButtonBox["Nest and NestList",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "02562baa-63a3-4c68-94fb-a8f87592beba", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"3ea80a6b-54e4-\
+427a-84ff-5b6d3e501dad"],
+
+Cell[TextData[ButtonBox["NestWhile and NestWhileList",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "52b235a4-127f-45dd-a130-8ec4188d49db", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"326e8611-fed5-\
+4123-9a46-e70067ada1ba"],
+
+Cell[TextData[ButtonBox["Fold and FoldList",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "ba24dfbd-64ba-4fbf-b829-f3e60ae9c00a", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"cf35e9b5-4cc5-425a-\
+a4b5-4a04efeb99ea"],
+
+Cell[TextData[ButtonBox["Fold: syntax and starting examples",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "3b2eddc8-8e51-4261-af6b-51e2183ceec2", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"bb77f1ad-275b-\
+4a21-bd71-563e713aba38"],
+
+Cell[TextData[ButtonBox["More examples:",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "2b2de5ca-fa03-40bd-a684-e215e573ceb0", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"edace548-0985-\
+4f40-8955-ab480ce2d358"],
+
+Cell[TextData[ButtonBox["Restriction of Fold-ed function to two arguments is \
+spurious",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "2e641324-41c0-4316-b9da-5a89657042fe", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"c60861b6-1d2d-\
+416c-b338-cb3f39756e06"],
+
+Cell[TextData[ButtonBox["Case study: Gram - Schmidt orthogonalization",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "35bd02bc-adc7-493e-9283-af0894ea3ca5", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"38eefc4a-2a19-\
+46b6-b4cf-d9a024d623ae"],
+
+Cell[TextData[ButtonBox["Small case study: local maxima for a list",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "958f0aa8-bc55-481a-8a66-33ee55121628", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"7ba75566-bea7-\
+4d17-85fb-43710bf3b125"],
+
+Cell[TextData[ButtonBox["FixedPoint and FixedPointList",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "abbb4445-9c3e-4c6f-9d03-7f2d19202268", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"0d3fd109-fb49-4e1a-\
+8939-81daf66173d2"],
+
+Cell[TextData[ButtonBox["The syntax and functionality",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "33b8c6bd-6c07-4f66-92ee-c83f0e5b7da1", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"addde377-f956-\
+4616-b341-ace039a53029"],
+
+Cell[TextData[ButtonBox["Example: the Collatz problem revisited",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "9bda43da-39a7-4269-bfe3-14a8a96e2acc", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"247068a0-7c6e-\
+4504-a3e7-e05516bef919"],
+
+Cell[TextData[ButtonBox["How to reformulate a problem for FixedPoint",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "1834e055-d8ce-4c77-85b0-0a7108ad40e2", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"3ddf8d3f-9312-\
+47cd-9b54-5ef6e9f141ca"],
+
+Cell[TextData[ButtonBox["Example: deleting numbers from the list revisited",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "e931c69f-9d9e-4959-a24f-b21d12fb7fa3", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"ae0da255-9554-\
+48f6-8e6d-1664da116147"],
+
+Cell[TextData[ButtonBox["Example: approximating the square root of a number \
+revisited",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "217c23ed-fc8d-4ae5-bff4-ae7715c10eab", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"4b7ba7f0-27c5-\
+46ff-b920-cb35fccbe6d0"],
+
+Cell[TextData[ButtonBox["FixedPoint dangers",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "c5e752fb-b874-4ac1-aa39-83b1c73bd73b", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"64497be5-f22c-\
+4730-89df-cbde1c59edb4"],
+
+Cell[TextData[ButtonBox["Small case study: merging overlapping intervals - \
+Functional vs. Rule-based",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "f3eece90-2f26-476c-a686-41b810f58ee1", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"0feebce9-4af2-\
+46f2-b4c1-685728a899ae"],
+
+Cell[TextData[ButtonBox["Example: local (relative) maxima in a list revisited",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "c1ba58ef-5e35-4eec-bdf4-d5d2a9451be3", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"705634e2-5291-\
+492e-abac-d7dd593e3e25"],
+
+Cell[TextData[ButtonBox["Operators on functions",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "c5a4ccbc-0a19-4c43-85f4-c94a3d7fd188", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"b6859e48-e59b-45f5-\
+8d17-40d6804c0663"],
+
+Cell[TextData[ButtonBox["Through",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "be6055e3-630d-4d33-848c-9cdeee1e53ba", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"20b7f53d-5790-\
+425c-8e69-0ed622bd042b"],
+
+Cell[TextData[ButtonBox["Operate",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "8c407f87-e059-41b5-9201-fc76c03fac1d", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"6fcee5a6-4e65-\
+4ac6-92b9-e1c8eab59995"],
+
+Cell[TextData[ButtonBox["Summary",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "1959fe3a-b2eb-44e2-b48e-b47d89550ca8", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"29c0ecd5-5926-423d-\
+91f5-d8c5fd4ac829"],
+
+Cell[TextData[ButtonBox["Writing efficient programs: some techniques and \
+applications",
+ BaseStyle->"TOCSection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-6-Writing-efficient-programs.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "5d1b78af-ff2c-48d5-855c-33a18e4746f5", All,
+      ExpressionUUID]]]], "TOCSection",ExpressionUUID->"ff844249-4820-4f60-\
+9fe3-1b4c6c338a96"],
+
+Cell[TextData[ButtonBox["Introduction",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-6-Writing-efficient-programs.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "b7d92196-4a2f-403a-876f-eed5c087fb20", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"84802092-6894-4735-\
+8e3e-1b7570892360"],
+
+Cell[TextData[ButtonBox["Case study I: checking if a square matrix is \
+diagonal",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-6-Writing-efficient-programs.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "bc29bc97-055f-4804-9b8f-0188ba0d09dd", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"11f45de1-9d3e-4319-\
+8a1d-8029819a0d03"],
+
+Cell[TextData[ButtonBox["Case study II: extracting matrix diagonals",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-6-Writing-efficient-programs.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "77db5185-0713-422c-a707-aa2848732f66", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"1b2510b6-998a-4b4c-\
+a726-0cbd09a0d81a"],
+
+Cell[TextData[ButtonBox["Case study III: generating complex random Wishart \
+matrices",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-6-Writing-efficient-programs.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "1b6b00e8-d0ad-4bb4-8ff0-312fd67c2382", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"04285115-bf37-4e9b-\
+8819-1e001bcebcca"],
+
+Cell[TextData[ButtonBox["Case study IV: sorting, mapping and membership tests",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-6-Writing-efficient-programs.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "51c99369-c26c-4a61-844a-da82d568ffdd", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"8f0b0946-e4bc-\
+420d-8179-df1fb9e623c8"],
+
+Cell[TextData[ButtonBox["Summary",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-6-Writing-efficient-programs.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "92479a42-4f42-4937-a31b-8f4bbfa27449", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"40bb01f8-371e-44de-\
+9216-06d75faa56a1"],
+
+Cell[TextData[ButtonBox["Appendices",
+ BaseStyle->"TOCSection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-7-Appendices.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "10a6e5ef-b16a-4b15-84b6-14b876fd4c75", All,
+      ExpressionUUID]]]], "TOCSection",ExpressionUUID->"1b4dd19c-1c0d-467e-\
+bf18-05bc744033fc"],
+
+Cell[TextData[ButtonBox["Appendix A: what is so special about Mathematica (a \
+personal evaluation)",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-7-Appendices.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "f2bbfdc0-9961-4cd6-8983-69622afe1f4c", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"45b31713-f835-437e-\
+bf0b-9f7b19c23c00"],
+
+Cell[TextData[ButtonBox["Appendix B Some of my favorite books on Mathematica \
+- brief reviews",
+ BaseStyle->"TOCSubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-7-Appendices.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "828936f9-2633-4739-88a1-f66ba5158229", All,
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"c4ff39b8-64d3-4f4e-\
+a0e5-8f55ff049058"],
+
+Cell[TextData[ButtonBox["The Mathematica Book, by Stephen Wolfram",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-7-Appendices.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "02c91f5d-d8aa-41c9-acd2-b8611c9985ee", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"63f72100-c125-\
+439b-b276-c8d90b5ff043"],
+
+Cell[TextData[ButtonBox["An introduction to programming with Mathematica, by \
+Paul Wellin, Richard Gaylord and Samuel Kamin",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-7-Appendices.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "a0e1dad4-d61b-4d15-9a3d-87f8a101711a", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"faec6f50-5422-\
+4795-b788-10673846daff"],
+
+Cell[TextData[ButtonBox["Programming in Mathematica, by Roman Maeder",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-7-Appendices.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "8dbebc1b-05bf-4e33-abaf-0e511c1c0194", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"b8e19566-1100-\
+4d2f-bb70-8ab3ca14ea37"],
+
+Cell[TextData[ButtonBox["Power programming in Mathematica - the Kernel, by \
+David Wagner",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-7-Appendices.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "6d340cf3-5acc-4fff-a401-cd5b8af4c051", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"a6fbab67-a852-\
+4553-a832-d969d6e1a9f8"],
+
+Cell[TextData[ButtonBox["Mastering Mathematica, by John Gray",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-7-Appendices.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "3ad08a53-4d55-4043-84e7-e6c079d744b1", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"484601f9-c854-\
+44d5-8bf3-a19f600e3b21"],
+
+Cell[TextData[ButtonBox["Mathematica guidebooks, by Michael Trott",
+ BaseStyle->"TOCSubsubsection",
+ Evaluator->Automatic,
+ ButtonFunction:>
+  Module[{WolframBookTools`Private`nb$}, 
+   WolframBookTools`Private`nb$ = NotebookOpen[
+      FileNameJoin[{
+        NotebookDirectory[], "MPAAI-7-Appendices.nb"}]]; 
+   NotebookFind[
+    WolframBookTools`Private`nb$, "0fa3dd7c-bb95-4ac3-9849-9dcedaa4ac9b", All,
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"28df0c11-db2c-\
+4978-9d97-422531aea99c"]
+}, Open  ]]
+},
+WindowToolbars->{},
+WindowSize->{808, 911},
+WindowMargins->{{556, Automatic}, {44, Automatic}},
+FrontEndVersion->"14.1 for Mac OS X ARM (64-bit) (July 16, 2024)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData["TOCTitle"], CellFrame -> {{0, 0}, {0, 0}}, 
+    CellMargins -> {{47, Inherited}, {12, 64}}, 
+    CellGroupingRules -> {"SectionGrouping", 60}, FontFamily -> 
+    "Source Sans Pro Semibold", FontSize -> 28, FontSlant -> "Plain", 
+    FontColor -> GrayLevel[0]], 
+   Cell[
+    StyleData["TOCSection"], CellMargins -> {{66, 3}, {-13, 9}}, FontFamily -> 
+    "Source Sans Pro Semibold", FontSize -> 20, FontSlant -> "Plain", 
+    FontColor -> GrayLevel[0]], 
+   Cell[
+    StyleData["TOCSubsection"], CellMargins -> {{82, 3}, {2, 7}}, FontFamily -> 
+    "Source Sans Pro Semibold", FontSize -> 16, FontSlant -> "Italic", 
+    FontColor -> GrayLevel[0.2]], 
+   Cell[
+    StyleData["TOCSubsubsection"], CellMargins -> {{95, 3}, {2, 7}}, 
+    FontFamily -> "Source Sans Pro Semibold", FontSize -> 13, FontSlant -> 
+    "Italic", FontColor -> GrayLevel[0.25]]}, Visible -> False, 
+  FrontEndVersion -> "14.1 for Mac OS X ARM (64-bit) (July 16, 2024)", 
+  StyleDefinitions -> "PrivateStylesheetFormatting.nb"],
+ExpressionUUID->"a474c1d7-4df4-49f6-a776-867b2da6f2ae"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[576, 22, 83, 0, 136, "TOCTitle",ExpressionUUID->"be8d4048-7b82-471a-98c4-292a6563a891"],
+Cell[662, 24, 460, 11, 40, "TOCSection",ExpressionUUID->"b388d0fe-9a89-4247-8a5d-a5b580612fe2"],
+Cell[1125, 37, 486, 11, 34, "TOCSubsection",ExpressionUUID->"2d6d80b2-0260-475b-855d-4fbfafabe228"],
+Cell[1614, 50, 485, 11, 34, "TOCSubsection",ExpressionUUID->"ffa37293-eab0-4730-8090-1063aec2d0dd"],
+Cell[2102, 63, 460, 11, 34, "TOCSubsection",ExpressionUUID->"9ae55950-596f-4150-af7f-85075fc8c0a1"],
+Cell[2565, 76, 485, 11, 34, "TOCSubsection",ExpressionUUID->"873450a4-a42c-4c02-8bf9-a0aa74d59a1c"],
+Cell[3053, 89, 484, 11, 34, "TOCSubsection",ExpressionUUID->"6d11c7de-82c6-4c2e-966a-0a3db3198c5b"],
+Cell[3540, 102, 472, 11, 34, "TOCSubsection",ExpressionUUID->"e9441174-868d-423f-808c-8744ee3c45a0"],
+Cell[4015, 115, 487, 11, 34, "TOCSubsection",ExpressionUUID->"79da7ada-487b-4ba8-9491-129d794eaf7f"],
+Cell[4505, 128, 478, 11, 34, "TOCSubsection",ExpressionUUID->"3857d71f-4958-430c-a2c5-2d69f09250eb"],
+Cell[4986, 141, 487, 11, 34, "TOCSubsection",ExpressionUUID->"cedf080f-5f86-45db-a487-76b97a8aefb8"],
+Cell[5476, 154, 470, 11, 40, "TOCSection",ExpressionUUID->"5bdbcefb-2359-4242-9ff3-6b7419a2498c"],
+Cell[5949, 167, 508, 11, 34, "TOCSubsection",ExpressionUUID->"b97f6fc2-5a40-479c-94ca-310f4e6b300e"],
+Cell[6460, 180, 508, 11, 30, "TOCSubsubsection",ExpressionUUID->"0e04fcaa-d9e7-44dd-b0ec-cd6cecbae79b"],
+Cell[6971, 193, 512, 11, 30, "TOCSubsubsection",ExpressionUUID->"c0a42676-01f0-40a9-84d8-b52b5b8d9a17"],
+Cell[7486, 206, 535, 12, 30, "TOCSubsubsection",ExpressionUUID->"b4da2f5a-05e3-4b9b-81ce-eed70c4c29a2"],
+Cell[8024, 220, 523, 12, 30, "TOCSubsubsection",ExpressionUUID->"f2b9a9c9-a0c3-4d91-9c63-c6c5d8399df0"],
+Cell[8550, 234, 511, 11, 30, "TOCSubsubsection",ExpressionUUID->"e8ad8b8c-3dc5-467e-8d47-c1b1d4ceddd9"],
+Cell[9064, 247, 530, 12, 30, "TOCSubsubsection",ExpressionUUID->"e1dd5dac-79fd-4578-b75c-b1a5608cb755"],
+Cell[9597, 261, 513, 11, 30, "TOCSubsubsection",ExpressionUUID->"b82d77fc-7a56-4cf6-8df7-e9d732bf8c60"],
+Cell[10113, 274, 522, 12, 34, "TOCSubsection",ExpressionUUID->"f5afcb76-176f-4d1d-b51b-b13e363a98fd"],
+Cell[10638, 288, 483, 11, 30, "TOCSubsubsection",ExpressionUUID->"d9000995-3cf0-4261-8b1f-d9aec038e1b6"],
+Cell[11124, 301, 517, 11, 30, "TOCSubsubsection",ExpressionUUID->"f3646b87-8f80-47f3-ab19-81eddd4bdd81"],
+Cell[11644, 314, 517, 11, 30, "TOCSubsubsection",ExpressionUUID->"0caba9c8-8b75-44ac-b5ab-df287c846a18"],
+Cell[12164, 327, 523, 12, 70, "TOCSubsubsection",ExpressionUUID->"7bd77bff-87f4-4b5c-b59f-7aa630abb1c8"],
+Cell[12690, 341, 492, 11, 70, "TOCSubsubsection",ExpressionUUID->"a78f73c8-335e-4276-9ab4-e1969e7a7a25"],
+Cell[13185, 354, 532, 12, 70, "TOCSubsubsection",ExpressionUUID->"90ba6106-18e9-4a42-a138-33ec3a713cfd"],
+Cell[13720, 368, 509, 11, 70, "TOCSubsubsection",ExpressionUUID->"69068443-ecf7-4ce6-927f-6e1677d6d1aa"],
+Cell[14232, 381, 495, 11, 70, "TOCSubsubsection",ExpressionUUID->"f02052de-bb16-4d0e-a9fd-550fcf8286f7"],
+Cell[14730, 394, 502, 11, 70, "TOCSubsection",ExpressionUUID->"895325f9-5952-4bb0-a6ba-a60ebc6dbc79"],
+Cell[15235, 407, 471, 11, 70, "TOCSubsection",ExpressionUUID->"9f648603-1450-4e4a-9229-7cf87b2e7afc"],
+Cell[15709, 420, 488, 11, 70, "TOCSection",ExpressionUUID->"07ea8a8f-16ed-450a-9f92-a9ee3170b30c"],
+Cell[16200, 433, 485, 11, 70, "TOCSubsection",ExpressionUUID->"e35eec34-c5e9-4801-b713-d5c99de7067b"],
+Cell[16688, 446, 494, 11, 70, "TOCSubsection",ExpressionUUID->"f35a633e-80a9-4663-b1a7-6d7c245131fd"],
+Cell[17185, 459, 502, 11, 70, "TOCSubsubsection",ExpressionUUID->"e220b366-1757-4668-bef5-0a3d3ec35ffd"],
+Cell[17690, 472, 512, 11, 70, "TOCSubsubsection",ExpressionUUID->"ed0e7b43-06ff-48ac-8f2a-f65e305ba1ec"],
+Cell[18205, 485, 558, 12, 70, "TOCSubsubsection",ExpressionUUID->"dc4bbb7b-a443-444c-b9f4-8f6d358ea80a"],
+Cell[18766, 499, 511, 11, 70, "TOCSubsubsection",ExpressionUUID->"f4fa6507-82fe-416e-b91e-b1f84652a0ae"],
+Cell[19280, 512, 512, 11, 70, "TOCSubsubsection",ExpressionUUID->"f109e88d-4629-4c62-bc87-7760b36ba7f5"],
+Cell[19795, 525, 497, 11, 70, "TOCSubsubsection",ExpressionUUID->"c2de7bba-b440-4e60-86f2-6adb092dcc59"],
+Cell[20295, 538, 515, 11, 70, "TOCSubsubsection",ExpressionUUID->"1c241afd-6d3d-4510-989e-615585f12fe4"],
+Cell[20813, 551, 515, 11, 70, "TOCSubsubsection",ExpressionUUID->"ced4cae5-157d-4830-be34-dfcd7c504239"],
+Cell[21331, 564, 486, 11, 70, "TOCSubsubsection",ExpressionUUID->"6de85c64-027f-43e8-a487-1e40003d88b8"],
+Cell[21820, 577, 492, 11, 70, "TOCSubsection",ExpressionUUID->"9fff1d67-e2d4-48e7-8e6e-3e96f3a49017"],
+Cell[22315, 590, 484, 11, 70, "TOCSubsection",ExpressionUUID->"d1305e8d-5451-428b-b3b7-06874966b014"],
+Cell[22802, 603, 534, 12, 70, "TOCSubsubsection",ExpressionUUID->"6b1feb63-b738-4e54-b24c-36e393df34d3"],
+Cell[23339, 617, 535, 12, 70, "TOCSubsubsection",ExpressionUUID->"bad8febb-f8f7-426c-9a3b-b34633591a21"],
+Cell[23877, 631, 496, 11, 70, "TOCSubsubsection",ExpressionUUID->"2ac22b66-6259-4f3f-a26f-026cd4cfb849"],
+Cell[24376, 644, 548, 12, 70, "TOCSubsubsection",ExpressionUUID->"2e274ed4-fe1c-4363-9520-82bbb7de7441"],
+Cell[24927, 658, 522, 11, 70, "TOCSubsubsection",ExpressionUUID->"23bcfc18-61bd-4e13-b32a-4f95b20878e6"],
+Cell[25452, 671, 488, 11, 70, "TOCSubsection",ExpressionUUID->"04a123a2-c21d-4d1b-871e-f09eb6645c78"],
+Cell[25943, 684, 484, 11, 70, "TOCSubsubsection",ExpressionUUID->"d1a3086a-fe4f-49a3-a2fb-d290bea4cda8"],
+Cell[26430, 697, 564, 12, 70, "TOCSubsubsection",ExpressionUUID->"86318b19-fd04-4031-9a07-14fc247d59f5"],
+Cell[26997, 711, 531, 11, 70, "TOCSubsubsection",ExpressionUUID->"c72ae64a-4f2d-4cdb-b76e-de732209e8e0"],
+Cell[27531, 724, 548, 12, 70, "TOCSubsubsection",ExpressionUUID->"7030d1ff-5f32-43b3-b167-76bf1817cded"],
+Cell[28082, 738, 503, 11, 70, "TOCSubsubsection",ExpressionUUID->"8bd47aee-7787-47e8-9420-788f6252eb00"],
+Cell[28588, 751, 529, 11, 70, "TOCSubsubsection",ExpressionUUID->"1bfebc56-3b0f-4d98-8b91-edae2d84c582"],
+Cell[29120, 764, 528, 11, 70, "TOCSubsubsection",ExpressionUUID->"c4b50f5f-6bcb-483f-a779-a940dfaaa9af"],
+Cell[29651, 777, 484, 11, 70, "TOCSubsubsection",ExpressionUUID->"6bcd75b0-b364-4abe-8e17-5b13a36ec8b3"],
+Cell[30138, 790, 484, 11, 70, "TOCSubsubsection",ExpressionUUID->"1f1bdeb3-54c3-441f-9748-0ed676d2c5b9"],
+Cell[30625, 803, 490, 11, 70, "TOCSubsection",ExpressionUUID->"05419d47-298f-4119-bb60-564fe0b7af34"],
+Cell[31118, 816, 485, 11, 70, "TOCSubsection",ExpressionUUID->"2eb46f3b-a4f8-4e6f-969d-374bcd7ba3ab"],
+Cell[31606, 829, 494, 11, 70, "TOCSubsubsection",ExpressionUUID->"23090d7e-fc34-436e-89f2-7dca4037e6db"],
+Cell[32103, 842, 553, 12, 70, "TOCSubsubsection",ExpressionUUID->"0ad8882c-4083-4cbd-bf76-862a29755073"],
+Cell[32659, 856, 497, 11, 70, "TOCSubsubsection",ExpressionUUID->"9a06488b-91a4-4bc0-a7f7-5e042c1ebd99"],
+Cell[33159, 869, 505, 11, 70, "TOCSubsubsection",ExpressionUUID->"3a18ad62-2283-4dfa-a525-f49d6cc8a2bc"],
+Cell[33667, 882, 478, 11, 70, "TOCSubsection",ExpressionUUID->"62ab4a6f-80b1-4c8a-8676-1f9477b1ab97"],
+Cell[34148, 895, 487, 11, 70, "TOCSubsubsection",ExpressionUUID->"d67b3c51-a6da-4aba-8794-9fecab0861c7"],
+Cell[34638, 908, 489, 11, 70, "TOCSubsubsection",ExpressionUUID->"50999b73-b184-4da2-91b3-55a918a02d05"],
+Cell[35130, 921, 486, 11, 70, "TOCSubsubsection",ExpressionUUID->"fe1c1b12-56fc-49f0-aa96-ba8d03aebc88"],
+Cell[35619, 934, 508, 11, 70, "TOCSubsubsection",ExpressionUUID->"80fff4b0-f8e6-4d75-9019-050d6d745656"],
+Cell[36130, 947, 531, 11, 70, "TOCSubsubsection",ExpressionUUID->"7511d860-f1ff-43e8-b714-df0ff650accb"],
+Cell[36664, 960, 526, 11, 70, "TOCSubsubsection",ExpressionUUID->"4fcc19e7-785d-4dbd-8720-1ae1a5483b5f"],
+Cell[37193, 973, 538, 12, 70, "TOCSubsubsection",ExpressionUUID->"03517cc8-1438-4471-9ac5-c521ccce49cd"],
+Cell[37734, 987, 510, 11, 70, "TOCSubsection",ExpressionUUID->"7671d890-1105-4bb1-ac92-ec1873296455"],
+Cell[38247, 1000, 493, 11, 70, "TOCSubsubsection",ExpressionUUID->"4412111b-d34b-4ad1-9442-06c3002ea1f6"],
+Cell[38743, 1013, 494, 11, 70, "TOCSubsubsection",ExpressionUUID->"f1e85905-335d-4d35-9ff9-48788b9a578f"],
+Cell[39240, 1026, 504, 11, 70, "TOCSubsubsection",ExpressionUUID->"bdadcb0e-17d2-40e5-a92a-b09866d02303"],
+Cell[39747, 1039, 507, 11, 70, "TOCSubsubsection",ExpressionUUID->"2017f181-fde2-47f1-94c6-959613827a35"],
+Cell[40257, 1052, 480, 11, 70, "TOCSubsection",ExpressionUUID->"d7600b64-e71f-4568-be6f-c536d00f959b"],
+Cell[40740, 1065, 456, 11, 70, "TOCSection",ExpressionUUID->"3e04f709-31d4-4655-a44a-39f8a67e0621"],
+Cell[41199, 1078, 469, 11, 70, "TOCSubsection",ExpressionUUID->"8255a8f7-d8d6-4596-9106-554d5b00c541"],
+Cell[41671, 1091, 520, 12, 70, "TOCSubsection",ExpressionUUID->"e8bc0ae2-6511-4f37-b1b2-15aed8d84273"],
+Cell[42194, 1105, 477, 11, 70, "TOCSubsection",ExpressionUUID->"9cfa23de-cb39-4be7-bc0c-ce992703ae45"],
+Cell[42674, 1118, 476, 11, 70, "TOCSubsection",ExpressionUUID->"1943bff5-620e-427f-8802-b885bd33117b"],
+Cell[43153, 1131, 488, 11, 70, "TOCSubsubsection",ExpressionUUID->"f51511c7-4486-4737-a9aa-efd3ff145d7d"],
+Cell[43644, 1144, 528, 12, 70, "TOCSubsubsection",ExpressionUUID->"cc43587c-1c1d-4f81-a3fd-5c57c9fdb655"],
+Cell[44175, 1158, 83, 0, 70, "TOCSubsubsection",ExpressionUUID->"76a1e201-2dba-4b3c-bc06-ab7f5b181a07"],
+Cell[44261, 1160, 505, 11, 70, "TOCSubsubsection",ExpressionUUID->"7038e7da-a831-41d5-b6fe-abe34ab0574a"],
+Cell[44769, 1173, 497, 11, 70, "TOCSubsubsection",ExpressionUUID->"13d82444-6ee5-4c5f-b53f-95183e562bd1"],
+Cell[45269, 1186, 495, 11, 70, "TOCSubsubsection",ExpressionUUID->"a0a757ff-d06f-4776-9129-d947dd837a5d"],
+Cell[45767, 1199, 486, 11, 70, "TOCSubsection",ExpressionUUID->"6211c9af-0848-402e-a0e7-eeaa710498b2"],
+Cell[46256, 1212, 491, 11, 70, "TOCSubsection",ExpressionUUID->"417c9add-d78c-4fd7-ab1e-6a0d075ee3e9"],
+Cell[46750, 1225, 523, 12, 70, "TOCSubsubsection",ExpressionUUID->"1d44a957-5bb4-4b42-a77e-14e0545dcf00"],
+Cell[47276, 1239, 470, 11, 70, "TOCSubsubsection",ExpressionUUID->"cd942d7d-91ba-4a40-a749-ed1b843f48ff"],
+Cell[47749, 1252, 476, 11, 70, "TOCSubsubsection",ExpressionUUID->"708f5654-513d-43df-83af-e04d3974da5e"],
+Cell[48228, 1265, 489, 11, 70, "TOCSubsubsection",ExpressionUUID->"f0062bd8-df54-476e-ab0b-5950efc2fd28"],
+Cell[48720, 1278, 469, 11, 70, "TOCSubsubsection",ExpressionUUID->"e3c376db-578f-4267-87f8-ed10ad3d9cda"],
+Cell[49192, 1291, 526, 12, 70, "TOCSubsubsection",ExpressionUUID->"65591364-a94d-4589-a2f4-bc611e53b5c7"],
+Cell[49721, 1305, 474, 11, 70, "TOCSubsubsection",ExpressionUUID->"e674ac5b-0996-48c1-b8b9-a024c0713d91"],
+Cell[50198, 1318, 471, 11, 70, "TOCSubsubsection",ExpressionUUID->"0aac5ae1-e9da-411b-801c-4dac8a788815"],
+Cell[50672, 1331, 518, 12, 70, "TOCSubsection",ExpressionUUID->"a3cebda6-bf97-4a5c-819b-29a317754b67"],
+Cell[51193, 1345, 502, 11, 70, "TOCSubsubsection",ExpressionUUID->"1cc65a0e-b650-455d-91ff-b544bc705038"],
+Cell[51698, 1358, 480, 11, 70, "TOCSubsubsection",ExpressionUUID->"2f2a06eb-378f-47a8-acd7-f8bb7bd3b736"],
+Cell[52181, 1371, 482, 11, 70, "TOCSubsection",ExpressionUUID->"bf0a1f01-dbb8-4212-81c2-a3cf353456fc"],
+Cell[52666, 1384, 472, 11, 70, "TOCSubsubsection",ExpressionUUID->"8a51081c-8c9b-447a-855c-692ff87eaf52"],
+Cell[53141, 1397, 472, 11, 70, "TOCSubsubsection",ExpressionUUID->"61ad7479-6cd8-4469-b3c5-bf72ebad33d3"],
+Cell[53616, 1410, 470, 11, 70, "TOCSubsubsection",ExpressionUUID->"0b30e7fd-88b5-40eb-899e-c241843ed961"],
+Cell[54089, 1423, 483, 11, 70, "TOCSubsection",ExpressionUUID->"2c79b100-b783-4fcb-bd56-d4b6c876624e"],
+Cell[54575, 1436, 479, 11, 70, "TOCSubsubsection",ExpressionUUID->"d05b81d3-8428-4f21-be97-dd907c5757fd"],
+Cell[55057, 1449, 487, 11, 70, "TOCSubsubsection",ExpressionUUID->"8c7b9f50-8ebd-4630-8679-05b2e902a5be"],
+Cell[55547, 1462, 485, 11, 70, "TOCSubsubsection",ExpressionUUID->"1a2ad765-d355-429f-af0f-db5dbbb66d36"],
+Cell[56035, 1475, 490, 11, 70, "TOCSubsection",ExpressionUUID->"0c4cfa87-00f5-4f50-ac15-dc2ae999a70d"],
+Cell[56528, 1488, 479, 11, 70, "TOCSubsubsection",ExpressionUUID->"8a7eae0f-b7d7-4c90-94f2-e88ee962d5e1"],
+Cell[57010, 1501, 480, 11, 70, "TOCSubsubsection",ExpressionUUID->"5d69c722-b892-4d5b-a90e-f357fd671341"],
+Cell[57493, 1514, 480, 11, 70, "TOCSubsubsection",ExpressionUUID->"d6fe403f-3f81-4dd0-bea0-2ecdc882218f"],
+Cell[57976, 1527, 464, 11, 70, "TOCSubsection",ExpressionUUID->"d79cf308-a15d-4817-889b-bfc39e062a3b"],
+Cell[58443, 1540, 498, 11, 70, "TOCSection",ExpressionUUID->"432a4662-2b59-4e18-bd7f-6e818e99b2cc"],
+Cell[58944, 1553, 488, 11, 70, "TOCSubsection",ExpressionUUID->"906ab288-8d76-4cf3-841d-c97c66d52649"],
+Cell[59435, 1566, 494, 11, 70, "TOCSubsection",ExpressionUUID->"6b553e0b-a58c-4e30-9015-0b2604887aa1"],
+Cell[59932, 1579, 532, 11, 70, "TOCSubsubsection",ExpressionUUID->"ef849446-d8c9-4438-a69f-28f3419a80b6"],
+Cell[60467, 1592, 518, 11, 70, "TOCSubsubsection",ExpressionUUID->"0684ba80-b593-4cfd-9030-35103ac0fbaa"],
+Cell[60988, 1605, 531, 11, 70, "TOCSubsubsection",ExpressionUUID->"bfe90d70-7ffe-4067-936f-f7d0a3d3c4e2"],
+Cell[61522, 1618, 522, 11, 70, "TOCSubsubsection",ExpressionUUID->"50e3d790-f33b-4d3f-a229-c785deb655bb"],
+Cell[62047, 1631, 540, 12, 70, "TOCSubsubsection",ExpressionUUID->"9e768b3c-3555-4505-b44e-405c0e2c0511"],
+Cell[62590, 1645, 515, 11, 70, "TOCSubsubsection",ExpressionUUID->"e2916992-3f07-4501-98de-d02b8a965542"],
+Cell[63108, 1658, 502, 11, 70, "TOCSubsubsection",ExpressionUUID->"86253bd8-100c-4602-9a98-1fe2e3cbd959"],
+Cell[63613, 1671, 537, 12, 70, "TOCSubsubsection",ExpressionUUID->"6c868461-f783-4d48-84c5-5538397a08db"],
+Cell[64153, 1685, 499, 11, 70, "TOCSubsubsection",ExpressionUUID->"0788bb8a-7ad5-4b5d-96bb-9eb4e928b2d5"],
+Cell[64655, 1698, 499, 11, 70, "TOCSubsubsection",ExpressionUUID->"4939f887-0906-4b3f-a7a6-7d1560db0394"],
+Cell[65157, 1711, 512, 11, 70, "TOCSubsection",ExpressionUUID->"89fa6223-de91-4fe1-b85f-34587da2b5e3"],
+Cell[65672, 1724, 487, 11, 70, "TOCSubsubsection",ExpressionUUID->"881dcad4-19d4-4603-a87d-7e553297e6eb"],
+Cell[66162, 1737, 493, 11, 70, "TOCSubsubsection",ExpressionUUID->"49cea07a-ebd0-4c8f-afa6-e3b0a5219dbe"],
+Cell[66658, 1750, 489, 11, 70, "TOCSubsubsection",ExpressionUUID->"49c432dc-7a66-4833-bf1a-be9dacc8e7b3"],
+Cell[67150, 1763, 506, 11, 70, "TOCSubsubsection",ExpressionUUID->"9b50a551-33e3-40d0-a39c-a4b0bde29c3e"],
+Cell[67659, 1776, 487, 11, 70, "TOCSubsubsection",ExpressionUUID->"24722562-f522-45e4-ad62-9136dbf9da84"],
+Cell[68149, 1789, 487, 11, 70, "TOCSubsubsection",ExpressionUUID->"9c58b318-78da-40f1-af10-1b041fe2dd61"],
+Cell[68639, 1802, 508, 11, 70, "TOCSubsubsection",ExpressionUUID->"b6bf32b4-6075-4eb7-9b8d-9dde4ec935b4"],
+Cell[69150, 1815, 531, 11, 70, "TOCSubsubsection",ExpressionUUID->"80266735-82e2-4821-a7f7-189f8b8cfe05"],
+Cell[69684, 1828, 516, 11, 70, "TOCSubsection",ExpressionUUID->"0c3633f2-4740-42af-b654-a029b584d1ab"],
+Cell[70203, 1841, 515, 11, 70, "TOCSubsubsection",ExpressionUUID->"ff7179bd-0586-4e96-95b7-c92c3e8f4178"],
+Cell[70721, 1854, 529, 11, 70, "TOCSubsubsection",ExpressionUUID->"f3e0a7fb-03bc-4f1e-9940-f5f2abc6fbbe"],
+Cell[71253, 1867, 510, 11, 70, "TOCSubsubsection",ExpressionUUID->"1b15aac3-5a06-4c47-989c-46b9a4371aec"],
+Cell[71766, 1880, 530, 11, 70, "TOCSubsubsection",ExpressionUUID->"f83df31b-4f07-40fb-9707-32736a80578f"],
+Cell[72299, 1893, 530, 11, 70, "TOCSubsubsection",ExpressionUUID->"83771497-c4da-4826-be93-08652ac2bef1"],
+Cell[72832, 1906, 526, 11, 70, "TOCSubsubsection",ExpressionUUID->"a0f9c97d-3e2d-4cd1-8998-18585f2dd212"],
+Cell[73361, 1919, 515, 11, 70, "TOCSubsubsection",ExpressionUUID->"a745f431-9e78-42b5-89a0-59d214339ec5"],
+Cell[73879, 1932, 523, 11, 70, "TOCSubsubsection",ExpressionUUID->"b79c55b2-e952-4b1a-b83e-e4030020a298"],
+Cell[74405, 1945, 507, 11, 70, "TOCSubsubsection",ExpressionUUID->"e160da4a-95d8-4018-a121-8980989568b7"],
+Cell[74915, 1958, 518, 11, 70, "TOCSubsection",ExpressionUUID->"24af9d31-e0b5-4864-ab60-00e5683b80b1"],
+Cell[75436, 1971, 515, 11, 70, "TOCSubsubsection",ExpressionUUID->"ee509372-aefb-4d3f-90f6-0b3c35a39e15"],
+Cell[75954, 1984, 525, 11, 70, "TOCSubsubsection",ExpressionUUID->"faf737ec-e9be-4c54-b2f2-a8c3f5dfb620"],
+Cell[76482, 1997, 518, 11, 70, "TOCSubsubsection",ExpressionUUID->"2f18e400-5712-4997-b4b7-e316687c1504"],
+Cell[77003, 2010, 532, 11, 70, "TOCSubsubsection",ExpressionUUID->"2838a29e-6cd4-46e1-a0c8-8f16ab78529b"],
+Cell[77538, 2023, 513, 11, 70, "TOCSubsubsection",ExpressionUUID->"eb30bff5-8ff0-418a-8980-46aaa8b8116d"],
+Cell[78054, 2036, 553, 12, 70, "TOCSubsubsection",ExpressionUUID->"b0ea087f-ea92-4b1b-8162-6f1f455f17f9"],
+Cell[78610, 2050, 521, 11, 70, "TOCSubsubsection",ExpressionUUID->"be8148da-5707-48c8-aef7-533b896fd2c9"],
+Cell[79134, 2063, 520, 11, 70, "TOCSubsubsection",ExpressionUUID->"0ff033c0-9f2c-4d97-9cdb-d349c2cf9c0b"],
+Cell[79657, 2076, 541, 12, 70, "TOCSubsubsection",ExpressionUUID->"736dbf8b-d00d-4315-a03d-0a13ced92d75"],
+Cell[80201, 2090, 530, 11, 70, "TOCSubsubsection",ExpressionUUID->"03862f26-0fac-4115-89df-18a2849abc41"],
+Cell[80734, 2103, 506, 11, 70, "TOCSubsection",ExpressionUUID->"3fa88565-48c4-4a1d-8907-d749a50f7280"],
+Cell[81243, 2116, 516, 11, 70, "TOCSubsubsection",ExpressionUUID->"0cb94f48-555b-4bfc-9f7c-2a7489435231"],
+Cell[81762, 2129, 518, 11, 70, "TOCSubsubsection",ExpressionUUID->"7969a81d-4eb0-48f0-bb40-d956f4cdcc2f"],
+Cell[82283, 2142, 538, 12, 70, "TOCSubsubsection",ExpressionUUID->"6aa7c9c2-5109-4ca1-88ce-ca3d646d8d1d"],
+Cell[82824, 2156, 525, 11, 70, "TOCSubsubsection",ExpressionUUID->"ecd1550f-74b9-4e0a-a5ac-f1a4df788d66"],
+Cell[83352, 2169, 511, 11, 70, "TOCSubsection",ExpressionUUID->"1b86be21-60ec-4d65-b767-52d58d57b035"],
+Cell[83866, 2182, 515, 11, 70, "TOCSubsubsection",ExpressionUUID->"b1178782-b4c4-4e10-8c26-538d0cda6261"],
+Cell[84384, 2195, 505, 11, 70, "TOCSubsubsection",ExpressionUUID->"0f9d76b5-bdf4-4993-be53-44c196ae2bcd"],
+Cell[84892, 2208, 514, 11, 70, "TOCSubsubsection",ExpressionUUID->"1871fc12-8949-4f85-96bc-655f7e09cfc6"],
+Cell[85409, 2221, 507, 11, 70, "TOCSubsubsection",ExpressionUUID->"b6596315-bbe9-4d7a-9bef-de1b20aad499"],
+Cell[85919, 2234, 518, 11, 70, "TOCSubsubsection",ExpressionUUID->"0c4c8afd-d849-4271-813b-4746a9e4dba8"],
+Cell[86440, 2247, 523, 11, 70, "TOCSubsubsection",ExpressionUUID->"64fa402f-55d8-489e-9b8d-287f11c37048"],
+Cell[86966, 2260, 539, 12, 70, "TOCSubsection",ExpressionUUID->"800aee77-c7f1-4639-afae-73f9840dd2f8"],
+Cell[87508, 2274, 488, 11, 70, "TOCSubsubsection",ExpressionUUID->"ab2df1d1-6b72-417a-b3f9-589820aeed6f"],
+Cell[87999, 2287, 487, 11, 70, "TOCSubsubsection",ExpressionUUID->"acab3ba2-8cd8-4238-9b40-e34f2dba9998"],
+Cell[88489, 2300, 486, 11, 70, "TOCSubsubsection",ExpressionUUID->"c3143ad7-b4d8-4a8c-b2bc-b4facc685285"],
+Cell[88978, 2313, 495, 11, 70, "TOCSubsection",ExpressionUUID->"45a0f7e8-a509-4360-9c3d-2cfaa60fae60"],
+Cell[89476, 2326, 526, 11, 70, "TOCSubsubsection",ExpressionUUID->"f4dd0664-5500-4ed6-aeff-1c7db598b613"],
+Cell[90005, 2339, 524, 11, 70, "TOCSubsubsection",ExpressionUUID->"b49b6841-d0e6-48a8-b101-8ef2876ec30c"],
+Cell[90532, 2352, 501, 11, 70, "TOCSubsubsection",ExpressionUUID->"773989c2-ce0a-478f-99d9-1d6689b5dd95"],
+Cell[91036, 2365, 496, 11, 70, "TOCSubsubsection",ExpressionUUID->"c3420c06-8a68-4efe-a903-b1433dbc0ef7"],
+Cell[91535, 2378, 501, 11, 70, "TOCSubsubsection",ExpressionUUID->"57752570-2872-4d5e-b719-a00d0ffc9894"],
+Cell[92039, 2391, 518, 11, 70, "TOCSubsubsection",ExpressionUUID->"345d0281-9b7a-461e-b9f9-92eccbe2c2e4"],
+Cell[92560, 2404, 524, 11, 70, "TOCSubsubsection",ExpressionUUID->"2e37cc98-a2e5-4b4f-9c4f-72843199868c"],
+Cell[93087, 2417, 519, 11, 70, "TOCSubsubsection",ExpressionUUID->"4fb68256-0be9-4df3-a4b0-1b25fd850119"],
+Cell[93609, 2430, 531, 12, 70, "TOCSubsection",ExpressionUUID->"86d19a4e-f78f-49c5-a864-ad5845ab6584"],
+Cell[94143, 2444, 490, 11, 70, "TOCSubsection",ExpressionUUID->"4c051993-e0b1-494f-a062-2462cadc4654"],
+Cell[94636, 2457, 498, 11, 70, "TOCSubsubsection",ExpressionUUID->"8e32f0f6-19e3-4ba5-9d37-bf0f3007a90d"],
+Cell[95137, 2470, 518, 11, 70, "TOCSubsubsection",ExpressionUUID->"8d2eb904-0a51-4fe4-b1c2-1c8646ddce59"],
+Cell[95658, 2483, 562, 12, 70, "TOCSubsubsection",ExpressionUUID->"4868c228-afe0-4bae-8378-10f74600a9ed"],
+Cell[96223, 2497, 511, 11, 70, "TOCSubsection",ExpressionUUID->"381be777-5f04-413d-b973-fe78067f5aad"],
+Cell[96737, 2510, 505, 11, 70, "TOCSubsubsection",ExpressionUUID->"1703130b-6e0f-4e46-a820-49e91c8fd329"],
+Cell[97245, 2523, 504, 11, 70, "TOCSubsubsection",ExpressionUUID->"348c7515-43a7-4f9e-b672-70ac09645f96"],
+Cell[97752, 2536, 489, 11, 70, "TOCSubsubsection",ExpressionUUID->"1b7deeea-fb3f-47dd-b201-755ff0d46664"],
+Cell[98244, 2549, 509, 11, 70, "TOCSection",ExpressionUUID->"625fc2e5-3a3e-4681-ba7e-235ed5e7c8bb"],
+Cell[98756, 2562, 482, 11, 70, "TOCSubsection",ExpressionUUID->"5f54540c-5a47-400f-bfd8-57fed5815659"],
+Cell[99241, 2575, 497, 11, 70, "TOCSubsection",ExpressionUUID->"8df24675-772a-4def-b83c-ae8ff138ef0f"],
+Cell[99741, 2588, 488, 11, 70, "TOCSubsubsection",ExpressionUUID->"9df34956-b28c-420f-ba7e-01e52eead90e"],
+Cell[100232, 2601, 495, 11, 70, "TOCSubsubsection",ExpressionUUID->"240bf0e9-4d12-497e-94cf-d5dae4cb3c00"],
+Cell[100730, 2614, 481, 11, 70, "TOCSubsubsection",ExpressionUUID->"d16f4888-d842-4c26-b74f-8de0af8b1ecf"],
+Cell[101214, 2627, 482, 11, 70, "TOCSubsubsection",ExpressionUUID->"2dcbbed0-3655-416c-858d-388d16d1df50"],
+Cell[101699, 2640, 480, 11, 70, "TOCSubsubsection",ExpressionUUID->"45761614-3375-4915-9892-5134eb0abe77"],
+Cell[102182, 2653, 486, 11, 70, "TOCSubsubsection",ExpressionUUID->"f2df5c27-a4ff-461b-b6f7-07f1d7189062"],
+Cell[102671, 2666, 481, 11, 70, "TOCSubsubsection",ExpressionUUID->"67e66d64-c804-4155-8c7a-5bb37cfa13fd"],
+Cell[103155, 2679, 522, 11, 70, "TOCSubsubsection",ExpressionUUID->"0c630ad5-6569-4c1a-b32d-ea8ec3a1bf64"],
+Cell[103680, 2692, 485, 11, 70, "TOCSubsection",ExpressionUUID->"f5a989b6-e404-43ad-b37b-5640ad448120"],
+Cell[104168, 2705, 482, 11, 70, "TOCSubsubsection",ExpressionUUID->"56c09590-151a-4690-8ac3-5f96c9a98822"],
+Cell[104653, 2718, 485, 11, 70, "TOCSubsubsection",ExpressionUUID->"eabef096-d9ba-4447-b1d1-4710b659d615"],
+Cell[105141, 2731, 481, 11, 70, "TOCSubsubsection",ExpressionUUID->"0a842094-4848-4064-9175-4e9a90f2c7eb"],
+Cell[105625, 2744, 481, 11, 70, "TOCSubsubsection",ExpressionUUID->"433817be-9d7e-4d0d-8385-4cc5a8f87313"],
+Cell[106109, 2757, 481, 11, 70, "TOCSubsection",ExpressionUUID->"63ae2744-5697-4725-92b5-7654504922b7"],
+Cell[106593, 2770, 493, 11, 70, "TOCSubsubsection",ExpressionUUID->"3ea80a6b-54e4-427a-84ff-5b6d3e501dad"],
+Cell[107089, 2783, 503, 11, 70, "TOCSubsubsection",ExpressionUUID->"326e8611-fed5-4123-9a46-e70067ada1ba"],
+Cell[107595, 2796, 487, 11, 70, "TOCSubsection",ExpressionUUID->"cf35e9b5-4cc5-425a-a4b5-4a04efeb99ea"],
+Cell[108085, 2809, 510, 11, 70, "TOCSubsubsection",ExpressionUUID->"bb77f1ad-275b-4a21-bd71-563e713aba38"],
+Cell[108598, 2822, 490, 11, 70, "TOCSubsubsection",ExpressionUUID->"edace548-0985-4f40-8955-ab480ce2d358"],
+Cell[109091, 2835, 538, 12, 70, "TOCSubsubsection",ExpressionUUID->"c60861b6-1d2d-416c-b338-cb3f39756e06"],
+Cell[109632, 2849, 520, 11, 70, "TOCSubsubsection",ExpressionUUID->"38eefc4a-2a19-46b6-b4cf-d9a024d623ae"],
+Cell[110155, 2862, 517, 11, 70, "TOCSubsubsection",ExpressionUUID->"7ba75566-bea7-4d17-85fb-43710bf3b125"],
+Cell[110675, 2875, 499, 11, 70, "TOCSubsection",ExpressionUUID->"0d3fd109-fb49-4e1a-8939-81daf66173d2"],
+Cell[111177, 2888, 504, 11, 30, "TOCSubsubsection",ExpressionUUID->"addde377-f956-4616-b341-ace039a53029"],
+Cell[111684, 2901, 514, 11, 30, "TOCSubsubsection",ExpressionUUID->"247068a0-7c6e-4504-a3e7-e05516bef919"],
+Cell[112201, 2914, 519, 11, 30, "TOCSubsubsection",ExpressionUUID->"3ddf8d3f-9312-47cd-9b54-5ef6e9f141ca"],
+Cell[112723, 2927, 525, 11, 30, "TOCSubsubsection",ExpressionUUID->"ae0da255-9554-48f6-8e6d-1664da116147"],
+Cell[113251, 2940, 538, 12, 30, "TOCSubsubsection",ExpressionUUID->"4b7ba7f0-27c5-46ff-b920-cb35fccbe6d0"],
+Cell[113792, 2954, 494, 11, 30, "TOCSubsubsection",ExpressionUUID->"64497be5-f22c-4730-89df-cbde1c59edb4"],
+Cell[114289, 2967, 553, 12, 30, "TOCSubsubsection",ExpressionUUID->"0feebce9-4af2-46f2-b4c1-685728a899ae"],
+Cell[114845, 2981, 528, 11, 30, "TOCSubsubsection",ExpressionUUID->"705634e2-5291-492e-abac-d7dd593e3e25"],
+Cell[115376, 2994, 492, 11, 34, "TOCSubsection",ExpressionUUID->"b6859e48-e59b-45f5-8d17-40d6804c0663"],
+Cell[115871, 3007, 483, 11, 30, "TOCSubsubsection",ExpressionUUID->"20b7f53d-5790-425c-8e69-0ed622bd042b"],
+Cell[116357, 3020, 483, 11, 30, "TOCSubsubsection",ExpressionUUID->"6fcee5a6-4e65-4ac6-92b9-e1c8eab59995"],
+Cell[116843, 3033, 477, 11, 34, "TOCSubsection",ExpressionUUID->"29c0ecd5-5926-423d-91f5-d8c5fd4ac829"],
+Cell[117323, 3046, 534, 12, 40, "TOCSection",ExpressionUUID->"ff844249-4820-4f60-9fe3-1b4c6c338a96"],
+Cell[117860, 3060, 490, 11, 34, "TOCSubsection",ExpressionUUID->"84802092-6894-4735-8e3e-1b7570892360"],
+Cell[118353, 3073, 533, 12, 34, "TOCSubsection",ExpressionUUID->"11f45de1-9d3e-4319-8a1d-8029819a0d03"],
+Cell[118889, 3087, 520, 11, 34, "TOCSubsection",ExpressionUUID->"1b2510b6-998a-4b4c-a726-0cbd09a0d81a"],
+Cell[119412, 3100, 538, 12, 34, "TOCSubsection",ExpressionUUID->"04285115-bf37-4e9b-8819-1e001bcebcca"],
+Cell[119953, 3114, 536, 11, 30, "TOCSubsubsection",ExpressionUUID->"8f0b0946-e4bc-420d-8179-df1fb9e623c8"],
+Cell[120492, 3127, 485, 11, 34, "TOCSubsection",ExpressionUUID->"40bb01f8-371e-44de-9216-06d75faa56a1"],
+Cell[120980, 3140, 466, 11, 40, "TOCSection",ExpressionUUID->"1b4dd19c-1c0d-467e-bf18-05bc744033fc"],
+Cell[121449, 3153, 536, 12, 34, "TOCSubsection",ExpressionUUID->"45b31713-f835-437e-bf0b-9f7b19c23c00"],
+Cell[121988, 3167, 531, 12, 34, "TOCSubsection",ExpressionUUID->"c4ff39b8-64d3-4f4e-a0e5-8f55ff049058"],
+Cell[122522, 3181, 508, 11, 30, "TOCSubsubsection",ExpressionUUID->"63f72100-c125-439b-b276-c8d90b5ff043"],
+Cell[123033, 3194, 567, 12, 50, "TOCSubsubsection",ExpressionUUID->"faec6f50-5422-4795-b788-10673846daff"],
+Cell[123603, 3208, 511, 11, 30, "TOCSubsubsection",ExpressionUUID->"b8e19566-1100-4d2f-bb70-8ab3ca14ea37"],
+Cell[124117, 3221, 532, 12, 30, "TOCSubsubsection",ExpressionUUID->"a6fbab67-a852-4553-a832-d969d6e1a9f8"],
+Cell[124652, 3235, 503, 11, 30, "TOCSubsubsection",ExpressionUUID->"484601f9-c854-44d5-8bf3-a19f600e3b21"],
+Cell[125158, 3248, 508, 11, 30, "TOCSubsubsection",ExpressionUUID->"28df0c11-db2c-4978-9d97-422531aea99c"]
+}, Open  ]]
+}
+]
+*)
+

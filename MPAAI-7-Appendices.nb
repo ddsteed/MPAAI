@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       154,          7]
-NotebookDataLength[     39759,        792]
-NotebookOptionsPosition[     34088,        673]
-NotebookOutlinePosition[     34554,        690]
-CellTagsIndexPosition[     34511,        687]
+NotebookDataLength[     41546,        825]
+NotebookOptionsPosition[     35195,        694]
+NotebookOutlinePosition[     35661,        711]
+CellTagsIndexPosition[     35618,        708]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -534,9 +534,14 @@ and value, which I tried to briefly describe below.\
 
 Cell[CellGroupData[{
 
-Cell["The Mathematica Book, by Stephen Wolfram", "Subsubsection",
- CellChangeTimes->{3.940302241008416*^9},
+Cell["The Mathematica Book", "Subsubsection",
+ CellChangeTimes->{
+  3.940302241008416*^9, {3.940493501382496*^9, 3.9404935067903976`*^9}},
  CellID->147205309,ExpressionUUID->"02c91f5d-d8aa-41c9-acd2-b8611c9985ee"],
+
+Cell["by Stephen Wolfram", "Text",
+ CellChangeTimes->{{3.940493509402771*^9, 3.940493512083515*^9}},
+ CellID->396564874,ExpressionUUID->"11fdeae7-ffc5-4241-b6f1-7e3c7a82a563"],
 
 Cell["\<\
 Written by the creator of Mathematica, this is the most authoritative and \
@@ -555,12 +560,14 @@ specifics of writing larger programs.\
 
 Cell[CellGroupData[{
 
-Cell["\<\
-An introduction to programming with Mathematica, by Paul Wellin, Richard \
-Gaylord and Samuel Kamin\
-\>", "Subsubsection",
- CellChangeTimes->{{3.9403022635110273`*^9, 3.940302265348892*^9}},
+Cell["An introduction to programming with Mathematica", "Subsubsection",
+ CellChangeTimes->{{3.9403022635110273`*^9, 3.940302265348892*^9}, 
+   3.940493519339232*^9},
  CellID->1735885615,ExpressionUUID->"a0e1dad4-d61b-4d15-9a3d-87f8a101711a"],
+
+Cell["by Paul Wellin, Richard Gaylord and Samuel Kamin", "Text",
+ CellChangeTimes->{{3.9404935212087297`*^9, 3.940493522777285*^9}},
+ CellID->806777336,ExpressionUUID->"8e790572-9b2b-4465-a3a5-5b3416851c90"],
 
 Cell["\<\
 A great introductory textbook on Mathematica programming - probably the best \
@@ -583,9 +590,13 @@ focus more on the language features.\
 
 Cell[CellGroupData[{
 
-Cell["Programming in Mathematica, by Roman Maeder", "Subsubsection",
- CellChangeTimes->{3.94030229996313*^9},
+Cell["Programming in Mathematica", "Subsubsection",
+ CellChangeTimes->{3.94030229996313*^9, 3.940493530152286*^9},
  CellID->489993904,ExpressionUUID->"8dbebc1b-05bf-4e33-abaf-0e511c1c0194"],
+
+Cell["by Roman Maeder", "Text",
+ CellChangeTimes->{{3.9404935322829113`*^9, 3.940493533533313*^9}},
+ CellID->294938994,ExpressionUUID->"a3d2b317-b147-4281-b90f-d76a8ab51264"],
 
 Cell["\<\
 A classic text on Mathematica programming from one of the original designers \
@@ -603,11 +614,13 @@ which are hard to find elsewhere.\
 
 Cell[CellGroupData[{
 
-Cell["\<\
-Power programming in Mathematica - the Kernel, by David Wagner\
-\>", "Subsubsection",
- CellChangeTimes->{3.9403026828857937`*^9},
+Cell["Power programming in Mathematica - the Kernel", "Subsubsection",
+ CellChangeTimes->{3.9403026828857937`*^9, 3.940493542787551*^9},
  CellID->1251733114,ExpressionUUID->"6d340cf3-5acc-4fff-a401-cd5b8af4c051"],
+
+Cell["by David Wagner", "Text",
+ CellChangeTimes->{{3.9404935452223253`*^9, 3.940493546329452*^9}},
+ CellID->1949766072,ExpressionUUID->"64a90dca-efe5-4e0e-b393-f99190a6478b"],
 
 Cell["\<\
 Probably the best book on advanced Mathematica programming, devoted entirely \
@@ -630,9 +643,13 @@ went out of print.\
 
 Cell[CellGroupData[{
 
-Cell["Mastering Mathematica, by John Gray", "Subsubsection",
- CellChangeTimes->{3.940302886484935*^9},
+Cell["Mastering Mathematica", "Subsubsection",
+ CellChangeTimes->{3.940302886484935*^9, 3.940493552380653*^9},
  CellID->507760977,ExpressionUUID->"3ad08a53-4d55-4043-84e7-e6c079d744b1"],
+
+Cell["by John Gray", "Text",
+ CellChangeTimes->{{3.9404935555232353`*^9, 3.9404935565636177`*^9}},
+ CellID->1265402531,ExpressionUUID->"cb1e1fda-0965-4044-b214-53a42a285687"],
 
 Cell["\<\
 Many non-trivial applications of Mathematica programming in this book. A big \
@@ -652,9 +669,13 @@ you enter serious Mathematica programming.\
 
 Cell[CellGroupData[{
 
-Cell["Mathematica guidebooks, by Michael Trott", "Subsubsection",
- CellChangeTimes->{3.9403029058661613`*^9},
+Cell["Mathematica guidebooks", "Subsubsection",
+ CellChangeTimes->{3.9403029058661613`*^9, 3.940493561630556*^9},
  CellID->626329748,ExpressionUUID->"0fa3dd7c-bb95-4ac3-9849-9dcedaa4ac9b"],
+
+Cell["by Michael Trott", "Text",
+ CellChangeTimes->{{3.940493566340464*^9, 3.940493567362966*^9}},
+ CellID->918552592,ExpressionUUID->"1b2077d0-9920-4501-913f-2f3a91e218fa"],
 
 Cell["\<\
 Written the Mathematica insider and expert, these amazing 4 volumes represent \
@@ -671,8 +692,8 @@ for advanced users.\
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{960, 1027},
-WindowMargins->{{0, Automatic}, {Automatic, 72}},
+WindowSize->{945, 916},
+WindowMargins->{{Automatic, 0}, {Automatic, 170}},
 FrontEndVersion->"14.1 for Mac OS X ARM (64-bit) (July 16, 2024)",
 StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "BookToolsStyles.nb", 
   CharacterEncoding -> "UTF-8"],
@@ -757,39 +778,51 @@ Cell[26325, 513, 214, 4, 68, "Subsection",ExpressionUUID->"828936f9-2633-4739-88
 Cell[26542, 519, 908, 13, 281, "Text",ExpressionUUID->"4113eff2-fd03-4c7d-b7c8-55b636dfcfa2",
  CellID->1574388592],
 Cell[CellGroupData[{
-Cell[27475, 536, 182, 2, 66, "Subsubsection",ExpressionUUID->"02c91f5d-d8aa-41c9-acd2-b8611c9985ee",
+Cell[27475, 536, 213, 3, 66, "Subsubsection",ExpressionUUID->"02c91f5d-d8aa-41c9-acd2-b8611c9985ee",
  CellID->147205309],
-Cell[27660, 540, 774, 12, 252, "Text",ExpressionUUID->"c2d67b7b-9b95-4a20-b145-68d9da69a8d1",
+Cell[27691, 541, 175, 2, 45, "Text",ExpressionUUID->"11fdeae7-ffc5-4241-b6f1-7e3c7a82a563",
+ CellID->396564874],
+Cell[27869, 545, 774, 12, 252, "Text",ExpressionUUID->"c2d67b7b-9b95-4a20-b145-68d9da69a8d1",
  CellID->178467019]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[28471, 557, 276, 5, 90, "Subsubsection",ExpressionUUID->"a0e1dad4-d61b-4d15-9a3d-87f8a101711a",
+Cell[28680, 562, 242, 3, 66, "Subsubsection",ExpressionUUID->"a0e1dad4-d61b-4d15-9a3d-87f8a101711a",
  CellID->1735885615],
-Cell[28750, 564, 1064, 16, 340, "Text",ExpressionUUID->"c90cf706-0ca5-4834-96a6-c1a79591e17e",
+Cell[28925, 567, 207, 2, 45, "Text",ExpressionUUID->"8e790572-9b2b-4465-a3a5-5b3416851c90",
+ CellID->806777336],
+Cell[29135, 571, 1064, 16, 340, "Text",ExpressionUUID->"c90cf706-0ca5-4834-96a6-c1a79591e17e",
  CellID->572604697]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[29851, 585, 184, 2, 66, "Subsubsection",ExpressionUUID->"8dbebc1b-05bf-4e33-abaf-0e511c1c0194",
+Cell[30236, 592, 189, 2, 66, "Subsubsection",ExpressionUUID->"8dbebc1b-05bf-4e33-abaf-0e511c1c0194",
  CellID->489993904],
-Cell[30038, 589, 734, 11, 222, "Text",ExpressionUUID->"8f681d3c-e500-4ab8-9ba9-4c21d5aa7c06",
+Cell[30428, 596, 174, 2, 45, "Text",ExpressionUUID->"a3d2b317-b147-4281-b90f-d76a8ab51264",
+ CellID->294938994],
+Cell[30605, 600, 734, 11, 222, "Text",ExpressionUUID->"8f681d3c-e500-4ab8-9ba9-4c21d5aa7c06",
  CellID->1875241930]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[30809, 605, 215, 4, 66, "Subsubsection",ExpressionUUID->"6d340cf3-5acc-4fff-a401-cd5b8af4c051",
+Cell[31376, 616, 212, 2, 66, "Subsubsection",ExpressionUUID->"6d340cf3-5acc-4fff-a401-cd5b8af4c051",
  CellID->1251733114],
-Cell[31027, 611, 1049, 16, 340, "Text",ExpressionUUID->"7d46d7a0-d98c-401a-adaf-f83470df41f6",
+Cell[31591, 620, 175, 2, 45, "Text",ExpressionUUID->"64a90dca-efe5-4e0e-b393-f99190a6478b",
+ CellID->1949766072],
+Cell[31769, 624, 1049, 16, 340, "Text",ExpressionUUID->"7d46d7a0-d98c-401a-adaf-f83470df41f6",
  CellID->1464264057]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[32113, 632, 177, 2, 66, "Subsubsection",ExpressionUUID->"3ad08a53-4d55-4043-84e7-e6c079d744b1",
+Cell[32855, 645, 185, 2, 66, "Subsubsection",ExpressionUUID->"3ad08a53-4d55-4043-84e7-e6c079d744b1",
  CellID->507760977],
-Cell[32293, 636, 876, 13, 281, "Text",ExpressionUUID->"b25d6a06-b273-4a55-91c2-2ca038e209bb",
+Cell[33043, 649, 174, 2, 45, "Text",ExpressionUUID->"cb1e1fda-0965-4044-b214-53a42a285687",
+ CellID->1265402531],
+Cell[33220, 653, 876, 13, 281, "Text",ExpressionUUID->"b25d6a06-b273-4a55-91c2-2ca038e209bb",
  CellID->1986210908]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[33206, 654, 184, 2, 66, "Subsubsection",ExpressionUUID->"0fa3dd7c-bb95-4ac3-9849-9dcedaa4ac9b",
+Cell[34133, 671, 188, 2, 66, "Subsubsection",ExpressionUUID->"0fa3dd7c-bb95-4ac3-9849-9dcedaa4ac9b",
  CellID->626329748],
-Cell[33393, 658, 655, 10, 222, "Text",ExpressionUUID->"82534da9-fc06-497a-8ed4-aaaf7ec893df",
+Cell[34324, 675, 173, 2, 45, "Text",ExpressionUUID->"1b2077d0-9920-4501-913f-2f3a91e218fa",
+ CellID->918552592],
+Cell[34500, 679, 655, 10, 222, "Text",ExpressionUUID->"82534da9-fc06-497a-8ed4-aaaf7ec893df",
  CellID->1906720689]
 }, Open  ]]
 }, Open  ]]

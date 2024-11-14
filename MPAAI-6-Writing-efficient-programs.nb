@@ -7366,8 +7366,8 @@ one of the unique features of Mathematica system.\
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{916, 916},
-WindowMargins->{{Automatic, 0}, {Automatic, 170}},
+WindowSize->{960, 1027},
+WindowMargins->{{Automatic, 0}, {Automatic, 72}},
 FrontEndVersion->"14.1 for Mac OS X ARM (64-bit) (July 16, 2024)",
 StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "BookToolsStyles.nb", 
   CharacterEncoding -> "UTF-8"],

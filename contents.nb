@@ -10,17 +10,17 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       154,          7]
-NotebookDataLength[    152916,       3541]
-NotebookOptionsPosition[    125456,       3258]
-NotebookOutlinePosition[    126891,       3295]
-CellTagsIndexPosition[    126848,       3292]
+NotebookDataLength[    152764,       3539]
+NotebookOptionsPosition[    125304,       3256]
+NotebookOutlinePosition[    126739,       3293]
+CellTagsIndexPosition[    126696,       3290]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
-Cell["Contents", "TOCTitle",ExpressionUUID->"481d7f22-668a-4e7f-8a8a-533d94a22c70"],
+Cell["Contents", "TOCTitle",ExpressionUUID->"0aeefba2-67f8-4274-b3f5-1e7a28f3dfd5"],
 
 Cell[TextData[ButtonBox["Preface",
  BaseStyle->"TOCSection",
@@ -32,8 +32,8 @@ Cell[TextData[ButtonBox["Preface",
         NotebookDirectory[], "MPAAI-0-preface.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "779ac440-64b9-421f-a613-32e9713c20c1", All,
-      ExpressionUUID]]]], "TOCSection",ExpressionUUID->"42d79858-531f-4bc6-\
-9bd4-5e2e3dff0aed"],
+      ExpressionUUID]]]], "TOCSection",ExpressionUUID->"0c83a518-3912-4947-\
+8718-5cb5aca63132"],
 
 Cell[TextData[ButtonBox["The history of this project",
  BaseStyle->"TOCSubsection",
@@ -45,8 +45,8 @@ Cell[TextData[ButtonBox["The history of this project",
         NotebookDirectory[], "MPAAI-0-preface.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "c33ee7ac-748e-4bcf-9781-7264a8344333", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"ffe81a34-dac1-4d0c-\
-aee6-1715508b27f8"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"45124194-3455-4191-\
+9deb-a3b70f6f9831"],
 
 Cell[TextData[ButtonBox["The audience for this book",
  BaseStyle->"TOCSubsection",
@@ -58,8 +58,8 @@ Cell[TextData[ButtonBox["The audience for this book",
         NotebookDirectory[], "MPAAI-0-preface.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "dc995945-7e53-45f1-9f02-2ea04c55a81b", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"297a1a18-8818-4010-\
-8319-c2465d038914"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"f45afbf1-fffc-4e57-\
+bdc9-881ed6a844c6"],
 
 Cell[TextData[ButtonBox["Why Mathematica",
  BaseStyle->"TOCSubsection",
@@ -71,8 +71,8 @@ Cell[TextData[ButtonBox["Why Mathematica",
         NotebookDirectory[], "MPAAI-0-preface.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "2420c998-f5d3-4493-bfb9-f72034536942", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"f5d24695-0276-4323-\
-a15e-e37f7da9174a"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"17baae2a-b87c-48ac-\
+be98-12ead86eb21f"],
 
 Cell[TextData[ButtonBox["The choice of the material",
  BaseStyle->"TOCSubsection",
@@ -84,8 +84,8 @@ Cell[TextData[ButtonBox["The choice of the material",
         NotebookDirectory[], "MPAAI-0-preface.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "14dc57c6-7ce5-48e5-8105-55d276702e32", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"dfafc7e0-f62e-4bf2-\
-81b2-2d8d225d068e"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"792ef39b-b868-4cbb-\
+841c-a26fdcb1449f"],
 
 Cell[TextData[ButtonBox["The style of presentation",
  BaseStyle->"TOCSubsection",
@@ -97,8 +97,8 @@ Cell[TextData[ButtonBox["The style of presentation",
         NotebookDirectory[], "MPAAI-0-preface.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "f2b80165-b976-4d69-9c43-102eafc90582", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"510c0a07-e18e-4395-\
-b7e7-6b9b0fdbd389"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"a1f516dc-48e6-4eef-\
+aa37-6c604ce023b7"],
 
 Cell[TextData[ButtonBox["Prerequisites",
  BaseStyle->"TOCSubsection",
@@ -110,8 +110,8 @@ Cell[TextData[ButtonBox["Prerequisites",
         NotebookDirectory[], "MPAAI-0-preface.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "cd19c2a2-441b-4cfb-9a87-af45c2863ba1", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"2c3e4424-96d5-4be3-\
-bbaf-6a377623d46c"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"f9ad999e-497b-45e5-\
+85d0-65f03c94d759"],
 
 Cell[TextData[ButtonBox["The organization of the book",
  BaseStyle->"TOCSubsection",
@@ -123,8 +123,8 @@ Cell[TextData[ButtonBox["The organization of the book",
         NotebookDirectory[], "MPAAI-0-preface.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "501915be-30ba-4f52-a4a5-6fe6537a4235", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"0c8c6079-0e3a-4022-\
-881c-e59b1ef06111"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"a5fe63ec-7e72-4eb6-\
+9e87-e8fb5c127057"],
 
 Cell[TextData[ButtonBox["How to use the book",
  BaseStyle->"TOCSubsection",
@@ -136,8 +136,8 @@ Cell[TextData[ButtonBox["How to use the book",
         NotebookDirectory[], "MPAAI-0-preface.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "6f0ddd9c-5459-4972-ad9d-35fb47b9c44b", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"fb187684-e891-4beb-\
-81d1-0a01f582ad00"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"86932cde-b92d-4f92-\
+adb1-c0325ef1ae02"],
 
 Cell[TextData[ButtonBox["Important topics not covered",
  BaseStyle->"TOCSubsection",
@@ -149,8 +149,8 @@ Cell[TextData[ButtonBox["Important topics not covered",
         NotebookDirectory[], "MPAAI-0-preface.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "edc28a2d-21a4-4bff-bfec-d11bbe74dbfa", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"ce50993b-f2ee-4d57-\
-aea4-4c09f95c3c9e"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"c3eb2f85-e4cd-4401-\
+8d35-ddfb480550e1"],
 
 Cell[TextData[ButtonBox["Introduction",
  BaseStyle->"TOCSection",
@@ -162,8 +162,8 @@ Cell[TextData[ButtonBox["Introduction",
         NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "cee61c47-f513-4d72-ab91-3d1fb7a17961", All,
-      ExpressionUUID]]]], "TOCSection",ExpressionUUID->"eb50ff0b-e33e-4a3b-\
-a4dc-b12405256a87"],
+      ExpressionUUID]]]], "TOCSection",ExpressionUUID->"e4869b4b-1a97-47b8-\
+8321-11cc777f69b7"],
 
 Cell[TextData[ButtonBox["First principle: everything is an expression",
  BaseStyle->"TOCSubsection",
@@ -175,8 +175,8 @@ Cell[TextData[ButtonBox["First principle: everything is an expression",
         NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "006b50c4-f5e0-4f5d-a818-2208eaec7595", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"1e3c6c7b-5214-4f70-\
-856b-e9d07b969b7c"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"1024ec9a-4f0f-4fa1-\
+980d-368d1e6b1b04"],
 
 Cell[TextData[ButtonBox["Atoms and the built-in AtomQ predicate",
  BaseStyle->"TOCSubsubsection",
@@ -188,8 +188,8 @@ Cell[TextData[ButtonBox["Atoms and the built-in AtomQ predicate",
         NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "b49a9163-df99-4743-8746-2359abdea57b", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"a55e150a-e302-\
-4dfa-a5a2-3cc952f4488e"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"f50cd676-b447-\
+4df7-841d-7307ad3a88fc"],
 
 Cell[TextData[ButtonBox["Mathematica normal (composite) expressions",
  BaseStyle->"TOCSubsubsection",
@@ -201,8 +201,8 @@ Cell[TextData[ButtonBox["Mathematica normal (composite) expressions",
         NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "89092c87-4c95-4999-a942-25046b83c396", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"7262575c-3db0-\
-4678-adb3-c71a89146926"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"05672120-6bc1-\
+43e9-8e0b-fe4ebda3ab50"],
 
 Cell[TextData[ButtonBox["Literal equivalents of built-in functions, and \
 FullForm command",
@@ -215,8 +215,8 @@ FullForm command",
         NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "d094f2f3-3dbc-43d7-b73a-f48902e35125", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"bf32cdd0-a7cc-\
-446d-9681-1ac26cf5b739"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"80b29373-8ded-\
+45b4-ab79-9db0b01694fe"],
 
 Cell[TextData[ButtonBox["All normal expressions are trees - TreeForm command",
  
@@ -229,8 +229,8 @@ Cell[TextData[ButtonBox["All normal expressions are trees - TreeForm command",
         NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "9071d31e-e64e-4b37-a11a-fe07214cfe56", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"fbfd517f-399a-\
-4545-ba75-a722965fcd6e"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"2e354b4c-b4fa-\
+42d1-ad1c-134b307ad59e"],
 
 Cell[TextData[ButtonBox["Heads of expressions and the Head command",
  BaseStyle->"TOCSubsubsection",
@@ -242,8 +242,8 @@ Cell[TextData[ButtonBox["Heads of expressions and the Head command",
         NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "fc6adec8-0a59-4323-88e0-f2ff01e01b0b", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"d09311c0-c7f9-\
-4a28-b3ff-011f1f8fba7d"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"feb9c6c4-71b2-\
+48cf-badd-1e4434ad6164"],
 
 Cell[TextData[ButtonBox["Accessing individual parts of expressions through \
 indexing",
@@ -256,8 +256,8 @@ indexing",
         NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "505c5bc0-01bf-4ca7-80aa-d6ea5b4080f1", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"89241071-c45b-\
-4879-a709-40f56e1099fe"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"0d052193-6e3e-\
+40ab-8d46-57ad9cc9e4ed"],
 
 Cell[TextData[ButtonBox["Levels of expressions and the Level command",
  BaseStyle->"TOCSubsubsection",
@@ -269,8 +269,8 @@ Cell[TextData[ButtonBox["Levels of expressions and the Level command",
         NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "1166c989-5d3f-4b07-8583-1ba19996ab0a", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"cee1cfa9-8c5a-\
-4ec0-83c3-951bec988b76"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"66f015e4-8130-\
+4e0a-9ec5-341288d8058c"],
 
 Cell[TextData[ButtonBox["Second principle: pattern-matching and rule \
 substitution",
@@ -283,8 +283,8 @@ substitution",
         NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "bbbe4f8c-189a-4114-9cd4-f35fa85e06a1", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"e9b9c8ec-d86c-4833-\
-8a8d-5e1bb46d8a70"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"a552dfd9-273b-44cb-\
+b6d4-e22944ef9a16"],
 
 Cell[TextData[ButtonBox["Rewrite Rules",
  BaseStyle->"TOCSubsubsection",
@@ -296,8 +296,8 @@ Cell[TextData[ButtonBox["Rewrite Rules",
         NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "d2f42d8d-bae2-4ad7-b9ba-33935376f483", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"e476ff4c-e221-\
-4b85-9426-a55071e9c930"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"8b59a698-4f09-\
+4089-b683-981639d5a4b4"],
 
 Cell[TextData[ButtonBox["An example of a simple pattern-defined function",
  BaseStyle->"TOCSubsubsection",
@@ -309,8 +309,8 @@ Cell[TextData[ButtonBox["An example of a simple pattern-defined function",
         NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "48b2d332-d24d-495c-b42e-fb10158ebaad", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"11fcb707-7985-\
-4f36-9bee-28db52182980"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"24466773-ceca-\
+4ba0-b6f6-186e9d995508"],
 
 Cell[TextData[ButtonBox["Functions are really rules : DownValues command",
  BaseStyle->"TOCSubsubsection",
@@ -322,8 +322,8 @@ Cell[TextData[ButtonBox["Functions are really rules : DownValues command",
         NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "2459bb28-a9f1-4983-8d3e-4aab57d78925", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"080d0654-d23e-\
-4096-8ace-ca4e194ad0a6"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"83972441-ab7c-\
+484f-a116-84c100522185"],
 
 Cell[TextData[ButtonBox["Example of a function based on a restricted pattern",
  
@@ -336,8 +336,8 @@ Cell[TextData[ButtonBox["Example of a function based on a restricted pattern",
         NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "60895561-6478-4674-b34f-2f24d996bd73", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"a55c6e8e-aa8c-\
-452d-8e3b-293a7e569ca0"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"2829b7f4-7892-\
+4b79-89fd-96fed5f4830a"],
 
 Cell[TextData[ButtonBox["A bit about evaluation",
  BaseStyle->"TOCSubsubsection",
@@ -349,8 +349,8 @@ Cell[TextData[ButtonBox["A bit about evaluation",
         NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "eee74863-49d8-4013-9bdd-939096d55940", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"47c27336-8ee9-\
-4780-99da-2182f46f366e"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"27bde8cb-127d-\
+4055-8af3-18c44114b921"],
 
 Cell[TextData[ButtonBox["Patterns allow for multiple definitions of the same \
 function",
@@ -363,8 +363,8 @@ function",
         NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "39a98318-417a-4306-9a39-60d94c1768c8", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"cc155d64-2127-\
-4240-a1ca-e81c2f70df50"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"84b59473-ff06-\
+492f-8670-dbc653355a58"],
 
 Cell[TextData[ButtonBox["Non-commutativity of rules substitution",
  BaseStyle->"TOCSubsubsection",
@@ -376,8 +376,8 @@ Cell[TextData[ButtonBox["Non-commutativity of rules substitution",
         NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "990fcc0a-df41-4e79-8f31-9d952360f6f3", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"f45f0175-f930-\
-47bd-83c7-a1c29f98faf6"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"625bbada-19f3-\
+4796-a898-40fb72df3029"],
 
 Cell[TextData[ButtonBox["Automatic rule reordering",
  BaseStyle->"TOCSubsubsection",
@@ -389,8 +389,8 @@ Cell[TextData[ButtonBox["Automatic rule reordering",
         NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "dfb51fbe-5e42-47a5-85e0-e80d8ba8d6fc", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"56a7c94c-0092-\
-4e38-889d-b8b7db873fbf"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"d7a429df-2dda-\
+4ff4-9334-33ea18d00a19"],
 
 Cell[TextData[ButtonBox["Third principle: expression evaluation",
  BaseStyle->"TOCSubsection",
@@ -402,8 +402,8 @@ Cell[TextData[ButtonBox["Third principle: expression evaluation",
         NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "d4decd33-d8fc-41be-9fd8-449b7850f3ab", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"fd4d7a72-04e5-4a4c-\
-aaf1-0b282a813a16"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"f77f9b40-4bb7-4c01-\
+bbff-98a415a4eae5"],
 
 Cell[TextData[ButtonBox["Summary",
  BaseStyle->"TOCSubsection",
@@ -415,8 +415,8 @@ Cell[TextData[ButtonBox["Summary",
         NotebookDirectory[], "MPAAI-1-Introduction.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "ebdffbd3-fcb5-46d5-a678-fa9f204ed265", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"75fc86d6-0d09-42ea-\
-bf56-78b6d9595385"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"ff9d9b7f-4d41-4a2d-\
+a89e-cbb48fc61595"],
 
 Cell[TextData[ButtonBox["Elementary operations",
  BaseStyle->"TOCSection",
@@ -428,8 +428,8 @@ Cell[TextData[ButtonBox["Elementary operations",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "e314572c-7e82-48c1-9a0a-0b5d8a996039", All,
-      ExpressionUUID]]]], "TOCSection",ExpressionUUID->"19bfa1ad-bdb4-4c01-\
-b1a0-6fe0e8af8fcd"],
+      ExpressionUUID]]]], "TOCSection",ExpressionUUID->"dc676ec3-68b1-40e5-\
+863e-b721688e7d5a"],
 
 Cell[TextData[ButtonBox["Introduction",
  BaseStyle->"TOCSubsection",
@@ -441,8 +441,8 @@ Cell[TextData[ButtonBox["Introduction",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "b0819c58-18f6-4dd0-a824-6c5562ad7f5e", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"07a2833a-0ae2-49ef-\
-9e9e-23c84c4b40a1"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"ae5831f9-6c82-45ec-\
+9258-659bb5d132be"],
 
 Cell[TextData[ButtonBox["Symbols and variables",
  BaseStyle->"TOCSubsection",
@@ -454,8 +454,8 @@ Cell[TextData[ButtonBox["Symbols and variables",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "894a3169-6ada-48be-bf1b-fc42c0b40915", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"43b6411e-fd38-47ec-\
-8573-7ef62b2e3c6b"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"c790d83b-04b2-4d09-\
+999d-aed3e361f93c"],
 
 Cell[TextData[ButtonBox["Legitimate symbol names",
  BaseStyle->"TOCSubsubsection",
@@ -467,8 +467,8 @@ Cell[TextData[ButtonBox["Legitimate symbol names",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "4476aa31-9bfe-4a10-b249-68fe83d49df5", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"5102c8ae-5875-\
-4177-8674-722681b5f311"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"56892de3-070d-\
+4b1b-b145-06e09fea4b7f"],
 
 Cell[TextData[ButtonBox["Getting information about symbols",
  BaseStyle->"TOCSubsubsection",
@@ -480,8 +480,8 @@ Cell[TextData[ButtonBox["Getting information about symbols",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "7cb30dbc-b724-4430-a08a-3660903b4e60", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"9ab6ec31-65b7-\
-4871-9f0f-2954ea457c89"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"bd27c629-40ff-\
+4165-a56d-232ce508ba39"],
 
 Cell[TextData[ButtonBox["\[OpenCurlyDoubleQuote]Proper\[CloseCurlyDoubleQuote]\
  variables and OwnValues",
@@ -494,8 +494,8 @@ Cell[TextData[ButtonBox["\[OpenCurlyDoubleQuote]Proper\[CloseCurlyDoubleQuote]\
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "06a07706-084a-498d-9ac2-7b1bd3d413f9", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"82c1010a-9e2b-\
-474a-a621-993e3e74f0ca"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"55436d34-2130-\
+47d2-88cf-bff63a14afe5"],
 
 Cell[TextData[ButtonBox["Indexed variables and DownValues",
  BaseStyle->"TOCSubsubsection",
@@ -507,8 +507,8 @@ Cell[TextData[ButtonBox["Indexed variables and DownValues",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "4d1c4bbf-9fa8-47c2-adb8-575a44cbea31", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"7ff4abab-5ddd-\
-4816-a4d8-3edf8d14635a"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"752e7780-0583-\
+431b-97c6-66f516e9073d"],
 
 Cell[TextData[ButtonBox["Composite variables and SubValues",
  BaseStyle->"TOCSubsubsection",
@@ -520,8 +520,8 @@ Cell[TextData[ButtonBox["Composite variables and SubValues",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "389d64f3-706c-4efb-8c59-df72f4b2085e", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"e4cd7ff3-ec5d-\
-499a-b2ec-59dcff23ba81"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"86028904-baaf-\
+40a1-bac7-c8e996257955"],
 
 Cell[TextData[ButtonBox["Clearing variables",
  BaseStyle->"TOCSubsubsection",
@@ -533,8 +533,8 @@ Cell[TextData[ButtonBox["Clearing variables",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "e469247e-487e-422b-ac42-65541dd68478", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"520531ec-bf54-\
-4b9d-b24c-77695a02379a"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"197dd08f-7bf3-\
+4227-bdfe-01c6cac92ced"],
 
 Cell[TextData[ButtonBox["Does a variable have a value? ValueQ",
  BaseStyle->"TOCSubsubsection",
@@ -546,8 +546,8 @@ Cell[TextData[ButtonBox["Does a variable have a value? ValueQ",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "a9356523-80a0-45e6-8373-47dee00b8640", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"af9e8e9a-d052-\
-4913-8cde-d23ab7e32f25"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"a8932d41-1d42-\
+40a1-8d63-d66051449098"],
 
 Cell[TextData[ButtonBox["Assignments attach rules to Symbol-s",
  BaseStyle->"TOCSubsubsection",
@@ -559,8 +559,8 @@ Cell[TextData[ButtonBox["Assignments attach rules to Symbol-s",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "fb29013b-f317-478d-920e-798c25c635c9", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"44929823-85c2-\
-4d8d-839b-9e2d54663b29"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"864f15cf-97f7-\
+42a9-a457-323b215b00f3"],
 
 Cell[TextData[ButtonBox["Summary",
  BaseStyle->"TOCSubsubsection",
@@ -572,8 +572,8 @@ Cell[TextData[ButtonBox["Summary",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "17d8523b-92b1-409e-8159-9a58aa5a64d0", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"76caef4d-e256-\
-4f70-b869-25517a0a0d62"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"cf0997e9-6a4e-\
+4001-b088-b4722e82bbe8"],
 
 Cell[TextData[ButtonBox["Dynamic data typing",
  BaseStyle->"TOCSubsection",
@@ -585,8 +585,8 @@ Cell[TextData[ButtonBox["Dynamic data typing",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "a1150c09-a870-49f5-a60b-2af5d58a497f", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"6e391f21-864f-41e0-\
-a528-76ca9ee8abbe"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"6b9dc36b-70e5-4051-\
+9f69-1cef972d32b7"],
 
 Cell[TextData[ButtonBox["Assignments",
  BaseStyle->"TOCSubsection",
@@ -598,8 +598,8 @@ Cell[TextData[ButtonBox["Assignments",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "f2201acc-2348-45bf-88c6-a215852090fd", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"b02a1a67-093a-40b1-\
-9196-a43fc141e040"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"d320abb1-fc9e-47ae-\
+9576-5f60e7108380"],
 
 Cell[TextData[ButtonBox["Immediate and delayed assignments: Set and \
 SetDelayed",
@@ -612,8 +612,8 @@ SetDelayed",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "e9b15afd-52ab-4ffd-94e1-81e4a5d32f12", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"5159352f-4a60-\
-40eb-97fe-9f619a314e6e"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"0fb8e2bc-fcc4-\
+424e-8a0c-e10abb2f92bc"],
 
 Cell[TextData[ButtonBox["The difference between Set and SetDelayed : an \
 example",
@@ -626,8 +626,8 @@ example",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "31bbfea3-9638-463a-80c7-f8272c340796", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"ca13fd7d-f23e-\
-4428-af98-abc37765e17f"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"8fa29cdf-d9a1-\
+4b7d-85fc-cd1ee99c78ca"],
 
 Cell[TextData[ButtonBox["Chain assignments",
  BaseStyle->"TOCSubsubsection",
@@ -639,8 +639,8 @@ Cell[TextData[ButtonBox["Chain assignments",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "2ed539b7-28a2-4d77-90c5-7d1f5a5f31d8", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"09d35db0-7d0c-\
-46be-8b3b-a13178da1eb4"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"5ca25cf2-3f4e-\
+45ca-b8ac-5fe417844b16"],
 
 Cell[TextData[ButtonBox["Don\[CloseCurlyQuote] t use SetDelayed with more \
 than two arguments",
@@ -653,8 +653,8 @@ than two arguments",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "dd132c24-d240-45a6-b052-b0373c17bf39", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"b6c1cb5b-fe62-\
-4a3a-b6d6-f08360ecc72b"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"feb10942-d3ce-\
+45e7-9558-10ef7efb077f"],
 
 Cell[TextData[ButtonBox["Set and SetDelayed : when which one is used",
  BaseStyle->"TOCSubsubsection",
@@ -666,8 +666,8 @@ Cell[TextData[ButtonBox["Set and SetDelayed : when which one is used",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "36ffde54-d349-4121-8886-1244be894a5d", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"0d03fc45-0c46-\
-41ff-960b-d1289eb7aea5"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"99968d52-a532-\
+4ba4-837f-2cbacac30bf3"],
 
 Cell[TextData[ButtonBox["Equality checks",
  BaseStyle->"TOCSubsection",
@@ -679,8 +679,8 @@ Cell[TextData[ButtonBox["Equality checks",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "017912c1-1506-4cda-821b-93efd7c340c4", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"e8f34a41-56c0-458b-\
-a40e-32a744ed71c6"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"045ae8e1-9a4c-49e3-\
+bae2-a79b8d470aa0"],
 
 Cell[TextData[ButtonBox["Equal",
  BaseStyle->"TOCSubsubsection",
@@ -692,8 +692,8 @@ Cell[TextData[ButtonBox["Equal",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "7bcddf79-2321-4273-b377-7000106736e8", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"a4ab31b5-0a6e-\
-48aa-8466-04391f3dd22f"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"78142dce-efd5-\
+42af-ac83-894306e500ba"],
 
 Cell[TextData[ButtonBox["Beware: Equal may return \
 \[OpenCurlyDoubleQuote]unevaluated\[CloseCurlyDoubleQuote]",
@@ -706,8 +706,8 @@ Cell[TextData[ButtonBox["Beware: Equal may return \
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "ca4dc73d-a0cf-4881-b0f2-e042a171f4ce", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"74d59155-5ac4-\
-4867-bf49-fc7ad2efea31"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"ba0b7da6-f847-\
+46a1-a121-4ee72f43acc7"],
 
 Cell[TextData[ButtonBox["Equal is used by built-in solvers to build equations",
  BaseStyle->"TOCSubsubsection",
@@ -719,8 +719,8 @@ Cell[TextData[ButtonBox["Equal is used by built-in solvers to build equations",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "0fdd9ec2-62e4-428d-960d-4d2c26ac36eb", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"7d566199-09cf-\
-4990-9ad3-5beccea997c8"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"79ec1ab7-8213-\
+4314-8993-e8b4fbd69005"],
 
 Cell[TextData[ButtonBox["Assigning the result of Equal to a variable, and \
 more on evaluation",
@@ -733,8 +733,8 @@ more on evaluation",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "f2f7ab04-2234-439a-a1f2-93973d572af8", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"e8e126d6-8e29-\
-44dc-af9a-9080144ae47f"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"2b4e91ce-49cd-\
+48d2-9e10-e7f18eb90748"],
 
 Cell[TextData[ButtonBox["The role of side effects",
  BaseStyle->"TOCSubsubsection",
@@ -746,8 +746,8 @@ Cell[TextData[ButtonBox["The role of side effects",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "96f584f9-8db9-40d3-94a7-8933fdb9097a", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"7340df22-288f-\
-4fb3-b34a-c73e9e837493"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"f7e2a8fc-02f0-\
+4f10-bfa5-6b37eb19e891"],
 
 Cell[TextData[ButtonBox["A digression: standard and non-standard evaluation",
  BaseStyle->"TOCSubsubsection",
@@ -759,8 +759,8 @@ Cell[TextData[ButtonBox["A digression: standard and non-standard evaluation",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "eb2bd77c-dc7a-4ba3-afb1-d9cdb9faaf05", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"6cb3a63a-693e-\
-412f-b9cf-50067232b610"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"9e67255c-37a8-\
+4402-a710-25924f6f7680"],
 
 Cell[TextData[ButtonBox["Pass by reference semantics - possible to imitate",
  BaseStyle->"TOCSubsubsection",
@@ -772,8 +772,8 @@ Cell[TextData[ButtonBox["Pass by reference semantics - possible to imitate",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "1096c9cb-062e-4aa8-bea7-5c8470fece2a", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"3545464e-55ec-\
-41e2-a910-3f05b5e7a4ba"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"1cd5ee0e-5f68-\
+4c39-b997-7782a326e51d"],
 
 Cell[TextData[ButtonBox["SameQ",
  BaseStyle->"TOCSubsubsection",
@@ -785,8 +785,8 @@ Cell[TextData[ButtonBox["SameQ",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "f089a4b7-f588-401c-ab49-ca65226aafc9", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"002b8836-a50c-\
-43f3-b22f-cc968c3f1f6e"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"fd04d277-cdb8-\
+44c3-8efb-9f735d0759df"],
 
 Cell[TextData[ButtonBox["TrueQ",
  BaseStyle->"TOCSubsubsection",
@@ -798,8 +798,8 @@ Cell[TextData[ButtonBox["TrueQ",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "22697f59-5f46-404a-84f7-139244cf8c17", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"769e6506-fa68-\
-4c18-a2af-7fbe84e46aa9"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"e50a1453-2233-\
+4b45-aca0-2dc6fafa465a"],
 
 Cell[TextData[ButtonBox["Logical operators",
  BaseStyle->"TOCSubsection",
@@ -811,8 +811,8 @@ Cell[TextData[ButtonBox["Logical operators",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "35f18602-f348-4999-bc09-1c903f1ec0ea", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"7e0b8085-f9c6-4292-\
-aee9-ed561284929f"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"23ecb6a4-b118-4fba-\
+9c4d-c2726d4f9ae6"],
 
 Cell[TextData[ButtonBox["Conditionals",
  BaseStyle->"TOCSubsection",
@@ -824,8 +824,8 @@ Cell[TextData[ButtonBox["Conditionals",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "cd026b49-e117-4726-99d3-78cc88fef720", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"7c4c9b51-484c-4051-\
-94b2-c317e66dca2e"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"f0ca90ea-9505-47c5-\
+a7b4-1040ac0af40a"],
 
 Cell[TextData[ButtonBox["The If operator",
  BaseStyle->"TOCSubsubsection",
@@ -837,8 +837,8 @@ Cell[TextData[ButtonBox["The If operator",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "44dfc74a-4a86-40c7-865c-1db3e6ff0973", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"dfa81636-d750-\
-40ee-9da9-b8d04bd3a3f2"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"97681a03-5e5a-\
+4f21-9877-ac811701f699"],
 
 Cell[TextData[ButtonBox["If may return \[OpenCurlyDoubleQuote]unevaluated\
 \[CloseCurlyDoubleQuote]",
@@ -851,8 +851,8 @@ Cell[TextData[ButtonBox["If may return \[OpenCurlyDoubleQuote]unevaluated\
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "13d0576c-0200-43ed-bc8c-200ce99ea099", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"cf132ebe-f113-\
-4048-b888-22b747b5a195"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"72b582bb-ba90-\
+4eb8-8630-ea34812d41cc"],
 
 Cell[TextData[ButtonBox["If returns a value",
  BaseStyle->"TOCSubsubsection",
@@ -864,8 +864,8 @@ Cell[TextData[ButtonBox["If returns a value",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "6960dc82-3692-43ca-b81d-5ddbca2026c4", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"2c50a814-0d2f-\
-4c04-ae42-dc711dc9a884"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"db061430-abb1-\
+43d8-8bdb-21f5f657ca09"],
 
 Cell[TextData[ButtonBox["Operators Which and Switch",
  BaseStyle->"TOCSubsubsection",
@@ -877,8 +877,8 @@ Cell[TextData[ButtonBox["Operators Which and Switch",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "78873fac-e1f5-47a9-bddc-6402fb699bcb", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"bd1df0dc-a769-\
-45a8-bd45-fb184baff5d4"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"dc0ec1d8-cb8a-\
+494c-8d48-a50054e5e914"],
 
 Cell[TextData[ButtonBox["Loops",
  BaseStyle->"TOCSubsection",
@@ -890,8 +890,8 @@ Cell[TextData[ButtonBox["Loops",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "7439fd04-3b52-4cbb-9b34-f327eaf193c7", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"21ea7cfa-58d6-405d-\
-89d6-812a29bec4d1"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"00947285-612e-49f4-\
+9351-5824bea6d70a"],
 
 Cell[TextData[ButtonBox["For loop",
  BaseStyle->"TOCSubsubsection",
@@ -903,8 +903,8 @@ Cell[TextData[ButtonBox["For loop",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "9168a6ef-f307-4575-8878-40696a9eae40", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"5011f732-5870-\
-498d-9cbf-3abff22a59b4"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"36f537a4-5177-\
+45d2-9b2a-26fb86a21544"],
 
 Cell[TextData[ButtonBox["While loop",
  BaseStyle->"TOCSubsubsection",
@@ -916,8 +916,8 @@ Cell[TextData[ButtonBox["While loop",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "93d5078b-6b91-4443-9408-881565609ebb", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"50296331-a165-\
-43a9-8a42-7df35d6b8b94"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"4ce0d4d1-b5f4-\
+49a9-8c79-e74cfa85a584"],
 
 Cell[TextData[ButtonBox["Do loop",
  BaseStyle->"TOCSubsubsection",
@@ -929,8 +929,8 @@ Cell[TextData[ButtonBox["Do loop",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "650a3337-f193-4b94-bb07-8e3a4beeddb3", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"45a70c0f-d105-\
-4435-8ab4-75a419fd56f2"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"fbf19ead-bc08-\
+409c-a77b-63003fcca3c2"],
 
 Cell[TextData[ButtonBox["Side effects induced by loops",
  BaseStyle->"TOCSubsubsection",
@@ -942,8 +942,8 @@ Cell[TextData[ButtonBox["Side effects induced by loops",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "29570174-9af6-44d6-bd83-2dcaf8b6d28f", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"d86732b1-d262-\
-4123-977c-9baa438e4ee4"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"2456ba06-d5a8-\
+472a-8ada-45ad45e3ceb9"],
 
 Cell[TextData[ButtonBox["Blocks of operators - the CompoundExpression command",
  BaseStyle->"TOCSubsubsection",
@@ -955,8 +955,8 @@ Cell[TextData[ButtonBox["Blocks of operators - the CompoundExpression command",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "12acd2c9-744c-4263-8955-ea90248423ba", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"5ba80d53-08c0-\
-4168-afe8-869b0501b50d"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"93b8b2f3-30f5-\
+4f13-bd5b-ae790f4cdc50"],
 
 Cell[TextData[ButtonBox["Local goto statements: Break , Continue, Return",
  BaseStyle->"TOCSubsubsection",
@@ -968,8 +968,8 @@ Cell[TextData[ButtonBox["Local goto statements: Break , Continue, Return",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "1a91e44c-55d7-4aeb-9ef8-64886910ba67", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"0d978d92-5b05-\
-4c3f-8bab-68fc1573d4ec"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"7dc6c9cd-a8a2-\
+4723-a745-6887ff6ba129"],
 
 Cell[TextData[ButtonBox["Programs using loops are often inefficient in \
 Mathematica",
@@ -982,8 +982,8 @@ Mathematica",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "7f20f567-8fc5-42ed-8aae-5978c476cbf1", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"1e2841fd-173a-\
-4aac-aa24-c07c6dd5e31a"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"cde0883b-53eb-\
+40b3-b700-415b448353a3"],
 
 Cell[TextData[ButtonBox["Four types of brackets in Mathematica",
  BaseStyle->"TOCSubsection",
@@ -995,8 +995,8 @@ Cell[TextData[ButtonBox["Four types of brackets in Mathematica",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "b6979840-59d6-4eff-ad7f-b8869f62a672", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"2c181e35-1d08-4a9e-\
-9c80-c5d63ffd8cd5"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"fdd92203-0677-4cdd-\
+a00c-f45d6bce7dae"],
 
 Cell[TextData[ButtonBox["Parentheses ()",
  BaseStyle->"TOCSubsubsection",
@@ -1008,8 +1008,8 @@ Cell[TextData[ButtonBox["Parentheses ()",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "977e8799-fa1c-45e3-8311-05fe082aad26", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"ec9f2e28-e10a-\
-4825-9f58-0ee12bb2c1c4"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"8e69b86e-305d-\
+4f4c-94e4-c69d6b153ee5"],
 
 Cell[TextData[ButtonBox["Curly braces {}",
  BaseStyle->"TOCSubsubsection",
@@ -1021,8 +1021,8 @@ Cell[TextData[ButtonBox["Curly braces {}",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "8357a15f-2352-4a3b-8d17-837768981ded", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"d6f7ff0f-88e4-\
-4c1c-91e3-995e2b48d959"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"bf9a1934-a1bd-\
+4700-a0a9-4425ffe485c9"],
 
 Cell[TextData[ButtonBox["Single square brackets []",
  BaseStyle->"TOCSubsubsection",
@@ -1034,8 +1034,8 @@ Cell[TextData[ButtonBox["Single square brackets []",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "d8f7713c-21e0-49c7-a3eb-495405d17255", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"74c91eca-7a24-\
-4791-a6e9-376e833c01c8"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"31749bf6-8338-\
+42a0-a61a-7931372508bd"],
 
 Cell[TextData[ButtonBox["Double square brackets [[ ]]",
  BaseStyle->"TOCSubsubsection",
@@ -1047,8 +1047,8 @@ Cell[TextData[ButtonBox["Double square brackets [[ ]]",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "f5e941c5-e045-41f2-b7e9-a139066d4e47", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"f392933f-b6a6-\
-4585-b896-3a1d1660bd08"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"44055c6b-7468-\
+4728-bdc3-1d60a285f4d7"],
 
 Cell[TextData[ButtonBox["Summary",
  BaseStyle->"TOCSubsection",
@@ -1060,8 +1060,8 @@ Cell[TextData[ButtonBox["Summary",
         NotebookDirectory[], "MPAAI-2-Elementary-operations.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "6f0dd9da-685d-4e27-a29d-36f5a81407fe", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"285fa741-4011-4ded-\
-80d0-cc1e3ade7b70"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"ae3626af-943e-4092-\
+a3da-21fac8097e61"],
 
 Cell[TextData[ButtonBox["Lists",
  BaseStyle->"TOCSection",
@@ -1073,8 +1073,8 @@ Cell[TextData[ButtonBox["Lists",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "76472712-eadd-44eb-98de-42fb8a27a2d4", All,
-      ExpressionUUID]]]], "TOCSection",ExpressionUUID->"fa5538a1-1199-4533-\
-83d7-5cb757fc9cc3"],
+      ExpressionUUID]]]], "TOCSection",ExpressionUUID->"18648653-84a7-4de8-\
+a112-c11963c9efd1"],
 
 Cell[TextData[ButtonBox["Introduction",
  BaseStyle->"TOCSubsection",
@@ -1086,8 +1086,8 @@ Cell[TextData[ButtonBox["Introduction",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "0ced549c-1195-4094-b143-6cb1aaab8da3", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"97bb35f1-1c4d-45de-\
-80fe-9f94e5a3ae00"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"f5dc9a32-c212-4478-\
+bcc7-64732e32e630"],
 
 Cell[TextData[ButtonBox["The main rule of thumb when working with lists in \
 Mathematica",
@@ -1100,8 +1100,8 @@ Mathematica",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "0c671e56-8186-4222-8d78-ce48fe96b10b", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"ef7ad567-7e5c-4313-\
-8c1c-642ad9310221"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"219e447f-416a-4bf1-\
+a649-6a6e79b7f03b"],
 
 Cell[TextData[ButtonBox["The content of lists",
  BaseStyle->"TOCSubsection",
@@ -1113,8 +1113,8 @@ Cell[TextData[ButtonBox["The content of lists",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "fc21000b-1ccd-4183-82a4-ad08ca093de3", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"505e035b-1945-4751-\
-8568-e3a251a6d1fe"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"2d351dc1-886b-40a5-\
+99f7-7d21603fd70c"],
 
 Cell[TextData[ButtonBox["Generation of lists",
  BaseStyle->"TOCSubsection",
@@ -1126,8 +1126,8 @@ Cell[TextData[ButtonBox["Generation of lists",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "a08efdb1-28e4-486a-8cb4-ef7be4e13518", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"590a2e58-3462-4145-\
-a59d-6c3b956515a1"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"c254c26b-8bcc-4b59-\
+b9f8-033c660abeaf"],
 
 Cell[TextData[ButtonBox["Generating a list by hand",
  BaseStyle->"TOCSubsubsection",
@@ -1139,8 +1139,8 @@ Cell[TextData[ButtonBox["Generating a list by hand",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "98b8b983-c39c-4b90-9733-910aec2ed6f3", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"9d7e7b6b-60e5-\
-489f-be6d-a4af154c0f04"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"7ccdd2ae-bc1d-\
+4364-891a-272df3eb6d00"],
 
 Cell[TextData[ButtonBox["Generation of lists of equidistant numbers by the \
 Range command",
@@ -1153,8 +1153,8 @@ Range command",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "038e8624-06a5-41e0-920f-5cfb26456fa8", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"219cae34-10ad-\
-4cb8-b562-3cac43849ceb"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"2f7e0324-642e-\
+426b-8af2-ac8c37a472b7"],
 
 Cell[TextData[ButtonBox["Generation of lists with the Table command",
  BaseStyle->"TOCSubsubsection",
@@ -1166,8 +1166,8 @@ Cell[TextData[ButtonBox["Generation of lists with the Table command",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "b9847a09-d3e2-429a-a777-68fbb92ea886", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"63240ee5-9f02-\
-412e-881d-96a3b8b3bec6"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"74550029-48a9-\
+466a-a9f1-892259f50535"],
 
 Cell[TextData[ButtonBox["A comment on universality of Range",
  BaseStyle->"TOCSubsubsection",
@@ -1179,8 +1179,8 @@ Cell[TextData[ButtonBox["A comment on universality of Range",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "e3b31785-b470-4c17-a8e9-96d239670d68", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"afdf912d-f7a9-\
-4082-ad0e-60f46d5cf61d"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"c09d43e0-7259-\
+411b-9089-15d977c5c95f"],
 
 Cell[TextData[ButtonBox["Generation of lists inside loops",
  BaseStyle->"TOCSubsubsection",
@@ -1192,8 +1192,8 @@ Cell[TextData[ButtonBox["Generation of lists inside loops",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "5865d26f-9031-4d70-a325-51c99e76892b", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"a65d6709-86db-\
-47e1-8a05-89dcd63ccc27"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"f7168705-66bc-\
+480f-a748-53f8237ab193"],
 
 Cell[TextData[ButtonBox["Internal (full) form of lists",
  BaseStyle->"TOCSubsection",
@@ -1205,8 +1205,8 @@ Cell[TextData[ButtonBox["Internal (full) form of lists",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "8114e080-fdf6-4ea1-8e99-47f45238a21c", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"d7cf55d6-9460-4cac-\
-81b1-33873db3838e"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"67e037c4-7f36-4320-\
+b9ae-e5978db14893"],
 
 Cell[TextData[ButtonBox["Working with lists and their parts",
  BaseStyle->"TOCSubsection",
@@ -1218,8 +1218,8 @@ Cell[TextData[ButtonBox["Working with lists and their parts",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "ec5685ef-6001-47d0-998b-3d52863ab502", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"f4df4d7f-f24a-4cb2-\
-8368-a8d0214553f8"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"1fbdd2dc-46c4-4654-\
+bbf8-e4d4520e39ce"],
 
 Cell[TextData[ButtonBox["List indexing and element extraction with the Part \
 command",
@@ -1232,8 +1232,8 @@ command",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "a1e6b2ce-e205-45c5-94fe-fa2497eb152f", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"fff945de-a26f-\
-46f6-9b54-e42e201f0fd6"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"efa1f9a1-0ee2-\
+43f6-9512-314efb290e10"],
 
 Cell[TextData[ButtonBox["Extract",
  BaseStyle->"TOCSubsubsection",
@@ -1245,8 +1245,8 @@ Cell[TextData[ButtonBox["Extract",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "55654bde-572a-4a63-9eeb-c83af4acacd4", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"ffd634c9-8d65-\
-444a-aba9-73bf27a0dc13"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"5afcd316-8187-\
+46f5-91a4-b4d1534fa867"],
 
 Cell[TextData[ButtonBox["Take and Drop",
  BaseStyle->"TOCSubsubsection",
@@ -1258,8 +1258,8 @@ Cell[TextData[ButtonBox["Take and Drop",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "de14a43d-9eb6-4da8-87a5-91b2b828b8ef", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"a3ed3847-05a8-\
-4df1-ac2d-4bcfa5f31256"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"5657338e-f6fd-\
+4899-9299-3a8aba0086af"],
 
 Cell[TextData[ButtonBox["First, Rest, Last and Most",
  BaseStyle->"TOCSubsubsection",
@@ -1271,8 +1271,8 @@ Cell[TextData[ButtonBox["First, Rest, Last and Most",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "8813451a-4d32-4631-b50f-99a24bab1f09", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"12ae2e05-f9e2-\
-448a-946c-dc26abc34b0e"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"e6faa358-5664-\
+41d5-9ef4-97fe7f2b1151"],
 
 Cell[TextData[ButtonBox["Length",
  BaseStyle->"TOCSubsubsection",
@@ -1284,8 +1284,8 @@ Cell[TextData[ButtonBox["Length",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "6a93351e-cf95-47ae-ae16-137251e2073a", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"4b75668e-dc3f-\
-481f-b502-e07273c17d48"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"6241626b-4d92-\
+42de-9355-0700dedae69c"],
 
 Cell[TextData[ButtonBox["Modification of list elements by direct indexing \
 (using Part)",
@@ -1298,8 +1298,8 @@ Cell[TextData[ButtonBox["Modification of list elements by direct indexing \
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "8962849f-4ed1-43a4-a39a-078778769476", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"36bfc05e-9091-\
-49eb-96a3-b745d2397a0e"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"dd7642c1-758a-\
+4817-a449-ab4383e08a27"],
 
 Cell[TextData[ButtonBox["ReplacePart",
  BaseStyle->"TOCSubsubsection",
@@ -1311,8 +1311,8 @@ Cell[TextData[ButtonBox["ReplacePart",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "748199af-d81b-4a3f-a504-9a94d188c383", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"0b8e8453-9e01-\
-4b9f-bb4f-201e3e0d6f75"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"3468b0bb-6908-\
+4df6-9035-8adc23f8157d"],
 
 Cell[TextData[ButtonBox["Position",
  BaseStyle->"TOCSubsubsection",
@@ -1324,8 +1324,8 @@ Cell[TextData[ButtonBox["Position",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "9181ef42-b336-4f48-b836-1fafaf46de0a", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"c15e9c63-60bf-\
-4955-a701-b1e28b43877e"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"f7dc8260-5dc9-\
+40ab-b4fb-1769a3feec9b"],
 
 Cell[TextData[ButtonBox["Adding elements to the list and removing them from \
 the list",
@@ -1338,8 +1338,8 @@ the list",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "1690f11e-bbfe-4b90-8d0f-64f3b5d1fc92", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"6d31e654-a7e3-4812-\
-a4b1-f59625b727e7"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"de5c2c5a-0b03-4b4f-\
+8e2d-fca08927cc9b"],
 
 Cell[TextData[ButtonBox["Append, Prepend, AppendTo and PrependTo",
  BaseStyle->"TOCSubsubsection",
@@ -1351,8 +1351,8 @@ Cell[TextData[ButtonBox["Append, Prepend, AppendTo and PrependTo",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "4e1f28b1-a5b9-453f-9c3d-d135d2595910", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"1a33869a-ca85-\
-4366-b854-a726e977020d"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"ae97ebd8-54ed-\
+401a-a051-91b27b28d6ee"],
 
 Cell[TextData[ButtonBox["Insert and Delete",
  BaseStyle->"TOCSubsubsection",
@@ -1364,8 +1364,8 @@ Cell[TextData[ButtonBox["Insert and Delete",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "547e4b0e-7f97-442d-8606-85e5b0cfb05a", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"35e793c3-4036-\
-4a43-a689-5bd10eab1f45"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"72aafbe1-6582-\
+480a-b38f-52203acfa153"],
 
 Cell[TextData[ButtonBox["Working with nested lists",
  BaseStyle->"TOCSubsection",
@@ -1377,8 +1377,8 @@ Cell[TextData[ButtonBox["Working with nested lists",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "840a7ae6-5313-4ca2-9af6-fd343162f49e", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"c10c805f-9738-4e23-\
-91c0-74aa4c1025f6"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"baa547e3-625a-4f09-\
+85d5-57eb8c044627"],
 
 Cell[TextData[ButtonBox["Partition",
  BaseStyle->"TOCSubsubsection",
@@ -1390,8 +1390,8 @@ Cell[TextData[ButtonBox["Partition",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "2aa8a54e-1b2a-4ad1-96de-32855fc48a42", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"d2516ea7-b638-\
-4d65-ac4f-b134ab9e0caa"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"917c465f-75cc-\
+44ae-8a01-69295357f802"],
 
 Cell[TextData[ButtonBox["Transpose",
  BaseStyle->"TOCSubsubsection",
@@ -1403,8 +1403,8 @@ Cell[TextData[ButtonBox["Transpose",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "f02450c7-305e-45b4-b7bf-ba165f01ba0e", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"c92dde38-0698-\
-4d06-830d-8166782bf3ac"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"c9ff0433-bdab-\
+4415-ae88-2b8479585545"],
 
 Cell[TextData[ButtonBox["Flatten",
  BaseStyle->"TOCSubsubsection",
@@ -1416,8 +1416,8 @@ Cell[TextData[ButtonBox["Flatten",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "66b4aeb0-9862-4dc0-b456-82e836dfbe48", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"984d2c4b-bf2f-\
-4614-a588-d81ab22e9e61"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"9c92a71d-70fb-\
+476a-acc7-cef9536110f7"],
 
 Cell[TextData[ButtonBox["Working with several lists",
  BaseStyle->"TOCSubsection",
@@ -1429,10 +1429,10 @@ Cell[TextData[ButtonBox["Working with several lists",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "5a4fb234-5bca-4781-bdd9-ebfb5d31b5b6", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"474dedea-b58a-4e4e-\
-9eb8-852a3a6eb1cd"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"08c67d98-ecf6-4322-\
+87e6-0af7eac3b2c8"],
 
-Cell[TextData[ButtonBox["The Join command",
+Cell[TextData[ButtonBox["Join",
  BaseStyle->"TOCSubsubsection",
  Evaluator->Automatic,
  ButtonFunction:>
@@ -1442,10 +1442,10 @@ Cell[TextData[ButtonBox["The Join command",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "1223e83a-7f3a-4884-9206-95efed1c98a1", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"8e325227-05e9-\
-4012-b24f-1d162adbdf93"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"b776f014-75a4-\
+4aa2-9c66-76bb2cef0bcd"],
 
-Cell[TextData[ButtonBox["The Intersection command",
+Cell[TextData[ButtonBox["Intersection",
  BaseStyle->"TOCSubsubsection",
  Evaluator->Automatic,
  ButtonFunction:>
@@ -1455,10 +1455,10 @@ Cell[TextData[ButtonBox["The Intersection command",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "d9c635b3-77d0-4102-b61e-65a1365cddcc", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"bed46d14-428b-\
-405b-8f1c-c6a10548f35a"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"0aefec85-464f-\
+47a2-aae8-e58f5082d260"],
 
-Cell[TextData[ButtonBox["The Complement command",
+Cell[TextData[ButtonBox["Complement",
  BaseStyle->"TOCSubsubsection",
  Evaluator->Automatic,
  ButtonFunction:>
@@ -1468,8 +1468,8 @@ Cell[TextData[ButtonBox["The Complement command",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "2fea1baa-2958-45f4-86cc-2766266297e5", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"2695328f-f771-\
-4cb5-bf1d-63842c120bda"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"fda49313-31ae-\
+4030-806e-007252b0d909"],
 
 Cell[TextData[ButtonBox["Functions related to list sorting",
  BaseStyle->"TOCSubsection",
@@ -1481,10 +1481,10 @@ Cell[TextData[ButtonBox["Functions related to list sorting",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "d203352b-b075-484d-8808-ab3446047f68", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"065e27f4-8042-4eab-\
-9b27-48bffaf303ef"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"f8ccb1d3-9371-4a89-\
+b6b1-e939fffae12b"],
 
-Cell[TextData[ButtonBox["The Sort command",
+Cell[TextData[ButtonBox["Sort",
  BaseStyle->"TOCSubsubsection",
  Evaluator->Automatic,
  ButtonFunction:>
@@ -1494,10 +1494,10 @@ Cell[TextData[ButtonBox["The Sort command",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "84420316-ae38-4184-a63c-fcd325891b06", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"b3cc2705-811b-\
-46f7-b5cf-76a402749065"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"66cb45ce-7f92-\
+44be-811a-db960091d4fe"],
 
-Cell[TextData[ButtonBox["The Union command",
+Cell[TextData[ButtonBox["Union",
  BaseStyle->"TOCSubsubsection",
  Evaluator->Automatic,
  ButtonFunction:>
@@ -1507,10 +1507,10 @@ Cell[TextData[ButtonBox["The Union command",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "f939b970-f25f-41c1-b6bf-9beeac21eafd", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"35ab5c98-7aad-\
-4f07-b7a5-7d1f152fe015"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"90d58d0b-6f1f-\
+4812-b5e0-b6d2b21c076f"],
 
-Cell[TextData[ButtonBox["The Split command",
+Cell[TextData[ButtonBox["Split",
  BaseStyle->"TOCSubsubsection",
  Evaluator->Automatic,
  ButtonFunction:>
@@ -1520,8 +1520,8 @@ Cell[TextData[ButtonBox["The Split command",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "9643fc8f-bb04-4827-af80-a26a67afb378", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"aaccb7b5-f507-\
-4b25-b506-50aed302baff"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"bd16c642-85f9-\
+4174-abf8-a060339291bd"],
 
 Cell[TextData[ButtonBox["Summary",
  BaseStyle->"TOCSubsection",
@@ -1533,8 +1533,8 @@ Cell[TextData[ButtonBox["Summary",
         NotebookDirectory[], "MPAAI-3-Lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "a4d952f1-9a76-4ce5-ad6b-f8e65dad856f", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"45f308b8-8845-4c1b-\
-961c-ccf99c8ddc5a"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"62e4ea14-6d36-422e-\
+82a9-660bfb84bd80"],
 
 Cell[TextData[ButtonBox["Rules, patters and functions",
  BaseStyle->"TOCSection",
@@ -1546,8 +1546,8 @@ Cell[TextData[ButtonBox["Rules, patters and functions",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "ab1e0e41-9b8d-48e3-9e22-95ddddf79b73", All,
-      ExpressionUUID]]]], "TOCSection",ExpressionUUID->"dbf9cf3a-bd07-4df3-\
-ab8b-70fa1bbd064f"],
+      ExpressionUUID]]]], "TOCSection",ExpressionUUID->"3798a948-3316-4c33-\
+9f51-7f18702c7eb0"],
 
 Cell[TextData[ButtonBox["Introduction",
  BaseStyle->"TOCSubsection",
@@ -1559,8 +1559,8 @@ Cell[TextData[ButtonBox["Introduction",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "cd559798-99c6-4816-9623-4454de32afeb", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"da3c14b0-185a-4808-\
-b3b9-63ec278a032d"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"03abb62c-0b21-4de5-\
+9e0c-16421325305d"],
 
 Cell[TextData[ButtonBox["Rules and patterns",
  BaseStyle->"TOCSubsection",
@@ -1572,10 +1572,10 @@ Cell[TextData[ButtonBox["Rules and patterns",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "257fd94d-9b99-490d-949c-a17523e36c35", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"51e33d12-03fb-4441-\
-980c-e990cbc89970"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"acc0fb17-6ea7-4435-\
+8e13-e397305b5cab"],
 
-Cell[TextData[ButtonBox["Rule, RuleDelayed, Replace and ReplaceAll commands",
+Cell[TextData[ButtonBox["Rule, RuleDelayed, Replace and ReplaceAll",
  BaseStyle->"TOCSubsubsection",
  Evaluator->Automatic,
  ButtonFunction:>
@@ -1585,8 +1585,8 @@ Cell[TextData[ButtonBox["Rule, RuleDelayed, Replace and ReplaceAll commands",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "9d0a99ef-df5a-433a-8673-b893c38c619e", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"6c808b42-0027-\
-4a24-b808-bfe038ef4212"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"4116d610-d5b6-\
+438e-80c0-4e929d3f04cf"],
 
 Cell[TextData[ButtonBox["Rule substitution is not commutative",
  BaseStyle->"TOCSubsubsection",
@@ -1598,8 +1598,8 @@ Cell[TextData[ButtonBox["Rule substitution is not commutative",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "95d18353-1193-4fb7-aab0-865ccb031450", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"1ad1dc36-5302-\
-49f7-adf6-f74cdc630c26"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"8ccc4faa-fdf1-\
+4731-879e-82a38d445a8b"],
 
 Cell[TextData[ButtonBox["An interplay between rules and evaluation process",
  BaseStyle->"TOCSubsubsection",
@@ -1611,8 +1611,8 @@ Cell[TextData[ButtonBox["An interplay between rules and evaluation process",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "949ae218-618e-4980-b5b6-577dbcfb6c33", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"cc3b6292-cf21-\
-455d-8403-629cbb7ec7f9"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"9d2628e2-2ddd-\
+4b96-b46e-038f7b174bc8"],
 
 Cell[TextData[ButtonBox["Rules and simple (unrestricted) patterns",
  BaseStyle->"TOCSubsubsection",
@@ -1624,11 +1624,10 @@ Cell[TextData[ButtonBox["Rules and simple (unrestricted) patterns",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "9894d69c-8880-4842-a90c-ac2960d417f5", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"ebe0ad21-0602-\
-40e7-a08e-326d4312363f"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"b6dcdac4-a87b-\
+4e80-822e-b47d8e233231"],
 
-Cell[TextData[ButtonBox["Applying rules repeatedly - the ReplaceRepeated \
-function",
+Cell[TextData[ButtonBox["Applying rules repeatedly - ReplaceRepeated",
  BaseStyle->"TOCSubsubsection",
  Evaluator->Automatic,
  ButtonFunction:>
@@ -1638,8 +1637,8 @@ function",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "2ed84018-8d1a-4b31-b3a3-cd025bc9cb02", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"b3bdeeec-906b-\
-49ae-8939-2d015e8e4f10"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"4eb9493e-c112-\
+459d-aab2-423cc44758c8"],
 
 Cell[TextData[ButtonBox["Conditional (restricted) patterns",
  BaseStyle->"TOCSubsubsection",
@@ -1651,8 +1650,8 @@ Cell[TextData[ButtonBox["Conditional (restricted) patterns",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "09784536-1a61-4611-8aec-f64e489a6923", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"448374dc-59e0-\
-47e5-b841-76711b681c06"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"0e100ead-d1c5-\
+4711-98c4-9934a887c20b"],
 
 Cell[TextData[ButtonBox["Alternative patterns",
  BaseStyle->"TOCSubsubsection",
@@ -1664,11 +1663,10 @@ Cell[TextData[ButtonBox["Alternative patterns",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "2e0a85f0-8c16-48a4-b30b-7578a7662ad6", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"042c1dc3-29ef-\
-4327-b55b-009d94c42d6f"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"8ee4e6ba-117b-\
+48fd-93ab-cc35cb2b6f12"],
 
-Cell[TextData[ButtonBox["Giving names to entire patterns - the Pattern \
-command",
+Cell[TextData[ButtonBox["Giving names to entire patterns",
  BaseStyle->"TOCSubsubsection",
  Evaluator->Automatic,
  ButtonFunction:>
@@ -1678,8 +1676,8 @@ command",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "ccba9749-6a1a-4e5d-84c0-1671f02fb3f0", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"8e9b26bc-408a-\
-49e7-8267-94e52f260035"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"a6c880d2-762b-\
+4564-b415-8c424fca24ab"],
 
 Cell[TextData[ButtonBox["Optional patterns",
  BaseStyle->"TOCSubsubsection",
@@ -1691,8 +1689,8 @@ Cell[TextData[ButtonBox["Optional patterns",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "bcca35df-190a-491d-898b-87e231cbb5a4", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"357699a6-4b0b-\
-465c-88d3-c8a80323d9c6"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"68ac4d9d-5843-\
+4b64-87da-310539cedfb7"],
 
 Cell[TextData[ButtonBox["Repeated patterns",
  BaseStyle->"TOCSubsubsection",
@@ -1704,8 +1702,8 @@ Cell[TextData[ButtonBox["Repeated patterns",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "e4c2778c-62e3-446b-8d1a-648aa8804d05", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"0f831551-8eb5-\
-4ea7-8982-b15ebc19c1f1"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"353c2aee-da6d-\
+4ed6-abee-cb02df625edc"],
 
 Cell[TextData[ButtonBox["Built-in functions that use patterns",
  BaseStyle->"TOCSubsection",
@@ -1717,8 +1715,8 @@ Cell[TextData[ButtonBox["Built-in functions that use patterns",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "43e48320-95a9-4e24-98d7-c4968cba4e22", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"8d002d66-7443-4234-\
-bb72-c9a880770c9f"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"4eda7c2c-12fe-40b0-\
+979b-410b6773332e"],
 
 Cell[TextData[ButtonBox["Cases",
  BaseStyle->"TOCSubsubsection",
@@ -1730,8 +1728,8 @@ Cell[TextData[ButtonBox["Cases",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "aa02dc52-d979-450c-aa2f-c73e8bfdad8c", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"2d9c7ce5-733e-\
-46e8-bbff-0a834d949b1a"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"20251f6a-6d6d-\
+470b-b5ce-5555fa3121b0"],
 
 Cell[TextData[ButtonBox["DeleteCases",
  BaseStyle->"TOCSubsubsection",
@@ -1743,8 +1741,8 @@ Cell[TextData[ButtonBox["DeleteCases",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "f1d97d10-165c-4ff7-8f9f-17c3dbccf6a7", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"93753db9-2dad-\
-4a11-a565-ec98c5588cf2"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"90c4d388-535c-\
+4895-bf30-b45788c01a97"],
 
 Cell[TextData[ButtonBox["MemberQ",
  BaseStyle->"TOCSubsubsection",
@@ -1756,10 +1754,10 @@ Cell[TextData[ButtonBox["MemberQ",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "854907db-69b8-444f-8ca4-342ec52e5eb1", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"826ed9ec-8da1-\
-49df-ad1a-5c1767dcb9cd"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"ee40f868-6218-\
+437d-b328-2be37a664e8d"],
 
-Cell[TextData[ButtonBox["Position - a second look",
+Cell[TextData[ButtonBox["Position",
  BaseStyle->"TOCSubsubsection",
  Evaluator->Automatic,
  ButtonFunction:>
@@ -1769,8 +1767,8 @@ Cell[TextData[ButtonBox["Position - a second look",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "2dca1705-fe2d-438f-9109-035cbcc67a62", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"b7cd49e6-3032-\
-4acc-b1b6-98367efe7cb0"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"78eef5f7-38e1-\
+47df-b85a-7222ed50961a"],
 
 Cell[TextData[ButtonBox["Count",
  BaseStyle->"TOCSubsubsection",
@@ -1782,8 +1780,8 @@ Cell[TextData[ButtonBox["Count",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "00e50bef-6904-425e-a1db-4d7719d6ff7d", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"a119736b-6e27-\
-4cd3-a074-25b026ca3571"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"49258094-392f-\
+4462-8947-158fe9d8eefc"],
 
 Cell[TextData[ButtonBox["FreeQ",
  BaseStyle->"TOCSubsubsection",
@@ -1795,8 +1793,8 @@ Cell[TextData[ButtonBox["FreeQ",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "05605aca-b7ce-418b-b1a4-bdd72fc35bc6", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"5eb05481-c39e-\
-4a1c-b91c-aa8dc53d81a5"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"11706dba-274b-\
+4453-bf08-ceea57c4c062"],
 
 Cell[TextData[ButtonBox["A note on the Heads option",
  BaseStyle->"TOCSubsubsection",
@@ -1808,8 +1806,8 @@ Cell[TextData[ButtonBox["A note on the Heads option",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "567c5a48-04f4-4c12-9b67-5ce0bcfd95b5", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"1fce6bd4-5ac6-\
-42b4-b9a1-5a5562d6d2b1"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"e3da9c97-c323-\
+4438-88d8-eb403a70b424"],
 
 Cell[TextData[ButtonBox["A more complicated example - finding subsequences",
  BaseStyle->"TOCSubsubsection",
@@ -1821,8 +1819,8 @@ Cell[TextData[ButtonBox["A more complicated example - finding subsequences",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "4da33684-ef88-4569-995d-7a04ef19e578", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"16b2dbc2-c413-\
-4935-819b-f405ecc6f576"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"733d5ae6-b6f3-\
+4de5-befa-b140a717b5cb"],
 
 Cell[TextData[ButtonBox["Functions - starting examples and syntax",
  BaseStyle->"TOCSubsection",
@@ -1834,8 +1832,8 @@ Cell[TextData[ButtonBox["Functions - starting examples and syntax",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "065cd662-2ab8-45eb-85be-ea5fb5bc4086", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"2f3e10db-363a-4705-\
-99dc-90d5d580509b"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"4b80f3ad-99df-4b9c-\
+a382-269e03b3244b"],
 
 Cell[TextData[ButtonBox["A definition and a simple example",
  BaseStyle->"TOCSubsubsection",
@@ -1847,8 +1845,8 @@ Cell[TextData[ButtonBox["A definition and a simple example",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "1a40e94a-ea90-44cf-81cf-fa5e953bd031", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"09d94fe3-af4a-\
-4299-8e9c-917075b923fb"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"dd432922-6da7-\
+4e7a-baa9-9210da700cec"],
 
 Cell[TextData[ButtonBox["More on function names and evaluation surprises",
  BaseStyle->"TOCSubsubsection",
@@ -1860,8 +1858,8 @@ Cell[TextData[ButtonBox["More on function names and evaluation surprises",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "54e60f1f-dff4-4512-aebb-8238383804f7", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"f48bb727-af7c-\
-4d5c-aa90-2790d123b6d1"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"feca63be-bb20-\
+493d-91f3-b0115dae943d"],
 
 Cell[TextData[ButtonBox["On the necessity of patterns",
  BaseStyle->"TOCSubsubsection",
@@ -1873,8 +1871,8 @@ Cell[TextData[ButtonBox["On the necessity of patterns",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "cad912e4-7f59-448f-bc82-4017128aa018", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"7e1dafa9-63bc-\
-4e76-898e-0557e373cfa6"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"f1340d2b-938c-\
+4665-9531-15629a05fceb"],
 
 Cell[TextData[ButtonBox["More on the correct syntax of the function calls",
  BaseStyle->"TOCSubsubsection",
@@ -1886,8 +1884,8 @@ Cell[TextData[ButtonBox["More on the correct syntax of the function calls",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "b4fc0f32-2b3a-4291-aeba-a3482bf42c63", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"4076fd9c-3e2e-\
-4d47-b962-eee1ad270c4b"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"1634008e-2025-\
+4a5d-ae7c-9ae1102d182b"],
 
 Cell[TextData[ButtonBox["On function definitions and assignment operators",
  BaseStyle->"TOCSubsubsection",
@@ -1899,8 +1897,8 @@ Cell[TextData[ButtonBox["On function definitions and assignment operators",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "5e8adaa6-5baf-4d27-8e7a-cf2dfc7bd9a9", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"dc0ed3f4-1ac1-\
-48de-bb81-79a338516e97"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"3f5c2cad-5ee0-\
+403b-892d-fdf3e9862089"],
 
 Cell[TextData[ButtonBox["Assigning values to function symbols (names)",
  BaseStyle->"TOCSubsubsection",
@@ -1912,8 +1910,8 @@ Cell[TextData[ButtonBox["Assigning values to function symbols (names)",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "5b8e87a2-b0af-4ebc-92ba-ac7eebd7d091", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"a4bf60ab-2b64-\
-49b1-b11b-d88df98d3d74"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"d7db4d99-0f26-\
+4d26-8262-41463df01aae"],
 
 Cell[TextData[ButtonBox["Advanced topic: parameter passing",
  BaseStyle->"TOCSubsubsection",
@@ -1925,8 +1923,8 @@ Cell[TextData[ButtonBox["Advanced topic: parameter passing",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "13c766c3-a4ef-4976-b20d-d241dc8532af", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"d3b485bb-6c84-\
-4c5b-979d-828e84f8b83f"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"da0a861f-693a-\
+4092-8c68-c6c9a88c8447"],
 
 Cell[TextData[ButtonBox["Function calls: prefix and postfix syntax",
  BaseStyle->"TOCSubsubsection",
@@ -1938,8 +1936,8 @@ Cell[TextData[ButtonBox["Function calls: prefix and postfix syntax",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "f6f7cba7-c2cc-4ac3-bdff-1aee634933bd", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"8897e261-4ebd-\
-4866-9272-0aae524adb77"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"f03d8477-22fd-\
+4f30-822d-b6459c7e7e48"],
 
 Cell[TextData[ButtonBox["Function name conventions",
  BaseStyle->"TOCSubsubsection",
@@ -1951,8 +1949,8 @@ Cell[TextData[ButtonBox["Function name conventions",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "2a14c8fe-35a2-4cac-8f73-fea8bdb694c5", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"c09acca7-429f-\
-4005-bae0-3a5ec4539eee"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"0c908e15-9872-\
+46ae-87fe-7b54c22605a5"],
 
 Cell[TextData[ButtonBox["Examples of functions of a single argument",
  BaseStyle->"TOCSubsection",
@@ -1964,8 +1962,8 @@ Cell[TextData[ButtonBox["Examples of functions of a single argument",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "59cda628-e95a-4334-9b97-98765b117125", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"ba2c1c67-d5e3-434d-\
-96bb-67afb84162b8"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"afb99fe8-9bd1-4079-\
+9b67-9d7bf0025faf"],
 
 Cell[TextData[ButtonBox["Example: Integer part of a number",
  BaseStyle->"TOCSubsubsection",
@@ -1977,8 +1975,8 @@ Cell[TextData[ButtonBox["Example: Integer part of a number",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "f82d6289-90d4-4517-a5a9-f4ea01d870c6", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"465a6844-65ac-\
-478e-a3b3-66f1960280a7"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"6c12ec5f-550e-\
+4914-9918-19ed278593f4"],
 
 Cell[TextData[ButtonBox["What we will not call a function definition",
  BaseStyle->"TOCSubsubsection",
@@ -1990,8 +1988,8 @@ Cell[TextData[ButtonBox["What we will not call a function definition",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "74efea8e-ed6f-4f85-a7cb-62316ce9eee1", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"2ac155b0-e143-\
-46fe-9bb0-33fca6e54076"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"3c81dc77-4f9e-\
+44a0-a270-e829429d7a90"],
 
 Cell[TextData[ButtonBox["Example: some trigonometric function",
  BaseStyle->"TOCSubsubsection",
@@ -2003,8 +2001,8 @@ Cell[TextData[ButtonBox["Example: some trigonometric function",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "70de6487-f80a-4643-bb46-a66c4cc35c63", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"cb2044b0-77a9-\
-40a5-9664-fa07e1d0d0d3"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"1af1080a-9aa9-\
+4817-81a5-45ed99f2d155"],
 
 Cell[TextData[ButtonBox["Example: a function to reverse a string of symbols",
  BaseStyle->"TOCSubsubsection",
@@ -2016,8 +2014,8 @@ Cell[TextData[ButtonBox["Example: a function to reverse a string of symbols",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "4309f065-275f-4f4b-b39d-5baf0dd37ab4", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"5974c91a-858f-\
-4119-809b-7fc09270729a"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"54020919-8e74-\
+4bf7-980b-80a2b90655f0"],
 
 Cell[TextData[ButtonBox["Example: A function of function",
  BaseStyle->"TOCSubsubsection",
@@ -2029,8 +2027,8 @@ Cell[TextData[ButtonBox["Example: A function of function",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "c5e67af3-03cf-4a84-b302-02f9b672fff9", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"6b9d13dc-665c-\
-424a-a17a-907645d53b2b"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"a060c85a-bc6a-\
+4e11-ab2a-6cfa26c7ea28"],
 
 Cell[TextData[ButtonBox["Example: a function which exchanges another function \
 and its argument",
@@ -2043,8 +2041,8 @@ and its argument",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "847c42ea-1ca2-40ce-9256-bfd9c99c0b35", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"7a7c127e-5b7f-\
-4d9a-bd26-a8aa59f3755a"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"f37b497d-4d91-\
+47d9-b726-7532dc371bb6"],
 
 Cell[TextData[ButtonBox["Example: a recursive factorial function",
  BaseStyle->"TOCSubsubsection",
@@ -2056,8 +2054,8 @@ Cell[TextData[ButtonBox["Example: a recursive factorial function",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "4896c83d-60bf-473e-bcfc-4b6cb05288ba", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"dfa6c179-eb7b-\
-4134-8a7f-94d09e091ce4"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"39d25225-a016-\
+498b-9cbb-c06966b0f75d"],
 
 Cell[TextData[ButtonBox["Infinite iteration and recursion traps",
  BaseStyle->"TOCSubsubsection",
@@ -2069,8 +2067,8 @@ Cell[TextData[ButtonBox["Infinite iteration and recursion traps",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "2adad933-2781-4856-b142-01b9ccae7c4f", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"0ed3ece6-92f8-\
-44bd-a362-83634b98e55b"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"eba7cbde-5a85-\
+4158-bae1-85c7b8aa83e7"],
 
 Cell[TextData[ButtonBox["An esoteric example: a self-destructive printing \
 function",
@@ -2083,8 +2081,8 @@ function",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "ffa066fe-d611-4ab3-8faf-a74dee8f91f9", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"95c34948-e244-\
-4fce-b1fd-92ce514c6f0f"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"29a66440-855d-\
+4099-a9cb-c980a92cbce8"],
 
 Cell[TextData[ButtonBox["Mathematical functions and programming functions",
  BaseStyle->"TOCSubsubsection",
@@ -2096,8 +2094,8 @@ Cell[TextData[ButtonBox["Mathematical functions and programming functions",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "3146ebfb-a785-4970-8bd5-8e27bbaa7fd0", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"7215a91d-80d1-\
-40e5-847f-7f911ee04bf7"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"f848c74c-db68-\
+4767-9a93-031942505f18"],
 
 Cell[TextData[ButtonBox["Functions of several variables",
  BaseStyle->"TOCSubsection",
@@ -2109,8 +2107,8 @@ Cell[TextData[ButtonBox["Functions of several variables",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "3ee283e2-c15f-4b1d-ae99-7a35ffd97773", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"eb19e9dc-2a08-4723-\
-a468-90a09c119c50"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"c878cf43-0e9a-4fa7-\
+b43b-9739af33cd81"],
 
 Cell[TextData[ButtonBox["Starting examples and a definition",
  BaseStyle->"TOCSubsubsection",
@@ -2122,8 +2120,8 @@ Cell[TextData[ButtonBox["Starting examples and a definition",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "2626316d-aa8f-4668-a4f8-5738826d45b2", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"d63b62d4-44df-\
-4849-bcc7-b7ad56c0a2fa"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"c0636088-8d1e-\
+479e-97af-899fccb5850f"],
 
 Cell[TextData[ButtonBox["Putting constraints on the arguments",
  BaseStyle->"TOCSubsubsection",
@@ -2135,8 +2133,8 @@ Cell[TextData[ButtonBox["Putting constraints on the arguments",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "3afed456-ba2b-4ec7-8501-3aef3cdce0d0", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"7330fd11-6b95-\
-41aa-8320-95e2abc3de73"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"7bef8b90-7531-\
+47a9-a5ec-267444267453"],
 
 Cell[TextData[ButtonBox["Examples of functions of several variables \
 (arguments)",
@@ -2149,8 +2147,8 @@ Cell[TextData[ButtonBox["Examples of functions of several variables \
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "0e747866-ba7d-4150-8b73-63f3da8d0c41", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"493ee69b-f483-\
-4fea-92fb-8860e6c11729"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"ffb3455d-2b40-\
+4b82-8470-bbf628484017"],
 
 Cell[TextData[ButtonBox["Functions with variable number of arguments",
  BaseStyle->"TOCSubsubsection",
@@ -2162,8 +2160,8 @@ Cell[TextData[ButtonBox["Functions with variable number of arguments",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "c52481bd-164f-46cf-a266-2a38c0485ec0", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"d15f1966-7855-\
-4d85-8e7b-04f16983a077"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"aedae79e-626a-\
+4d94-9c6e-cc2520f499aa"],
 
 Cell[TextData[ButtonBox["Functions with multiple definitions",
  BaseStyle->"TOCSubsection",
@@ -2175,8 +2173,8 @@ Cell[TextData[ButtonBox["Functions with multiple definitions",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "e311e2a1-7eb2-433b-be71-aed9118a4f01", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"af3efbed-a035-4c73-\
-8c7b-f9ae8122b3a8"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"e5a076ee-7f3c-483b-\
+9461-2195e25b4e6a"],
 
 Cell[TextData[ButtonBox["Example: a discontinuous function",
  BaseStyle->"TOCSubsubsection",
@@ -2188,8 +2186,8 @@ Cell[TextData[ButtonBox["Example: a discontinuous function",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "138351db-c99f-4566-bc67-29a159912ed2", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"f235c87f-d260-\
-4503-b327-6f8c7b4f77e9"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"e3cacc55-4f67-\
+4081-9c41-a308632a1587"],
 
 Cell[TextData[ButtonBox["Adding more definitions",
  BaseStyle->"TOCSubsubsection",
@@ -2201,8 +2199,8 @@ Cell[TextData[ButtonBox["Adding more definitions",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "8fea059e-6094-424c-ab58-1c9507ff94e5", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"44ad393c-c822-\
-49b3-a00f-d416518b54b8"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"31127e2e-fe23-\
+4882-9c63-0cfa0d5e2f88"],
 
 Cell[TextData[ButtonBox["Changing definitions selectively",
  BaseStyle->"TOCSubsubsection",
@@ -2214,8 +2212,8 @@ Cell[TextData[ButtonBox["Changing definitions selectively",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "a39aab1f-bfd8-4133-9666-1b9ab75c461a", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"eeb689cb-ebbe-\
-4b99-bb22-5785e2b56bd2"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"33e31efa-b2f2-\
+471b-a819-e9b19a6dd523"],
 
 Cell[TextData[ButtonBox["Warning: a common mistake",
  BaseStyle->"TOCSubsubsection",
@@ -2227,8 +2225,8 @@ Cell[TextData[ButtonBox["Warning: a common mistake",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "72f9240f-2661-46dc-995e-7cabd4587d8f", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"be97f4cb-7b05-\
-4c41-b88e-2f0094e07eab"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"c06057e0-c8a4-\
+4fe7-8709-7521c3f6f099"],
 
 Cell[TextData[ButtonBox["Selective removal of the definitions",
  BaseStyle->"TOCSubsubsection",
@@ -2240,8 +2238,8 @@ Cell[TextData[ButtonBox["Selective removal of the definitions",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "463dcea1-d86f-4595-827a-9c35ab06dcba", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"85910fbe-b82e-\
-4b7d-95f2-f23886996777"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"c319d130-63e0-\
+4403-8af6-c1782e0e8015"],
 
 Cell[TextData[ButtonBox["Case study: changing the weights of words",
  BaseStyle->"TOCSubsubsection",
@@ -2253,8 +2251,8 @@ Cell[TextData[ButtonBox["Case study: changing the weights of words",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "0f39afb0-54b3-49f6-8d7d-07f77c4bb8d0", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"a0db34b6-460c-\
-4e1e-9929-000f25e9167b"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"e26b9740-e573-\
+4b82-be55-be9de0a9e8a2"],
 
 Cell[TextData[ButtonBox["Larger functions, local variables and the code \
 modularization",
@@ -2267,8 +2265,8 @@ modularization",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "2476424b-01fd-4be5-9672-38f9d5796d7f", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"6cab69c1-56ed-4722-\
-afbb-27ca231908d1"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"eabd34ad-40d8-4dad-\
+88e3-85593387eb71"],
 
 Cell[TextData[ButtonBox["Module",
  BaseStyle->"TOCSubsubsection",
@@ -2280,8 +2278,8 @@ Cell[TextData[ButtonBox["Module",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "3b76ee7d-ff0c-48fa-bebf-4ecebd7f560f", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"6a6d00d5-e794-\
-4aca-a38e-b656743cf2fb"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"ab46c6da-378d-\
+4e95-93fc-bed94eea8c13"],
 
 Cell[TextData[ButtonBox["Block",
  BaseStyle->"TOCSubsubsection",
@@ -2293,8 +2291,8 @@ Cell[TextData[ButtonBox["Block",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "d60d815a-16ed-454d-ad9c-100951747856", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"528c6275-c2b6-\
-45f9-a63a-5f9a067a660c"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"6acddcfe-2b51-\
+41fd-ae5a-ad0ad7514477"],
 
 Cell[TextData[ButtonBox["With",
  BaseStyle->"TOCSubsubsection",
@@ -2306,8 +2304,8 @@ Cell[TextData[ButtonBox["With",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "7196450f-7f79-4708-9fea-84a275890224", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"22ddeeb5-9c51-\
-4bb1-b944-842a288882d7"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"44f31672-782c-\
+4234-ac6f-0d43db7ca848"],
 
 Cell[TextData[ButtonBox["Function attributes",
  BaseStyle->"TOCSubsection",
@@ -2319,8 +2317,8 @@ Cell[TextData[ButtonBox["Function attributes",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "d6a17d81-69a8-4895-be76-62268df1b3c6", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"5feb8708-6a53-48f0-\
-80f8-fc624a429429"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"c14069e9-d46a-47c4-\
+bfbb-f5f2301751af"],
 
 Cell[TextData[ButtonBox["Listable attribute and SetAttributes command",
  BaseStyle->"TOCSubsubsection",
@@ -2332,8 +2330,8 @@ Cell[TextData[ButtonBox["Listable attribute and SetAttributes command",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "9c5e1f3f-5f2a-4d24-a488-a311a38a7997", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"1b564b1f-7661-\
-466b-a6ce-65c9c18a9aae"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"83fe6327-dbc8-\
+4984-a724-e31c3b0e16aa"],
 
 Cell[TextData[ButtonBox["Clearing Attributes - the ClearAll command",
  BaseStyle->"TOCSubsubsection",
@@ -2345,8 +2343,8 @@ Cell[TextData[ButtonBox["Clearing Attributes - the ClearAll command",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "1bf98c1c-aff9-4e4a-9130-073726555782", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"aa1e60a1-4937-\
-4a50-b62a-cb21c5ee699c"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"325b99cb-a61f-\
+42e7-8873-f0df52b6e33d"],
 
 Cell[TextData[ButtonBox["Orderless attribute",
  BaseStyle->"TOCSubsubsection",
@@ -2358,8 +2356,8 @@ Cell[TextData[ButtonBox["Orderless attribute",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "b516a6c9-6984-45e7-b883-03561ca7aae5", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"699fccd7-9c9d-\
-4de3-9fda-9ba2bfa933f0"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"c9f2a4a2-031f-\
+47da-9f0f-5edf80928df6"],
 
 Cell[TextData[ButtonBox["Flat attribute",
  BaseStyle->"TOCSubsubsection",
@@ -2371,8 +2369,8 @@ Cell[TextData[ButtonBox["Flat attribute",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "3a408d91-ae4d-4d45-a8f1-32da96a6bd96", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"82d21420-1c62-\
-4d01-aee8-d749601cd352"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"17a3d49a-13e9-\
+48f9-a8ce-23ceea6dc406"],
 
 Cell[TextData[ButtonBox["Protected attribute",
  BaseStyle->"TOCSubsubsection",
@@ -2384,8 +2382,8 @@ Cell[TextData[ButtonBox["Protected attribute",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "4d59d50e-f532-46bf-b156-263a90a45aa8", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"4d9dc964-7632-\
-48b9-a82c-1cd4a36bead3"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"c11c663b-948c-\
+47f9-a549-83ef6236be0f"],
 
 Cell[TextData[ButtonBox["Attributes are properties of symbols",
  BaseStyle->"TOCSubsubsection",
@@ -2397,8 +2395,8 @@ Cell[TextData[ButtonBox["Attributes are properties of symbols",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "8ef247d1-826e-4050-9be5-b2784d6e965c", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"6dbe6b57-ba0f-\
-4d84-96a7-f44b91b5496c"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"1800623e-75ad-\
+4da3-8e80-d5538702d2e7"],
 
 Cell[TextData[ButtonBox["Attributes HoldFirst, HoldRest and HoldAll",
  BaseStyle->"TOCSubsubsection",
@@ -2410,8 +2408,8 @@ Cell[TextData[ButtonBox["Attributes HoldFirst, HoldRest and HoldAll",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "36d8df3e-18b0-4aef-a3c8-07f89e041dea", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"a5b71341-3657-\
-4871-8faf-30a8e464076b"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"0a49fecc-ceeb-\
+4398-b3d2-608832dc8300"],
 
 Cell[TextData[ButtonBox["Attributes and the evaluation process",
  BaseStyle->"TOCSubsubsection",
@@ -2423,8 +2421,8 @@ Cell[TextData[ButtonBox["Attributes and the evaluation process",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "3c5fa788-5b6d-4dcb-b9d5-3faecdea47ba", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"3857c892-7165-\
-45fd-8d52-95f5e8490365"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"d26a217c-bb4b-\
+4460-b116-b5ef290aaa32"],
 
 Cell[TextData[ButtonBox["Advanced topic: parameter passing and local \
 variables",
@@ -2437,8 +2435,8 @@ variables",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "c01b7c78-72a2-4218-b365-7558e81134ed", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"bf911e2f-732f-4f30-\
-97d7-b3a4106c4388"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"1c8bc002-64f7-40b6-\
+81db-f864ef9d4104"],
 
 Cell[TextData[ButtonBox["Pure functions",
  BaseStyle->"TOCSubsection",
@@ -2450,8 +2448,8 @@ Cell[TextData[ButtonBox["Pure functions",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "9d378ef6-78b6-471b-be88-a705686a7a60", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"973099e5-1821-4536-\
-b0fd-dfdd21be6111"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"292e5a5a-b3cf-412d-\
+ae2e-c0235d117d93"],
 
 Cell[TextData[ButtonBox["The #-& notation",
  BaseStyle->"TOCSubsubsection",
@@ -2463,8 +2461,8 @@ Cell[TextData[ButtonBox["The #-& notation",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "75356982-2647-4b5c-9d38-17b877effe7e", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"8524d422-de5e-\
-4212-b515-52ebd3ee1e80"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"493f4d80-7dad-\
+4249-8c51-42b97d280143"],
 
 Cell[TextData[ButtonBox["Pure functions defined with Function",
  BaseStyle->"TOCSubsubsection",
@@ -2476,8 +2474,8 @@ Cell[TextData[ButtonBox["Pure functions defined with Function",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "c58b14ae-6e38-45c8-8689-9fbde9b75156", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"faba3c1b-5791-\
-49fa-8f95-e3961d595340"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"3b6f6fa3-ff8e-\
+4f6d-979d-684b4b88fb50"],
 
 Cell[TextData[ButtonBox["Differences between pure functions defined with \
 Function and with #-& notation",
@@ -2490,8 +2488,8 @@ Function and with #-& notation",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "387d5c7f-08df-407a-ab2f-c9c69bce2c95", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"a260cbfc-6cfe-\
-4fbb-a437-b24b14520b36"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"9092e8bf-6d4f-\
+4f44-96ea-88c161de60c6"],
 
 Cell[TextData[ButtonBox["Functions with defaults and options",
  BaseStyle->"TOCSubsection",
@@ -2503,8 +2501,8 @@ Cell[TextData[ButtonBox["Functions with defaults and options",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "124069d5-3ddc-4166-807a-223e852f5ff9", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"b540a0d9-ef95-4037-\
-bb4c-9e534ff35e67"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"9f2002f4-b91b-419c-\
+8d84-cf82266ca9be"],
 
 Cell[TextData[ButtonBox["Functions with defaults",
  BaseStyle->"TOCSubsubsection",
@@ -2516,8 +2514,8 @@ Cell[TextData[ButtonBox["Functions with defaults",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "5a59983e-9d04-4466-bd58-4440ed488c76", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"55ba5859-a962-\
-4946-951f-858a647a21d0"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"ebea85a1-19c5-\
+475b-81e4-351517d971bd"],
 
 Cell[TextData[ButtonBox["Functions with options",
  BaseStyle->"TOCSubsubsection",
@@ -2529,8 +2527,8 @@ Cell[TextData[ButtonBox["Functions with options",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "84c7064f-ff97-4854-a65a-4924d8d7abcf", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"e9eb1b08-f163-\
-431d-8c4d-2b06212e997e"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"b2c06035-06fa-\
+45ce-91d1-6d9994e3b026"],
 
 Cell[TextData[ButtonBox["Summary",
  BaseStyle->"TOCSubsection",
@@ -2542,8 +2540,8 @@ Cell[TextData[ButtonBox["Summary",
         NotebookDirectory[], "MPAAI-4-Rules-patterns-functions.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "09deae97-de45-4a71-aec8-0ea926474c54", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"13d3af8e-b872-4146-\
-b982-79a88f356b9e"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"a88cbd65-e268-4016-\
+b0e9-d05bf4bcc9a0"],
 
 Cell[TextData[ButtonBox["Functions on lists and functional programming",
  BaseStyle->"TOCSection",
@@ -2555,8 +2553,8 @@ Cell[TextData[ButtonBox["Functions on lists and functional programming",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "ff742e1f-471b-43b2-80fd-8d1b6fadf197", All,
-      ExpressionUUID]]]], "TOCSection",ExpressionUUID->"585d116a-5a0d-437f-\
-a418-29d141fa242c"],
+      ExpressionUUID]]]], "TOCSection",ExpressionUUID->"6e32b730-256c-438d-\
+ae76-4149364ad04e"],
 
 Cell[TextData[ButtonBox["Introduction",
  BaseStyle->"TOCSubsection",
@@ -2568,8 +2566,8 @@ Cell[TextData[ButtonBox["Introduction",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "a36bbe05-2f4d-4de7-b468-84b52fef0bbe", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"dc817369-b1fd-4e2e-\
-8b0d-dd6ab8c87834"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"a5247ecc-698f-4130-\
+9878-b5e6f26e9ae4"],
 
 Cell[TextData[ButtonBox["Core higher-order functions",
  BaseStyle->"TOCSubsection",
@@ -2581,8 +2579,8 @@ Cell[TextData[ButtonBox["Core higher-order functions",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "9241180b-c276-4b79-be23-570654d4c454", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"c54b5e77-4a29-44a3-\
-b841-96d7a55f5239"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"b9b62ec9-8de1-47a3-\
+84b1-e143ad2beed2"],
 
 Cell[TextData[ButtonBox["Introduction",
  BaseStyle->"TOCSubsubsection",
@@ -2594,10 +2592,10 @@ Cell[TextData[ButtonBox["Introduction",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "cbf5205e-ee40-453d-a792-c0c66893efaf", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"83b77736-64e1-\
-4fb6-8af7-219475db2884"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"6a8b0b25-a7b6-\
+4ca1-b297-03dab145edc8"],
 
-Cell[TextData[ButtonBox["Map - simplest form",
+Cell[TextData[ButtonBox["Map",
  BaseStyle->"TOCSubsubsection",
  Evaluator->Automatic,
  ButtonFunction:>
@@ -2607,8 +2605,8 @@ Cell[TextData[ButtonBox["Map - simplest form",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "b4804188-7b09-4273-aed9-dc7b0e89474f", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"b7df04af-856b-\
-4b81-8a4d-82a34b075592"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"7770c5a4-1af0-\
+4494-aee1-ed5cd0d3e353"],
 
 Cell[TextData[ButtonBox["MapAt",
  BaseStyle->"TOCSubsubsection",
@@ -2620,8 +2618,8 @@ Cell[TextData[ButtonBox["MapAt",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "5a0a86c5-bdf4-408e-89ef-e0cbce7f063b", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"4da0bd18-bdc2-\
-4c94-b660-841677704cd5"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"fa563715-4d51-\
+4100-8dfe-6962762d7787"],
 
 Cell[TextData[ButtonBox["MapAll",
  BaseStyle->"TOCSubsubsection",
@@ -2633,8 +2631,8 @@ Cell[TextData[ButtonBox["MapAll",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "12b2895f-27be-4751-8b34-7fa46338f4c0", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"b8a3bc66-ced3-\
-4f52-93c5-430758f7ffc5"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"e4d98d82-122c-\
+4578-8e02-445b568a7738"],
 
 Cell[TextData[ButtonBox["Scan",
  BaseStyle->"TOCSubsubsection",
@@ -2646,8 +2644,8 @@ Cell[TextData[ButtonBox["Scan",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "63bd88ec-b982-47bb-9737-d72499940096", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"48c1c212-53e1-\
-4976-8264-b9a0c7f855e1"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"b4dd457e-6072-\
+44a7-9af7-a2fcb9db6bea"],
 
 Cell[TextData[ButtonBox["MapIndexed",
  BaseStyle->"TOCSubsubsection",
@@ -2659,8 +2657,8 @@ Cell[TextData[ButtonBox["MapIndexed",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "21d167dc-17a0-483f-bbab-33ec54ccc60f", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"f61df061-8443-\
-4331-b15d-f98bf1ed6960"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"c2e5b613-a5ab-\
+4080-868a-0609ad9415ae"],
 
 Cell[TextData[ButtonBox["Apply",
  BaseStyle->"TOCSubsubsection",
@@ -2672,8 +2670,8 @@ Cell[TextData[ButtonBox["Apply",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "2d7d2d00-6b12-4e72-8c90-fcb4bd4a4c46", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"2325fdf5-1859-\
-442f-b98d-917a3437b924"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"07cbf768-dac5-\
+4518-97d2-423207f27145"],
 
 Cell[TextData[ButtonBox["When short-hands let us down: the Heads option",
  BaseStyle->"TOCSubsubsection",
@@ -2685,8 +2683,8 @@ Cell[TextData[ButtonBox["When short-hands let us down: the Heads option",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "7dbf247c-90d8-4fee-ac69-8aee2cc92f62", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"d74c5616-74fe-\
-4dd8-b903-25ede3742bc4"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"642e23ee-b4af-\
+4c99-84f0-9ac1830d48c9"],
 
 Cell[TextData[ButtonBox["Generalizations",
  BaseStyle->"TOCSubsection",
@@ -2698,8 +2696,8 @@ Cell[TextData[ButtonBox["Generalizations",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "11b88833-5c0f-4ea6-8870-e37767532491", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"f230e3b5-a063-4749-\
-a8be-7848a3c3f25f"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"de4b2d54-2a17-4a27-\
+9bd4-03f6f712bbc0"],
 
 Cell[TextData[ButtonBox["Thread",
  BaseStyle->"TOCSubsubsection",
@@ -2711,8 +2709,8 @@ Cell[TextData[ButtonBox["Thread",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "41050359-68f3-4b06-9698-b3f107b446a3", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"c50db59c-0b29-\
-4d2f-8651-056eb429f2c0"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"3fd15221-071e-\
+45aa-9d3d-39b1b39fecf4"],
 
 Cell[TextData[ButtonBox["MapThread",
  BaseStyle->"TOCSubsubsection",
@@ -2724,8 +2722,8 @@ Cell[TextData[ButtonBox["MapThread",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "f99c070d-a94c-40a5-a897-40d56bce7218", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"fb9b8422-c7fb-\
-4cf9-999e-8e1360501eb8"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"711918d3-6cf7-\
+4011-991d-19128b64c6a0"],
 
 Cell[TextData[ButtonBox["Inner",
  BaseStyle->"TOCSubsubsection",
@@ -2737,8 +2735,8 @@ Cell[TextData[ButtonBox["Inner",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "2d4a3842-8811-4afc-8272-32cbfe624844", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"3241f570-d7da-\
-4b75-89d2-1965e23c5075"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"c9eabc4e-56ad-\
+4f12-84e4-73e0c105497f"],
 
 Cell[TextData[ButtonBox["Outer",
  BaseStyle->"TOCSubsubsection",
@@ -2750,8 +2748,8 @@ Cell[TextData[ButtonBox["Outer",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "e31f5d04-10f9-4b54-b65b-928864308b53", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"f17048cc-434f-\
-4970-a605-ffe764d5948d"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"24cedbad-c5eb-\
+487e-bff3-d07993fcf801"],
 
 Cell[TextData[ButtonBox["Nest Family",
  BaseStyle->"TOCSubsection",
@@ -2763,8 +2761,8 @@ Cell[TextData[ButtonBox["Nest Family",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "7e6c1de9-75ed-49be-9430-e6a946f9c79c", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"72d9c9d0-2158-482f-\
-95d3-89bdd46dbb7d"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"759691ae-efd9-4e76-\
+b360-4c16d9aec948"],
 
 Cell[TextData[ButtonBox["Nest and NestList",
  BaseStyle->"TOCSubsubsection",
@@ -2776,8 +2774,8 @@ Cell[TextData[ButtonBox["Nest and NestList",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "02562baa-63a3-4c68-94fb-a8f87592beba", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"4e06cbcb-e114-\
-4a8f-addf-cb37a49e8502"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"f37dcd7c-ba9d-\
+40e6-bd81-b6db7098c4fc"],
 
 Cell[TextData[ButtonBox["NestWhile and NestWhileList",
  BaseStyle->"TOCSubsubsection",
@@ -2789,8 +2787,8 @@ Cell[TextData[ButtonBox["NestWhile and NestWhileList",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "52b235a4-127f-45dd-a130-8ec4188d49db", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"51d5d913-5d74-\
-4c6e-93f7-29c8dcb894c7"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"260a6293-5b81-\
+491d-8447-6de96cacfbe4"],
 
 Cell[TextData[ButtonBox["Fold and FoldList",
  BaseStyle->"TOCSubsection",
@@ -2802,8 +2800,8 @@ Cell[TextData[ButtonBox["Fold and FoldList",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "ba24dfbd-64ba-4fbf-b829-f3e60ae9c00a", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"85c64b8b-9e4e-4436-\
-89d8-a61d0b927f4a"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"c39ecda4-e1c9-48e2-\
+bb08-16f75a0c0e48"],
 
 Cell[TextData[ButtonBox["Fold: syntax and starting examples",
  BaseStyle->"TOCSubsubsection",
@@ -2815,8 +2813,8 @@ Cell[TextData[ButtonBox["Fold: syntax and starting examples",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "3b2eddc8-8e51-4261-af6b-51e2183ceec2", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"f869d6a3-7104-\
-4530-b80d-e8c839b25292"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"5e9dda80-0056-\
+4acc-9360-2071351ad505"],
 
 Cell[TextData[ButtonBox["More examples:",
  BaseStyle->"TOCSubsubsection",
@@ -2828,8 +2826,8 @@ Cell[TextData[ButtonBox["More examples:",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "2b2de5ca-fa03-40bd-a684-e215e573ceb0", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"ae36c4f7-10db-\
-4ba0-ba07-3ccbc5d7f4c4"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"eda4d8f6-ffc2-\
+4a1b-b10e-69c91cfcbfd5"],
 
 Cell[TextData[ButtonBox["Restriction of Fold-ed function to two arguments is \
 spurious",
@@ -2842,8 +2840,8 @@ spurious",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "2e641324-41c0-4316-b9da-5a89657042fe", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"2b69fddf-eb44-\
-40e6-b54f-f7cd364bf09c"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"f813f9c7-9697-\
+43f7-974b-668f16b8cd05"],
 
 Cell[TextData[ButtonBox["Case study: Gram-Schmidt orthogonalization",
  BaseStyle->"TOCSubsubsection",
@@ -2855,8 +2853,8 @@ Cell[TextData[ButtonBox["Case study: Gram-Schmidt orthogonalization",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "35bd02bc-adc7-493e-9283-af0894ea3ca5", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"a19eeaa3-b9e8-\
-45c6-bb19-f617bc8cfa27"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"1bc1fa98-6a88-\
+4380-a10c-11ed2acf91b6"],
 
 Cell[TextData[ButtonBox["Small case study: local maxima for a list",
  BaseStyle->"TOCSubsubsection",
@@ -2868,8 +2866,8 @@ Cell[TextData[ButtonBox["Small case study: local maxima for a list",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "958f0aa8-bc55-481a-8a66-33ee55121628", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"45571ce1-a9dc-\
-4234-8c0e-73bf5ee81e31"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"891c6cdd-3f96-\
+493c-97bc-967d28038baf"],
 
 Cell[TextData[ButtonBox["FixedPoint and FixedPointList",
  BaseStyle->"TOCSubsection",
@@ -2881,8 +2879,8 @@ Cell[TextData[ButtonBox["FixedPoint and FixedPointList",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "abbb4445-9c3e-4c6f-9d03-7f2d19202268", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"216a50aa-b44d-4aa5-\
-9d86-66028328077c"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"9364c88c-6f9e-4658-\
+8962-ac705a30cc69"],
 
 Cell[TextData[ButtonBox["The syntax and functionality",
  BaseStyle->"TOCSubsubsection",
@@ -2894,8 +2892,8 @@ Cell[TextData[ButtonBox["The syntax and functionality",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "33b8c6bd-6c07-4f66-92ee-c83f0e5b7da1", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"a8c601fd-dc91-\
-4f3b-90bc-ce720fe67775"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"47c42bd2-e9ab-\
+49d5-8654-a66dfc426d83"],
 
 Cell[TextData[ButtonBox["Example: the Collatz problem revisited",
  BaseStyle->"TOCSubsubsection",
@@ -2907,8 +2905,8 @@ Cell[TextData[ButtonBox["Example: the Collatz problem revisited",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "9bda43da-39a7-4269-bfe3-14a8a96e2acc", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"fe96b56a-07c8-\
-46d2-b3fb-54fa3d0bc097"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"0a2fa091-040b-\
+4abe-97db-62b0dc28807e"],
 
 Cell[TextData[ButtonBox["How to reformulate a problem for FixedPoint",
  BaseStyle->"TOCSubsubsection",
@@ -2920,8 +2918,8 @@ Cell[TextData[ButtonBox["How to reformulate a problem for FixedPoint",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "1834e055-d8ce-4c77-85b0-0a7108ad40e2", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"f90ac82b-2031-\
-441e-a3c0-4080308f95a9"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"789432b7-5fa8-\
+4674-b031-ee2c95e9dc2c"],
 
 Cell[TextData[ButtonBox["Example: deleting numbers from the list revisited",
  BaseStyle->"TOCSubsubsection",
@@ -2933,8 +2931,8 @@ Cell[TextData[ButtonBox["Example: deleting numbers from the list revisited",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "e931c69f-9d9e-4959-a24f-b21d12fb7fa3", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"6ba9a7d5-700c-\
-4442-8f98-3f44303f8a17"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"10247d29-41a5-\
+4596-bea7-86ca3a16d948"],
 
 Cell[TextData[ButtonBox["Example: approximating the square root of a number \
 revisited",
@@ -2947,8 +2945,8 @@ revisited",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "217c23ed-fc8d-4ae5-bff4-ae7715c10eab", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"566fa5db-4e01-\
-49e1-b806-6aed51baaa4b"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"e76fbc72-3f80-\
+458b-82d1-1c8f110c2cf0"],
 
 Cell[TextData[ButtonBox["FixedPoint dangers",
  BaseStyle->"TOCSubsubsection",
@@ -2960,8 +2958,8 @@ Cell[TextData[ButtonBox["FixedPoint dangers",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "c5e752fb-b874-4ac1-aa39-83b1c73bd73b", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"f09d09fa-be8d-\
-4eb0-9f53-c76099f6e196"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"8ecdce5d-33af-\
+43d0-a4f6-4bdf7a7bd5e2"],
 
 Cell[TextData[ButtonBox["Small case study: merging overlapping intervals - \
 Functional vs. Rule-based",
@@ -2974,8 +2972,8 @@ Functional vs. Rule-based",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "f3eece90-2f26-476c-a686-41b810f58ee1", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"25dcc86a-190a-\
-455f-a0d1-957d83e6d320"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"6fe23e03-7706-\
+452c-8855-df12fd3fb645"],
 
 Cell[TextData[ButtonBox["Example: local (relative) maxima in a list revisited",
  BaseStyle->"TOCSubsubsection",
@@ -2987,8 +2985,8 @@ Cell[TextData[ButtonBox["Example: local (relative) maxima in a list revisited",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "c1ba58ef-5e35-4eec-bdf4-d5d2a9451be3", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"37abbfe1-0642-\
-42b9-9e1d-f0961b83349b"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"d1602463-6731-\
+4a50-9e97-b128a63ced54"],
 
 Cell[TextData[ButtonBox["Operators on functions",
  BaseStyle->"TOCSubsection",
@@ -3000,8 +2998,8 @@ Cell[TextData[ButtonBox["Operators on functions",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "c5a4ccbc-0a19-4c43-85f4-c94a3d7fd188", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"4bc1348f-6933-4796-\
-aa75-8eaa6df0aa26"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"3b1f29da-9d49-4b7e-\
+ac28-edcacc4e143a"],
 
 Cell[TextData[ButtonBox["Through",
  BaseStyle->"TOCSubsubsection",
@@ -3013,8 +3011,8 @@ Cell[TextData[ButtonBox["Through",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "be6055e3-630d-4d33-848c-9cdeee1e53ba", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"eca95f93-b6c2-\
-458a-b1e9-18e107f9f3ed"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"ce868335-4089-\
+4b02-898a-874beb2d310d"],
 
 Cell[TextData[ButtonBox["Operate",
  BaseStyle->"TOCSubsubsection",
@@ -3026,8 +3024,8 @@ Cell[TextData[ButtonBox["Operate",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "8c407f87-e059-41b5-9201-fc76c03fac1d", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"f9a9b19c-80c2-\
-4f2c-af6c-89ae258a0204"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"c9065ccb-aa0f-\
+4cf2-b38c-9e1e6c507e66"],
 
 Cell[TextData[ButtonBox["Summary",
  BaseStyle->"TOCSubsection",
@@ -3039,8 +3037,8 @@ Cell[TextData[ButtonBox["Summary",
         NotebookDirectory[], "MPAAI-5-Functions-on-lists.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "1959fe3a-b2eb-44e2-b48e-b47d89550ca8", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"13eb6c12-5d43-4de5-\
-a0c9-da9412662135"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"0981c368-0626-496d-\
+b171-e55a163030c4"],
 
 Cell[TextData[ButtonBox["Writing efficient programs: some techniques and \
 applications",
@@ -3053,8 +3051,8 @@ applications",
         NotebookDirectory[], "MPAAI-6-Writing-efficient-programs.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "5d1b78af-ff2c-48d5-855c-33a18e4746f5", All,
-      ExpressionUUID]]]], "TOCSection",ExpressionUUID->"897684ae-34ea-4191-\
-9ad9-8a33a21965df"],
+      ExpressionUUID]]]], "TOCSection",ExpressionUUID->"ea5e15f4-9ccc-4896-\
+a9cc-52e73e0697b0"],
 
 Cell[TextData[ButtonBox["Introduction",
  BaseStyle->"TOCSubsection",
@@ -3066,8 +3064,8 @@ Cell[TextData[ButtonBox["Introduction",
         NotebookDirectory[], "MPAAI-6-Writing-efficient-programs.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "b7d92196-4a2f-403a-876f-eed5c087fb20", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"ae4775f7-501b-4068-\
-bc97-e5e5512a111c"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"7df6ffe1-bb69-4872-\
+8caf-6250f18b1074"],
 
 Cell[TextData[ButtonBox["Case study I: checking if a square matrix is \
 diagonal",
@@ -3080,8 +3078,8 @@ diagonal",
         NotebookDirectory[], "MPAAI-6-Writing-efficient-programs.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "bc29bc97-055f-4804-9b8f-0188ba0d09dd", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"77616f7c-da64-481b-\
-af08-926965f2b74c"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"25aa0db9-1f46-40f4-\
+86f7-97f8acb3b31c"],
 
 Cell[TextData[ButtonBox["Case study II: extracting matrix diagonals",
  BaseStyle->"TOCSubsection",
@@ -3093,8 +3091,8 @@ Cell[TextData[ButtonBox["Case study II: extracting matrix diagonals",
         NotebookDirectory[], "MPAAI-6-Writing-efficient-programs.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "77db5185-0713-422c-a707-aa2848732f66", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"14bec179-0ca4-4651-\
-8f88-b6fa7463dc99"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"c083f004-1207-4d58-\
+a4c5-1aea5f551a1e"],
 
 Cell[TextData[ButtonBox["Case study III: generating complex random Wishart \
 matrices",
@@ -3107,8 +3105,8 @@ matrices",
         NotebookDirectory[], "MPAAI-6-Writing-efficient-programs.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "1b6b00e8-d0ad-4bb4-8ff0-312fd67c2382", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"cdefdb06-91b6-41a3-\
-a9c3-73bd7cc25efa"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"181a3217-af0c-444b-\
+8c9b-99b0fdbaa1ac"],
 
 Cell[TextData[ButtonBox["Case study IV: sorting, mapping and membership tests",
  BaseStyle->"TOCSubsection",
@@ -3120,8 +3118,8 @@ Cell[TextData[ButtonBox["Case study IV: sorting, mapping and membership tests",
         NotebookDirectory[], "MPAAI-6-Writing-efficient-programs.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "51c99369-c26c-4a61-844a-da82d568ffdd", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"0c3b3915-4b5f-4867-\
-97d2-71d51a4a4093"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"10a083a5-15cb-456e-\
+b265-6ce9bc94406b"],
 
 Cell[TextData[ButtonBox["Summary",
  BaseStyle->"TOCSubsection",
@@ -3133,8 +3131,8 @@ Cell[TextData[ButtonBox["Summary",
         NotebookDirectory[], "MPAAI-6-Writing-efficient-programs.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "92479a42-4f42-4937-a31b-8f4bbfa27449", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"77b0a652-119a-4c9c-\
-9ce2-78af7368387f"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"46cc5ca3-988f-4250-\
+bb8c-31cd772608ca"],
 
 Cell[TextData[ButtonBox["Appendices",
  BaseStyle->"TOCSection",
@@ -3146,8 +3144,8 @@ Cell[TextData[ButtonBox["Appendices",
         NotebookDirectory[], "MPAAI-7-Appendices.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "10a6e5ef-b16a-4b15-84b6-14b876fd4c75", All,
-      ExpressionUUID]]]], "TOCSection",ExpressionUUID->"948b5166-7f96-4747-\
-ba14-1638b78119c2"],
+      ExpressionUUID]]]], "TOCSection",ExpressionUUID->"8db30202-d6ad-4e79-\
+af16-e9d5610c825f"],
 
 Cell[TextData[ButtonBox["Appendix A: what is so special about Mathematica (a \
 personal evaluation)",
@@ -3160,8 +3158,8 @@ personal evaluation)",
         NotebookDirectory[], "MPAAI-7-Appendices.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "f2bbfdc0-9961-4cd6-8983-69622afe1f4c", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"c2e6f308-d523-4654-\
-b118-c4b700e85576"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"94b4ec75-1180-42a6-\
+92e6-a5230517aac1"],
 
 Cell[TextData[ButtonBox["Appendix B Some of my favorite books on Mathematica \
 - brief reviews",
@@ -3174,8 +3172,8 @@ Cell[TextData[ButtonBox["Appendix B Some of my favorite books on Mathematica \
         NotebookDirectory[], "MPAAI-7-Appendices.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "828936f9-2633-4739-88a1-f66ba5158229", All,
-      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"d80b384e-b91f-4a0c-\
-8a6a-8d360944f699"],
+      ExpressionUUID]]]], "TOCSubsection",ExpressionUUID->"7882defb-07f6-4960-\
+b3b0-2e6357b2eb9e"],
 
 Cell[TextData[ButtonBox["The Mathematica Book",
  BaseStyle->"TOCSubsubsection",
@@ -3187,8 +3185,8 @@ Cell[TextData[ButtonBox["The Mathematica Book",
         NotebookDirectory[], "MPAAI-7-Appendices.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "02c91f5d-d8aa-41c9-acd2-b8611c9985ee", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"667a87bd-0e05-\
-4bb9-bee4-01762f35f345"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"b2a1af0b-201f-\
+45a3-abf2-b1b54cff62fd"],
 
 Cell[TextData[ButtonBox["An introduction to programming with Mathematica",
  BaseStyle->"TOCSubsubsection",
@@ -3200,8 +3198,8 @@ Cell[TextData[ButtonBox["An introduction to programming with Mathematica",
         NotebookDirectory[], "MPAAI-7-Appendices.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "a0e1dad4-d61b-4d15-9a3d-87f8a101711a", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"2d23a503-85ac-\
-4ac3-97ff-d571c0d59783"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"bf0ea1fc-e8ce-\
+4240-b9f8-61acf62edc77"],
 
 Cell[TextData[ButtonBox["Programming in Mathematica",
  BaseStyle->"TOCSubsubsection",
@@ -3213,8 +3211,8 @@ Cell[TextData[ButtonBox["Programming in Mathematica",
         NotebookDirectory[], "MPAAI-7-Appendices.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "8dbebc1b-05bf-4e33-abaf-0e511c1c0194", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"1b51fee6-241f-\
-4f12-ba25-2a4353b95bd5"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"1c84de32-485f-\
+4cdb-9dcd-019f41ce6f8c"],
 
 Cell[TextData[ButtonBox["Power programming in Mathematica - the Kernel",
  BaseStyle->"TOCSubsubsection",
@@ -3226,8 +3224,8 @@ Cell[TextData[ButtonBox["Power programming in Mathematica - the Kernel",
         NotebookDirectory[], "MPAAI-7-Appendices.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "6d340cf3-5acc-4fff-a401-cd5b8af4c051", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"bfcb671c-4f8a-\
-4aef-8f49-590882063df8"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"cd18d735-f467-\
+44c4-8530-3ba0deed16d7"],
 
 Cell[TextData[ButtonBox["Mastering Mathematica",
  BaseStyle->"TOCSubsubsection",
@@ -3239,8 +3237,8 @@ Cell[TextData[ButtonBox["Mastering Mathematica",
         NotebookDirectory[], "MPAAI-7-Appendices.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "3ad08a53-4d55-4043-84e7-e6c079d744b1", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"6aff11e3-db00-\
-4551-a0ca-7ff232817004"],
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"c98561f1-827a-\
+4f5a-9adb-fda48b265742"],
 
 Cell[TextData[ButtonBox["Mathematica guidebooks",
  BaseStyle->"TOCSubsubsection",
@@ -3252,13 +3250,13 @@ Cell[TextData[ButtonBox["Mathematica guidebooks",
         NotebookDirectory[], "MPAAI-7-Appendices.nb"}]]; 
    NotebookFind[
     WolframBookTools`Private`nb$, "0fa3dd7c-bb95-4ac3-9849-9dcedaa4ac9b", All,
-      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"774993b2-51af-\
-4c79-99ee-2591389f848c"]
+      ExpressionUUID]]]], "TOCSubsubsection",ExpressionUUID->"57d332b8-57bc-\
+4b9b-90a5-798f8b1e3725"]
 }, Open  ]]
 },
 WindowToolbars->{},
-WindowSize->{961, 916},
-WindowMargins->{{5, Automatic}, {Automatic, 170}},
+WindowSize->{960, 1027},
+WindowMargins->{{0, Automatic}, {Automatic, 72}},
 FrontEndVersion->"14.1 for Mac OS X ARM (64-bit) (July 16, 2024)",
 StyleDefinitions->Notebook[{
    Cell[
@@ -3281,7 +3279,7 @@ StyleDefinitions->Notebook[{
     "Italic", FontColor -> GrayLevel[0.25]]}, Visible -> False, 
   FrontEndVersion -> "14.1 for Mac OS X ARM (64-bit) (July 16, 2024)", 
   StyleDefinitions -> "PrivateStylesheetFormatting.nb"],
-ExpressionUUID->"1f0e45ec-4b2f-450f-a666-39f15d57e020"
+ExpressionUUID->"ac86846e-b5ee-45ae-880c-de0337eba073"
 ]
 (* End of Notebook Content *)
 
@@ -3295,253 +3293,253 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[576, 22, 83, 0, 136, "TOCTitle",ExpressionUUID->"481d7f22-668a-4e7f-8a8a-533d94a22c70"],
-Cell[662, 24, 460, 11, 40, "TOCSection",ExpressionUUID->"42d79858-531f-4bc6-9bd4-5e2e3dff0aed"],
-Cell[1125, 37, 486, 11, 34, "TOCSubsection",ExpressionUUID->"ffe81a34-dac1-4d0c-aee6-1715508b27f8"],
-Cell[1614, 50, 485, 11, 34, "TOCSubsection",ExpressionUUID->"297a1a18-8818-4010-8319-c2465d038914"],
-Cell[2102, 63, 474, 11, 34, "TOCSubsection",ExpressionUUID->"f5d24695-0276-4323-a15e-e37f7da9174a"],
-Cell[2579, 76, 485, 11, 34, "TOCSubsection",ExpressionUUID->"dfafc7e0-f62e-4bf2-81b2-2d8d225d068e"],
-Cell[3067, 89, 484, 11, 34, "TOCSubsection",ExpressionUUID->"510c0a07-e18e-4395-b7e7-6b9b0fdbd389"],
-Cell[3554, 102, 472, 11, 34, "TOCSubsection",ExpressionUUID->"2c3e4424-96d5-4be3-bbaf-6a377623d46c"],
-Cell[4029, 115, 487, 11, 34, "TOCSubsection",ExpressionUUID->"0c8c6079-0e3a-4022-881c-e59b1ef06111"],
-Cell[4519, 128, 478, 11, 34, "TOCSubsection",ExpressionUUID->"fb187684-e891-4beb-81d1-0a01f582ad00"],
-Cell[5000, 141, 487, 11, 34, "TOCSubsection",ExpressionUUID->"ce50993b-f2ee-4d57-aea4-4c09f95c3c9e"],
-Cell[5490, 154, 470, 11, 40, "TOCSection",ExpressionUUID->"eb50ff0b-e33e-4a3b-a4dc-b12405256a87"],
-Cell[5963, 167, 508, 11, 34, "TOCSubsection",ExpressionUUID->"1e3c6c7b-5214-4f70-856b-e9d07b969b7c"],
-Cell[6474, 180, 508, 11, 30, "TOCSubsubsection",ExpressionUUID->"a55e150a-e302-4dfa-a5a2-3cc952f4488e"],
-Cell[6985, 193, 512, 11, 30, "TOCSubsubsection",ExpressionUUID->"7262575c-3db0-4678-adb3-c71a89146926"],
-Cell[7500, 206, 535, 12, 30, "TOCSubsubsection",ExpressionUUID->"bf32cdd0-a7cc-446d-9681-1ac26cf5b739"],
-Cell[8038, 220, 523, 12, 30, "TOCSubsubsection",ExpressionUUID->"fbfd517f-399a-4545-ba75-a722965fcd6e"],
-Cell[8564, 234, 511, 11, 30, "TOCSubsubsection",ExpressionUUID->"d09311c0-c7f9-4a28-b3ff-011f1f8fba7d"],
-Cell[9078, 247, 530, 12, 30, "TOCSubsubsection",ExpressionUUID->"89241071-c45b-4879-a709-40f56e1099fe"],
-Cell[9611, 261, 513, 11, 30, "TOCSubsubsection",ExpressionUUID->"cee1cfa9-8c5a-4ec0-83c3-951bec988b76"],
-Cell[10127, 274, 522, 12, 34, "TOCSubsection",ExpressionUUID->"e9b9c8ec-d86c-4833-8a8d-5e1bb46d8a70"],
-Cell[10652, 288, 483, 11, 30, "TOCSubsubsection",ExpressionUUID->"e476ff4c-e221-4b85-9426-a55071e9c930"],
-Cell[11138, 301, 517, 11, 30, "TOCSubsubsection",ExpressionUUID->"11fcb707-7985-4f36-9bee-28db52182980"],
-Cell[11658, 314, 517, 11, 30, "TOCSubsubsection",ExpressionUUID->"080d0654-d23e-4096-8ace-ca4e194ad0a6"],
-Cell[12178, 327, 523, 12, 30, "TOCSubsubsection",ExpressionUUID->"a55c6e8e-aa8c-452d-8e3b-293a7e569ca0"],
-Cell[12704, 341, 492, 11, 30, "TOCSubsubsection",ExpressionUUID->"47c27336-8ee9-4780-99da-2182f46f366e"],
-Cell[13199, 354, 532, 12, 30, "TOCSubsubsection",ExpressionUUID->"cc155d64-2127-4240-a1ca-e81c2f70df50"],
-Cell[13734, 368, 509, 11, 30, "TOCSubsubsection",ExpressionUUID->"f45f0175-f930-47bd-83c7-a1c29f98faf6"],
-Cell[14246, 381, 495, 11, 30, "TOCSubsubsection",ExpressionUUID->"56a7c94c-0092-4e38-889d-b8b7db873fbf"],
-Cell[14744, 394, 502, 11, 34, "TOCSubsection",ExpressionUUID->"fd4d7a72-04e5-4a4c-aaf1-0b282a813a16"],
-Cell[15249, 407, 471, 11, 34, "TOCSubsection",ExpressionUUID->"75fc86d6-0d09-42ea-bf56-78b6d9595385"],
-Cell[15723, 420, 488, 11, 40, "TOCSection",ExpressionUUID->"19bfa1ad-bdb4-4c01-b1a0-6fe0e8af8fcd"],
-Cell[16214, 433, 485, 11, 34, "TOCSubsection",ExpressionUUID->"07a2833a-0ae2-49ef-9e9e-23c84c4b40a1"],
-Cell[16702, 446, 494, 11, 34, "TOCSubsection",ExpressionUUID->"43b6411e-fd38-47ec-8573-7ef62b2e3c6b"],
-Cell[17199, 459, 502, 11, 30, "TOCSubsubsection",ExpressionUUID->"5102c8ae-5875-4177-8674-722681b5f311"],
-Cell[17704, 472, 512, 11, 30, "TOCSubsubsection",ExpressionUUID->"9ab6ec31-65b7-4871-9f0f-2954ea457c89"],
-Cell[18219, 485, 558, 12, 30, "TOCSubsubsection",ExpressionUUID->"82c1010a-9e2b-474a-a621-993e3e74f0ca"],
-Cell[18780, 499, 511, 11, 30, "TOCSubsubsection",ExpressionUUID->"7ff4abab-5ddd-4816-a4d8-3edf8d14635a"],
-Cell[19294, 512, 512, 11, 30, "TOCSubsubsection",ExpressionUUID->"e4cd7ff3-ec5d-499a-b2ec-59dcff23ba81"],
-Cell[19809, 525, 497, 11, 30, "TOCSubsubsection",ExpressionUUID->"520531ec-bf54-4b9d-b24c-77695a02379a"],
-Cell[20309, 538, 515, 11, 30, "TOCSubsubsection",ExpressionUUID->"af9e8e9a-d052-4913-8cde-d23ab7e32f25"],
-Cell[20827, 551, 515, 11, 30, "TOCSubsubsection",ExpressionUUID->"44929823-85c2-4d8d-839b-9e2d54663b29"],
-Cell[21345, 564, 486, 11, 30, "TOCSubsubsection",ExpressionUUID->"76caef4d-e256-4f70-b869-25517a0a0d62"],
-Cell[21834, 577, 492, 11, 34, "TOCSubsection",ExpressionUUID->"6e391f21-864f-41e0-a528-76ca9ee8abbe"],
-Cell[22329, 590, 484, 11, 34, "TOCSubsection",ExpressionUUID->"b02a1a67-093a-40b1-9196-a43fc141e040"],
-Cell[22816, 603, 534, 12, 30, "TOCSubsubsection",ExpressionUUID->"5159352f-4a60-40eb-97fe-9f619a314e6e"],
-Cell[23353, 617, 535, 12, 30, "TOCSubsubsection",ExpressionUUID->"ca13fd7d-f23e-4428-af98-abc37765e17f"],
-Cell[23891, 631, 496, 11, 30, "TOCSubsubsection",ExpressionUUID->"09d35db0-7d0c-46be-8b3b-a13178da1eb4"],
-Cell[24390, 644, 548, 12, 30, "TOCSubsubsection",ExpressionUUID->"b6c1cb5b-fe62-4a3a-b6d6-f08360ecc72b"],
-Cell[24941, 658, 522, 11, 30, "TOCSubsubsection",ExpressionUUID->"0d03fc45-0c46-41ff-960b-d1289eb7aea5"],
-Cell[25466, 671, 488, 11, 34, "TOCSubsection",ExpressionUUID->"e8f34a41-56c0-458b-a40e-32a744ed71c6"],
-Cell[25957, 684, 484, 11, 30, "TOCSubsubsection",ExpressionUUID->"a4ab31b5-0a6e-48aa-8466-04391f3dd22f"],
-Cell[26444, 697, 564, 12, 30, "TOCSubsubsection",ExpressionUUID->"74d59155-5ac4-4867-bf49-fc7ad2efea31"],
-Cell[27011, 711, 531, 11, 30, "TOCSubsubsection",ExpressionUUID->"7d566199-09cf-4990-9ad3-5beccea997c8"],
-Cell[27545, 724, 548, 12, 30, "TOCSubsubsection",ExpressionUUID->"e8e126d6-8e29-44dc-af9a-9080144ae47f"],
-Cell[28096, 738, 503, 11, 30, "TOCSubsubsection",ExpressionUUID->"7340df22-288f-4fb3-b34a-c73e9e837493"],
-Cell[28602, 751, 529, 11, 30, "TOCSubsubsection",ExpressionUUID->"6cb3a63a-693e-412f-b9cf-50067232b610"],
-Cell[29134, 764, 528, 11, 30, "TOCSubsubsection",ExpressionUUID->"3545464e-55ec-41e2-a910-3f05b5e7a4ba"],
-Cell[29665, 777, 484, 11, 30, "TOCSubsubsection",ExpressionUUID->"002b8836-a50c-43f3-b22f-cc968c3f1f6e"],
-Cell[30152, 790, 484, 11, 30, "TOCSubsubsection",ExpressionUUID->"769e6506-fa68-4c18-a2af-7fbe84e46aa9"],
-Cell[30639, 803, 490, 11, 34, "TOCSubsection",ExpressionUUID->"7e0b8085-f9c6-4292-aee9-ed561284929f"],
-Cell[31132, 816, 485, 11, 34, "TOCSubsection",ExpressionUUID->"7c4c9b51-484c-4051-94b2-c317e66dca2e"],
-Cell[31620, 829, 494, 11, 30, "TOCSubsubsection",ExpressionUUID->"dfa81636-d750-40ee-9da9-b8d04bd3a3f2"],
-Cell[32117, 842, 553, 12, 30, "TOCSubsubsection",ExpressionUUID->"cf132ebe-f113-4048-b888-22b747b5a195"],
-Cell[32673, 856, 497, 11, 30, "TOCSubsubsection",ExpressionUUID->"2c50a814-0d2f-4c04-ae42-dc711dc9a884"],
-Cell[33173, 869, 505, 11, 30, "TOCSubsubsection",ExpressionUUID->"bd1df0dc-a769-45a8-bd45-fb184baff5d4"],
-Cell[33681, 882, 478, 11, 34, "TOCSubsection",ExpressionUUID->"21ea7cfa-58d6-405d-89d6-812a29bec4d1"],
-Cell[34162, 895, 487, 11, 30, "TOCSubsubsection",ExpressionUUID->"5011f732-5870-498d-9cbf-3abff22a59b4"],
-Cell[34652, 908, 489, 11, 30, "TOCSubsubsection",ExpressionUUID->"50296331-a165-43a9-8a42-7df35d6b8b94"],
-Cell[35144, 921, 486, 11, 30, "TOCSubsubsection",ExpressionUUID->"45a70c0f-d105-4435-8ab4-75a419fd56f2"],
-Cell[35633, 934, 508, 11, 30, "TOCSubsubsection",ExpressionUUID->"d86732b1-d262-4123-977c-9baa438e4ee4"],
-Cell[36144, 947, 531, 11, 30, "TOCSubsubsection",ExpressionUUID->"5ba80d53-08c0-4168-afe8-869b0501b50d"],
-Cell[36678, 960, 526, 11, 30, "TOCSubsubsection",ExpressionUUID->"0d978d92-5b05-4c3f-8bab-68fc1573d4ec"],
-Cell[37207, 973, 538, 12, 30, "TOCSubsubsection",ExpressionUUID->"1e2841fd-173a-4aac-aa24-c07c6dd5e31a"],
-Cell[37748, 987, 510, 11, 34, "TOCSubsection",ExpressionUUID->"2c181e35-1d08-4a9e-9c80-c5d63ffd8cd5"],
-Cell[38261, 1000, 493, 11, 30, "TOCSubsubsection",ExpressionUUID->"ec9f2e28-e10a-4825-9f58-0ee12bb2c1c4"],
-Cell[38757, 1013, 494, 11, 30, "TOCSubsubsection",ExpressionUUID->"d6f7ff0f-88e4-4c1c-91e3-995e2b48d959"],
-Cell[39254, 1026, 504, 11, 30, "TOCSubsubsection",ExpressionUUID->"74c91eca-7a24-4791-a6e9-376e833c01c8"],
-Cell[39761, 1039, 507, 11, 30, "TOCSubsubsection",ExpressionUUID->"f392933f-b6a6-4585-b896-3a1d1660bd08"],
-Cell[40271, 1052, 480, 11, 34, "TOCSubsection",ExpressionUUID->"285fa741-4011-4ded-80d0-cc1e3ade7b70"],
-Cell[40754, 1065, 456, 11, 40, "TOCSection",ExpressionUUID->"fa5538a1-1199-4533-83d7-5cb757fc9cc3"],
-Cell[41213, 1078, 469, 11, 34, "TOCSubsection",ExpressionUUID->"97bb35f1-1c4d-45de-80fe-9f94e5a3ae00"],
-Cell[41685, 1091, 520, 12, 34, "TOCSubsection",ExpressionUUID->"ef7ad567-7e5c-4313-8c1c-642ad9310221"],
-Cell[42208, 1105, 477, 11, 34, "TOCSubsection",ExpressionUUID->"505e035b-1945-4751-8568-e3a251a6d1fe"],
-Cell[42688, 1118, 476, 11, 34, "TOCSubsection",ExpressionUUID->"590a2e58-3462-4145-a59d-6c3b956515a1"],
-Cell[43167, 1131, 488, 11, 30, "TOCSubsubsection",ExpressionUUID->"9d7e7b6b-60e5-489f-be6d-a4af154c0f04"],
-Cell[43658, 1144, 528, 12, 30, "TOCSubsubsection",ExpressionUUID->"219cae34-10ad-4cb8-b562-3cac43849ceb"],
-Cell[44189, 1158, 505, 11, 30, "TOCSubsubsection",ExpressionUUID->"63240ee5-9f02-412e-881d-96a3b8b3bec6"],
-Cell[44697, 1171, 497, 11, 30, "TOCSubsubsection",ExpressionUUID->"afdf912d-f7a9-4082-ad0e-60f46d5cf61d"],
-Cell[45197, 1184, 495, 11, 30, "TOCSubsubsection",ExpressionUUID->"a65d6709-86db-47e1-8a05-89dcd63ccc27"],
-Cell[45695, 1197, 486, 11, 34, "TOCSubsection",ExpressionUUID->"d7cf55d6-9460-4cac-81b1-33873db3838e"],
-Cell[46184, 1210, 491, 11, 34, "TOCSubsection",ExpressionUUID->"f4df4d7f-f24a-4cb2-8368-a8d0214553f8"],
-Cell[46678, 1223, 523, 12, 30, "TOCSubsubsection",ExpressionUUID->"fff945de-a26f-46f6-9b54-e42e201f0fd6"],
-Cell[47204, 1237, 470, 11, 30, "TOCSubsubsection",ExpressionUUID->"ffd634c9-8d65-444a-aba9-73bf27a0dc13"],
-Cell[47677, 1250, 476, 11, 30, "TOCSubsubsection",ExpressionUUID->"a3ed3847-05a8-4df1-ac2d-4bcfa5f31256"],
-Cell[48156, 1263, 489, 11, 30, "TOCSubsubsection",ExpressionUUID->"12ae2e05-f9e2-448a-946c-dc26abc34b0e"],
-Cell[48648, 1276, 469, 11, 30, "TOCSubsubsection",ExpressionUUID->"4b75668e-dc3f-481f-b502-e07273c17d48"],
-Cell[49120, 1289, 526, 12, 30, "TOCSubsubsection",ExpressionUUID->"36bfc05e-9091-49eb-96a3-b745d2397a0e"],
-Cell[49649, 1303, 474, 11, 30, "TOCSubsubsection",ExpressionUUID->"0b8e8453-9e01-4b9f-bb4f-201e3e0d6f75"],
-Cell[50126, 1316, 471, 11, 30, "TOCSubsubsection",ExpressionUUID->"c15e9c63-60bf-4955-a701-b1e28b43877e"],
-Cell[50600, 1329, 518, 12, 34, "TOCSubsection",ExpressionUUID->"6d31e654-a7e3-4812-a4b1-f59625b727e7"],
-Cell[51121, 1343, 502, 11, 30, "TOCSubsubsection",ExpressionUUID->"1a33869a-ca85-4366-b854-a726e977020d"],
-Cell[51626, 1356, 480, 11, 30, "TOCSubsubsection",ExpressionUUID->"35e793c3-4036-4a43-a689-5bd10eab1f45"],
-Cell[52109, 1369, 482, 11, 34, "TOCSubsection",ExpressionUUID->"c10c805f-9738-4e23-91c0-74aa4c1025f6"],
-Cell[52594, 1382, 472, 11, 30, "TOCSubsubsection",ExpressionUUID->"d2516ea7-b638-4d65-ac4f-b134ab9e0caa"],
-Cell[53069, 1395, 472, 11, 30, "TOCSubsubsection",ExpressionUUID->"c92dde38-0698-4d06-830d-8166782bf3ac"],
-Cell[53544, 1408, 470, 11, 30, "TOCSubsubsection",ExpressionUUID->"984d2c4b-bf2f-4614-a588-d81ab22e9e61"],
-Cell[54017, 1421, 483, 11, 34, "TOCSubsection",ExpressionUUID->"474dedea-b58a-4e4e-9eb8-852a3a6eb1cd"],
-Cell[54503, 1434, 479, 11, 30, "TOCSubsubsection",ExpressionUUID->"8e325227-05e9-4012-b24f-1d162adbdf93"],
-Cell[54985, 1447, 487, 11, 30, "TOCSubsubsection",ExpressionUUID->"bed46d14-428b-405b-8f1c-c6a10548f35a"],
-Cell[55475, 1460, 485, 11, 30, "TOCSubsubsection",ExpressionUUID->"2695328f-f771-4cb5-bf1d-63842c120bda"],
-Cell[55963, 1473, 490, 11, 34, "TOCSubsection",ExpressionUUID->"065e27f4-8042-4eab-9b27-48bffaf303ef"],
-Cell[56456, 1486, 479, 11, 30, "TOCSubsubsection",ExpressionUUID->"b3cc2705-811b-46f7-b5cf-76a402749065"],
-Cell[56938, 1499, 480, 11, 30, "TOCSubsubsection",ExpressionUUID->"35ab5c98-7aad-4f07-b7a5-7d1f152fe015"],
-Cell[57421, 1512, 480, 11, 30, "TOCSubsubsection",ExpressionUUID->"aaccb7b5-f507-4b25-b506-50aed302baff"],
-Cell[57904, 1525, 464, 11, 34, "TOCSubsection",ExpressionUUID->"45f308b8-8845-4c1b-961c-ccf99c8ddc5a"],
-Cell[58371, 1538, 498, 11, 40, "TOCSection",ExpressionUUID->"dbf9cf3a-bd07-4df3-ab8b-70fa1bbd064f"],
-Cell[58872, 1551, 488, 11, 34, "TOCSubsection",ExpressionUUID->"da3c14b0-185a-4808-b3b9-63ec278a032d"],
-Cell[59363, 1564, 494, 11, 34, "TOCSubsection",ExpressionUUID->"51e33d12-03fb-4441-980c-e990cbc89970"],
-Cell[59860, 1577, 532, 11, 30, "TOCSubsubsection",ExpressionUUID->"6c808b42-0027-4a24-b808-bfe038ef4212"],
-Cell[60395, 1590, 518, 11, 30, "TOCSubsubsection",ExpressionUUID->"1ad1dc36-5302-49f7-adf6-f74cdc630c26"],
-Cell[60916, 1603, 531, 11, 30, "TOCSubsubsection",ExpressionUUID->"cc3b6292-cf21-455d-8403-629cbb7ec7f9"],
-Cell[61450, 1616, 522, 11, 30, "TOCSubsubsection",ExpressionUUID->"ebe0ad21-0602-40e7-a08e-326d4312363f"],
-Cell[61975, 1629, 540, 12, 30, "TOCSubsubsection",ExpressionUUID->"b3bdeeec-906b-49ae-8939-2d015e8e4f10"],
-Cell[62518, 1643, 515, 11, 30, "TOCSubsubsection",ExpressionUUID->"448374dc-59e0-47e5-b841-76711b681c06"],
-Cell[63036, 1656, 502, 11, 30, "TOCSubsubsection",ExpressionUUID->"042c1dc3-29ef-4327-b55b-009d94c42d6f"],
-Cell[63541, 1669, 537, 12, 30, "TOCSubsubsection",ExpressionUUID->"8e9b26bc-408a-49e7-8267-94e52f260035"],
-Cell[64081, 1683, 499, 11, 30, "TOCSubsubsection",ExpressionUUID->"357699a6-4b0b-465c-88d3-c8a80323d9c6"],
-Cell[64583, 1696, 499, 11, 30, "TOCSubsubsection",ExpressionUUID->"0f831551-8eb5-4ea7-8982-b15ebc19c1f1"],
-Cell[65085, 1709, 512, 11, 34, "TOCSubsection",ExpressionUUID->"8d002d66-7443-4234-bb72-c9a880770c9f"],
-Cell[65600, 1722, 487, 11, 30, "TOCSubsubsection",ExpressionUUID->"2d9c7ce5-733e-46e8-bbff-0a834d949b1a"],
-Cell[66090, 1735, 493, 11, 30, "TOCSubsubsection",ExpressionUUID->"93753db9-2dad-4a11-a565-ec98c5588cf2"],
-Cell[66586, 1748, 489, 11, 30, "TOCSubsubsection",ExpressionUUID->"826ed9ec-8da1-49df-ad1a-5c1767dcb9cd"],
-Cell[67078, 1761, 506, 11, 30, "TOCSubsubsection",ExpressionUUID->"b7cd49e6-3032-4acc-b1b6-98367efe7cb0"],
-Cell[67587, 1774, 487, 11, 30, "TOCSubsubsection",ExpressionUUID->"a119736b-6e27-4cd3-a074-25b026ca3571"],
-Cell[68077, 1787, 487, 11, 30, "TOCSubsubsection",ExpressionUUID->"5eb05481-c39e-4a1c-b91c-aa8dc53d81a5"],
-Cell[68567, 1800, 508, 11, 30, "TOCSubsubsection",ExpressionUUID->"1fce6bd4-5ac6-42b4-b9a1-5a5562d6d2b1"],
-Cell[69078, 1813, 531, 11, 30, "TOCSubsubsection",ExpressionUUID->"16b2dbc2-c413-4935-819b-f405ecc6f576"],
-Cell[69612, 1826, 516, 11, 34, "TOCSubsection",ExpressionUUID->"2f3e10db-363a-4705-99dc-90d5d580509b"],
-Cell[70131, 1839, 515, 11, 30, "TOCSubsubsection",ExpressionUUID->"09d94fe3-af4a-4299-8e9c-917075b923fb"],
-Cell[70649, 1852, 529, 11, 30, "TOCSubsubsection",ExpressionUUID->"f48bb727-af7c-4d5c-aa90-2790d123b6d1"],
-Cell[71181, 1865, 510, 11, 30, "TOCSubsubsection",ExpressionUUID->"7e1dafa9-63bc-4e76-898e-0557e373cfa6"],
-Cell[71694, 1878, 530, 11, 30, "TOCSubsubsection",ExpressionUUID->"4076fd9c-3e2e-4d47-b962-eee1ad270c4b"],
-Cell[72227, 1891, 530, 11, 30, "TOCSubsubsection",ExpressionUUID->"dc0ed3f4-1ac1-48de-bb81-79a338516e97"],
-Cell[72760, 1904, 526, 11, 30, "TOCSubsubsection",ExpressionUUID->"a4bf60ab-2b64-49b1-b11b-d88df98d3d74"],
-Cell[73289, 1917, 515, 11, 30, "TOCSubsubsection",ExpressionUUID->"d3b485bb-6c84-4c5b-979d-828e84f8b83f"],
-Cell[73807, 1930, 523, 11, 30, "TOCSubsubsection",ExpressionUUID->"8897e261-4ebd-4866-9272-0aae524adb77"],
-Cell[74333, 1943, 507, 11, 30, "TOCSubsubsection",ExpressionUUID->"c09acca7-429f-4005-bae0-3a5ec4539eee"],
-Cell[74843, 1956, 518, 11, 34, "TOCSubsection",ExpressionUUID->"ba2c1c67-d5e3-434d-96bb-67afb84162b8"],
-Cell[75364, 1969, 515, 11, 30, "TOCSubsubsection",ExpressionUUID->"465a6844-65ac-478e-a3b3-66f1960280a7"],
-Cell[75882, 1982, 525, 11, 30, "TOCSubsubsection",ExpressionUUID->"2ac155b0-e143-46fe-9bb0-33fca6e54076"],
-Cell[76410, 1995, 518, 11, 30, "TOCSubsubsection",ExpressionUUID->"cb2044b0-77a9-40a5-9664-fa07e1d0d0d3"],
-Cell[76931, 2008, 532, 11, 30, "TOCSubsubsection",ExpressionUUID->"5974c91a-858f-4119-809b-7fc09270729a"],
-Cell[77466, 2021, 513, 11, 30, "TOCSubsubsection",ExpressionUUID->"6b9d13dc-665c-424a-a17a-907645d53b2b"],
-Cell[77982, 2034, 553, 12, 30, "TOCSubsubsection",ExpressionUUID->"7a7c127e-5b7f-4d9a-bd26-a8aa59f3755a"],
-Cell[78538, 2048, 521, 11, 30, "TOCSubsubsection",ExpressionUUID->"dfa6c179-eb7b-4134-8a7f-94d09e091ce4"],
-Cell[79062, 2061, 520, 11, 30, "TOCSubsubsection",ExpressionUUID->"0ed3ece6-92f8-44bd-a362-83634b98e55b"],
-Cell[79585, 2074, 541, 12, 30, "TOCSubsubsection",ExpressionUUID->"95c34948-e244-4fce-b1fd-92ce514c6f0f"],
-Cell[80129, 2088, 530, 11, 30, "TOCSubsubsection",ExpressionUUID->"7215a91d-80d1-40e5-847f-7f911ee04bf7"],
-Cell[80662, 2101, 506, 11, 34, "TOCSubsection",ExpressionUUID->"eb19e9dc-2a08-4723-a468-90a09c119c50"],
-Cell[81171, 2114, 516, 11, 30, "TOCSubsubsection",ExpressionUUID->"d63b62d4-44df-4849-bcc7-b7ad56c0a2fa"],
-Cell[81690, 2127, 518, 11, 30, "TOCSubsubsection",ExpressionUUID->"7330fd11-6b95-41aa-8320-95e2abc3de73"],
-Cell[82211, 2140, 538, 12, 30, "TOCSubsubsection",ExpressionUUID->"493ee69b-f483-4fea-92fb-8860e6c11729"],
-Cell[82752, 2154, 525, 11, 30, "TOCSubsubsection",ExpressionUUID->"d15f1966-7855-4d85-8e7b-04f16983a077"],
-Cell[83280, 2167, 511, 11, 34, "TOCSubsection",ExpressionUUID->"af3efbed-a035-4c73-8c7b-f9ae8122b3a8"],
-Cell[83794, 2180, 515, 11, 30, "TOCSubsubsection",ExpressionUUID->"f235c87f-d260-4503-b327-6f8c7b4f77e9"],
-Cell[84312, 2193, 505, 11, 30, "TOCSubsubsection",ExpressionUUID->"44ad393c-c822-49b3-a00f-d416518b54b8"],
-Cell[84820, 2206, 514, 11, 30, "TOCSubsubsection",ExpressionUUID->"eeb689cb-ebbe-4b99-bb22-5785e2b56bd2"],
-Cell[85337, 2219, 507, 11, 30, "TOCSubsubsection",ExpressionUUID->"be97f4cb-7b05-4c41-b88e-2f0094e07eab"],
-Cell[85847, 2232, 518, 11, 30, "TOCSubsubsection",ExpressionUUID->"85910fbe-b82e-4b7d-95f2-f23886996777"],
-Cell[86368, 2245, 523, 11, 30, "TOCSubsubsection",ExpressionUUID->"a0db34b6-460c-4e1e-9929-000f25e9167b"],
-Cell[86894, 2258, 539, 12, 34, "TOCSubsection",ExpressionUUID->"6cab69c1-56ed-4722-afbb-27ca231908d1"],
-Cell[87436, 2272, 488, 11, 30, "TOCSubsubsection",ExpressionUUID->"6a6d00d5-e794-4aca-a38e-b656743cf2fb"],
-Cell[87927, 2285, 487, 11, 30, "TOCSubsubsection",ExpressionUUID->"528c6275-c2b6-45f9-a63a-5f9a067a660c"],
-Cell[88417, 2298, 486, 11, 30, "TOCSubsubsection",ExpressionUUID->"22ddeeb5-9c51-4bb1-b944-842a288882d7"],
-Cell[88906, 2311, 495, 11, 34, "TOCSubsection",ExpressionUUID->"5feb8708-6a53-48f0-80f8-fc624a429429"],
-Cell[89404, 2324, 526, 11, 30, "TOCSubsubsection",ExpressionUUID->"1b564b1f-7661-466b-a6ce-65c9c18a9aae"],
-Cell[89933, 2337, 524, 11, 30, "TOCSubsubsection",ExpressionUUID->"aa1e60a1-4937-4a50-b62a-cb21c5ee699c"],
-Cell[90460, 2350, 501, 11, 30, "TOCSubsubsection",ExpressionUUID->"699fccd7-9c9d-4de3-9fda-9ba2bfa933f0"],
-Cell[90964, 2363, 496, 11, 30, "TOCSubsubsection",ExpressionUUID->"82d21420-1c62-4d01-aee8-d749601cd352"],
-Cell[91463, 2376, 501, 11, 30, "TOCSubsubsection",ExpressionUUID->"4d9dc964-7632-48b9-a82c-1cd4a36bead3"],
-Cell[91967, 2389, 518, 11, 30, "TOCSubsubsection",ExpressionUUID->"6dbe6b57-ba0f-4d84-96a7-f44b91b5496c"],
-Cell[92488, 2402, 524, 11, 30, "TOCSubsubsection",ExpressionUUID->"a5b71341-3657-4871-8faf-30a8e464076b"],
-Cell[93015, 2415, 519, 11, 30, "TOCSubsubsection",ExpressionUUID->"3857c892-7165-45fd-8d52-95f5e8490365"],
-Cell[93537, 2428, 531, 12, 34, "TOCSubsection",ExpressionUUID->"bf911e2f-732f-4f30-97d7-b3a4106c4388"],
-Cell[94071, 2442, 490, 11, 34, "TOCSubsection",ExpressionUUID->"973099e5-1821-4536-b0fd-dfdd21be6111"],
-Cell[94564, 2455, 498, 11, 30, "TOCSubsubsection",ExpressionUUID->"8524d422-de5e-4212-b515-52ebd3ee1e80"],
-Cell[95065, 2468, 518, 11, 30, "TOCSubsubsection",ExpressionUUID->"faba3c1b-5791-49fa-8f95-e3961d595340"],
-Cell[95586, 2481, 562, 12, 30, "TOCSubsubsection",ExpressionUUID->"a260cbfc-6cfe-4fbb-a437-b24b14520b36"],
-Cell[96151, 2495, 511, 11, 34, "TOCSubsection",ExpressionUUID->"b540a0d9-ef95-4037-bb4c-9e534ff35e67"],
-Cell[96665, 2508, 505, 11, 30, "TOCSubsubsection",ExpressionUUID->"55ba5859-a962-4946-951f-858a647a21d0"],
-Cell[97173, 2521, 504, 11, 30, "TOCSubsubsection",ExpressionUUID->"e9eb1b08-f163-431d-8c4d-2b06212e997e"],
-Cell[97680, 2534, 483, 11, 34, "TOCSubsection",ExpressionUUID->"13d3af8e-b872-4146-b982-79a88f356b9e"],
-Cell[98166, 2547, 509, 11, 40, "TOCSection",ExpressionUUID->"585d116a-5a0d-437f-a418-29d141fa242c"],
-Cell[98678, 2560, 482, 11, 34, "TOCSubsection",ExpressionUUID->"dc817369-b1fd-4e2e-8b0d-dd6ab8c87834"],
-Cell[99163, 2573, 497, 11, 34, "TOCSubsection",ExpressionUUID->"c54b5e77-4a29-44a3-b841-96d7a55f5239"],
-Cell[99663, 2586, 488, 11, 30, "TOCSubsubsection",ExpressionUUID->"83b77736-64e1-4fb6-8af7-219475db2884"],
-Cell[100154, 2599, 495, 11, 30, "TOCSubsubsection",ExpressionUUID->"b7df04af-856b-4b81-8a4d-82a34b075592"],
-Cell[100652, 2612, 481, 11, 30, "TOCSubsubsection",ExpressionUUID->"4da0bd18-bdc2-4c94-b660-841677704cd5"],
-Cell[101136, 2625, 482, 11, 30, "TOCSubsubsection",ExpressionUUID->"b8a3bc66-ced3-4f52-93c5-430758f7ffc5"],
-Cell[101621, 2638, 480, 11, 30, "TOCSubsubsection",ExpressionUUID->"48c1c212-53e1-4976-8264-b9a0c7f855e1"],
-Cell[102104, 2651, 486, 11, 30, "TOCSubsubsection",ExpressionUUID->"f61df061-8443-4331-b15d-f98bf1ed6960"],
-Cell[102593, 2664, 481, 11, 30, "TOCSubsubsection",ExpressionUUID->"2325fdf5-1859-442f-b98d-917a3437b924"],
-Cell[103077, 2677, 522, 11, 30, "TOCSubsubsection",ExpressionUUID->"d74c5616-74fe-4dd8-b903-25ede3742bc4"],
-Cell[103602, 2690, 485, 11, 34, "TOCSubsection",ExpressionUUID->"f230e3b5-a063-4749-a8be-7848a3c3f25f"],
-Cell[104090, 2703, 482, 11, 30, "TOCSubsubsection",ExpressionUUID->"c50db59c-0b29-4d2f-8651-056eb429f2c0"],
-Cell[104575, 2716, 485, 11, 30, "TOCSubsubsection",ExpressionUUID->"fb9b8422-c7fb-4cf9-999e-8e1360501eb8"],
-Cell[105063, 2729, 481, 11, 30, "TOCSubsubsection",ExpressionUUID->"3241f570-d7da-4b75-89d2-1965e23c5075"],
-Cell[105547, 2742, 481, 11, 30, "TOCSubsubsection",ExpressionUUID->"f17048cc-434f-4970-a605-ffe764d5948d"],
-Cell[106031, 2755, 481, 11, 34, "TOCSubsection",ExpressionUUID->"72d9c9d0-2158-482f-95d3-89bdd46dbb7d"],
-Cell[106515, 2768, 493, 11, 30, "TOCSubsubsection",ExpressionUUID->"4e06cbcb-e114-4a8f-addf-cb37a49e8502"],
-Cell[107011, 2781, 503, 11, 30, "TOCSubsubsection",ExpressionUUID->"51d5d913-5d74-4c6e-93f7-29c8dcb894c7"],
-Cell[107517, 2794, 487, 11, 34, "TOCSubsection",ExpressionUUID->"85c64b8b-9e4e-4436-89d8-a61d0b927f4a"],
-Cell[108007, 2807, 510, 11, 30, "TOCSubsubsection",ExpressionUUID->"f869d6a3-7104-4530-b80d-e8c839b25292"],
-Cell[108520, 2820, 490, 11, 30, "TOCSubsubsection",ExpressionUUID->"ae36c4f7-10db-4ba0-ba07-3ccbc5d7f4c4"],
-Cell[109013, 2833, 538, 12, 30, "TOCSubsubsection",ExpressionUUID->"2b69fddf-eb44-40e6-b54f-f7cd364bf09c"],
-Cell[109554, 2847, 518, 11, 30, "TOCSubsubsection",ExpressionUUID->"a19eeaa3-b9e8-45c6-bb19-f617bc8cfa27"],
-Cell[110075, 2860, 517, 11, 30, "TOCSubsubsection",ExpressionUUID->"45571ce1-a9dc-4234-8c0e-73bf5ee81e31"],
-Cell[110595, 2873, 499, 11, 34, "TOCSubsection",ExpressionUUID->"216a50aa-b44d-4aa5-9d86-66028328077c"],
-Cell[111097, 2886, 504, 11, 30, "TOCSubsubsection",ExpressionUUID->"a8c601fd-dc91-4f3b-90bc-ce720fe67775"],
-Cell[111604, 2899, 514, 11, 30, "TOCSubsubsection",ExpressionUUID->"fe96b56a-07c8-46d2-b3fb-54fa3d0bc097"],
-Cell[112121, 2912, 519, 11, 30, "TOCSubsubsection",ExpressionUUID->"f90ac82b-2031-441e-a3c0-4080308f95a9"],
-Cell[112643, 2925, 525, 11, 30, "TOCSubsubsection",ExpressionUUID->"6ba9a7d5-700c-4442-8f98-3f44303f8a17"],
-Cell[113171, 2938, 538, 12, 30, "TOCSubsubsection",ExpressionUUID->"566fa5db-4e01-49e1-b806-6aed51baaa4b"],
-Cell[113712, 2952, 494, 11, 30, "TOCSubsubsection",ExpressionUUID->"f09d09fa-be8d-4eb0-9f53-c76099f6e196"],
-Cell[114209, 2965, 553, 12, 30, "TOCSubsubsection",ExpressionUUID->"25dcc86a-190a-455f-a0d1-957d83e6d320"],
-Cell[114765, 2979, 528, 11, 30, "TOCSubsubsection",ExpressionUUID->"37abbfe1-0642-42b9-9e1d-f0961b83349b"],
-Cell[115296, 2992, 492, 11, 34, "TOCSubsection",ExpressionUUID->"4bc1348f-6933-4796-aa75-8eaa6df0aa26"],
-Cell[115791, 3005, 483, 11, 30, "TOCSubsubsection",ExpressionUUID->"eca95f93-b6c2-458a-b1e9-18e107f9f3ed"],
-Cell[116277, 3018, 483, 11, 30, "TOCSubsubsection",ExpressionUUID->"f9a9b19c-80c2-4f2c-af6c-89ae258a0204"],
-Cell[116763, 3031, 477, 11, 34, "TOCSubsection",ExpressionUUID->"13eb6c12-5d43-4de5-a0c9-da9412662135"],
-Cell[117243, 3044, 534, 12, 40, "TOCSection",ExpressionUUID->"897684ae-34ea-4191-9ad9-8a33a21965df"],
-Cell[117780, 3058, 490, 11, 34, "TOCSubsection",ExpressionUUID->"ae4775f7-501b-4068-bc97-e5e5512a111c"],
-Cell[118273, 3071, 533, 12, 34, "TOCSubsection",ExpressionUUID->"77616f7c-da64-481b-af08-926965f2b74c"],
-Cell[118809, 3085, 520, 11, 34, "TOCSubsection",ExpressionUUID->"14bec179-0ca4-4651-8f88-b6fa7463dc99"],
-Cell[119332, 3098, 538, 12, 34, "TOCSubsection",ExpressionUUID->"cdefdb06-91b6-41a3-a9c3-73bd7cc25efa"],
-Cell[119873, 3112, 530, 11, 34, "TOCSubsection",ExpressionUUID->"0c3b3915-4b5f-4867-97d2-71d51a4a4093"],
-Cell[120406, 3125, 485, 11, 34, "TOCSubsection",ExpressionUUID->"77b0a652-119a-4c9c-9ce2-78af7368387f"],
-Cell[120894, 3138, 466, 11, 40, "TOCSection",ExpressionUUID->"948b5166-7f96-4747-ba14-1638b78119c2"],
-Cell[121363, 3151, 536, 12, 59, "TOCSubsection",ExpressionUUID->"c2e6f308-d523-4654-b118-c4b700e85576"],
-Cell[121902, 3165, 531, 12, 59, "TOCSubsection",ExpressionUUID->"d80b384e-b91f-4a0c-8a6a-8d360944f699"],
-Cell[122436, 3179, 488, 11, 30, "TOCSubsubsection",ExpressionUUID->"667a87bd-0e05-4bb9-bee4-01762f35f345"],
-Cell[122927, 3192, 515, 11, 30, "TOCSubsubsection",ExpressionUUID->"2d23a503-85ac-4ac3-97ff-d571c0d59783"],
-Cell[123445, 3205, 494, 11, 30, "TOCSubsubsection",ExpressionUUID->"1b51fee6-241f-4f12-ba25-2a4353b95bd5"],
-Cell[123942, 3218, 513, 11, 30, "TOCSubsubsection",ExpressionUUID->"bfcb671c-4f8a-4aef-8f49-590882063df8"],
-Cell[124458, 3231, 489, 11, 30, "TOCSubsubsection",ExpressionUUID->"6aff11e3-db00-4551-a0ca-7ff232817004"],
-Cell[124950, 3244, 490, 11, 30, "TOCSubsubsection",ExpressionUUID->"774993b2-51af-4c79-99ee-2591389f848c"]
+Cell[576, 22, 83, 0, 136, "TOCTitle",ExpressionUUID->"0aeefba2-67f8-4274-b3f5-1e7a28f3dfd5"],
+Cell[662, 24, 460, 11, 40, "TOCSection",ExpressionUUID->"0c83a518-3912-4947-8718-5cb5aca63132"],
+Cell[1125, 37, 486, 11, 34, "TOCSubsection",ExpressionUUID->"45124194-3455-4191-9deb-a3b70f6f9831"],
+Cell[1614, 50, 485, 11, 34, "TOCSubsection",ExpressionUUID->"f45afbf1-fffc-4e57-bdc9-881ed6a844c6"],
+Cell[2102, 63, 474, 11, 34, "TOCSubsection",ExpressionUUID->"17baae2a-b87c-48ac-be98-12ead86eb21f"],
+Cell[2579, 76, 485, 11, 34, "TOCSubsection",ExpressionUUID->"792ef39b-b868-4cbb-841c-a26fdcb1449f"],
+Cell[3067, 89, 484, 11, 34, "TOCSubsection",ExpressionUUID->"a1f516dc-48e6-4eef-aa37-6c604ce023b7"],
+Cell[3554, 102, 472, 11, 34, "TOCSubsection",ExpressionUUID->"f9ad999e-497b-45e5-85d0-65f03c94d759"],
+Cell[4029, 115, 487, 11, 34, "TOCSubsection",ExpressionUUID->"a5fe63ec-7e72-4eb6-9e87-e8fb5c127057"],
+Cell[4519, 128, 478, 11, 34, "TOCSubsection",ExpressionUUID->"86932cde-b92d-4f92-adb1-c0325ef1ae02"],
+Cell[5000, 141, 487, 11, 34, "TOCSubsection",ExpressionUUID->"c3eb2f85-e4cd-4401-8d35-ddfb480550e1"],
+Cell[5490, 154, 470, 11, 40, "TOCSection",ExpressionUUID->"e4869b4b-1a97-47b8-8321-11cc777f69b7"],
+Cell[5963, 167, 508, 11, 34, "TOCSubsection",ExpressionUUID->"1024ec9a-4f0f-4fa1-980d-368d1e6b1b04"],
+Cell[6474, 180, 508, 11, 30, "TOCSubsubsection",ExpressionUUID->"f50cd676-b447-4df7-841d-7307ad3a88fc"],
+Cell[6985, 193, 512, 11, 30, "TOCSubsubsection",ExpressionUUID->"05672120-6bc1-43e9-8e0b-fe4ebda3ab50"],
+Cell[7500, 206, 535, 12, 30, "TOCSubsubsection",ExpressionUUID->"80b29373-8ded-45b4-ab79-9db0b01694fe"],
+Cell[8038, 220, 523, 12, 30, "TOCSubsubsection",ExpressionUUID->"2e354b4c-b4fa-42d1-ad1c-134b307ad59e"],
+Cell[8564, 234, 511, 11, 30, "TOCSubsubsection",ExpressionUUID->"feb9c6c4-71b2-48cf-badd-1e4434ad6164"],
+Cell[9078, 247, 530, 12, 30, "TOCSubsubsection",ExpressionUUID->"0d052193-6e3e-40ab-8d46-57ad9cc9e4ed"],
+Cell[9611, 261, 513, 11, 30, "TOCSubsubsection",ExpressionUUID->"66f015e4-8130-4e0a-9ec5-341288d8058c"],
+Cell[10127, 274, 522, 12, 34, "TOCSubsection",ExpressionUUID->"a552dfd9-273b-44cb-b6d4-e22944ef9a16"],
+Cell[10652, 288, 483, 11, 30, "TOCSubsubsection",ExpressionUUID->"8b59a698-4f09-4089-b683-981639d5a4b4"],
+Cell[11138, 301, 517, 11, 30, "TOCSubsubsection",ExpressionUUID->"24466773-ceca-4ba0-b6f6-186e9d995508"],
+Cell[11658, 314, 517, 11, 30, "TOCSubsubsection",ExpressionUUID->"83972441-ab7c-484f-a116-84c100522185"],
+Cell[12178, 327, 523, 12, 70, "TOCSubsubsection",ExpressionUUID->"2829b7f4-7892-4b79-89fd-96fed5f4830a"],
+Cell[12704, 341, 492, 11, 70, "TOCSubsubsection",ExpressionUUID->"27bde8cb-127d-4055-8af3-18c44114b921"],
+Cell[13199, 354, 532, 12, 70, "TOCSubsubsection",ExpressionUUID->"84b59473-ff06-492f-8670-dbc653355a58"],
+Cell[13734, 368, 509, 11, 70, "TOCSubsubsection",ExpressionUUID->"625bbada-19f3-4796-a898-40fb72df3029"],
+Cell[14246, 381, 495, 11, 70, "TOCSubsubsection",ExpressionUUID->"d7a429df-2dda-4ff4-9334-33ea18d00a19"],
+Cell[14744, 394, 502, 11, 70, "TOCSubsection",ExpressionUUID->"f77f9b40-4bb7-4c01-bbff-98a415a4eae5"],
+Cell[15249, 407, 471, 11, 70, "TOCSubsection",ExpressionUUID->"ff9d9b7f-4d41-4a2d-a89e-cbb48fc61595"],
+Cell[15723, 420, 488, 11, 70, "TOCSection",ExpressionUUID->"dc676ec3-68b1-40e5-863e-b721688e7d5a"],
+Cell[16214, 433, 485, 11, 70, "TOCSubsection",ExpressionUUID->"ae5831f9-6c82-45ec-9258-659bb5d132be"],
+Cell[16702, 446, 494, 11, 70, "TOCSubsection",ExpressionUUID->"c790d83b-04b2-4d09-999d-aed3e361f93c"],
+Cell[17199, 459, 502, 11, 70, "TOCSubsubsection",ExpressionUUID->"56892de3-070d-4b1b-b145-06e09fea4b7f"],
+Cell[17704, 472, 512, 11, 70, "TOCSubsubsection",ExpressionUUID->"bd27c629-40ff-4165-a56d-232ce508ba39"],
+Cell[18219, 485, 558, 12, 70, "TOCSubsubsection",ExpressionUUID->"55436d34-2130-47d2-88cf-bff63a14afe5"],
+Cell[18780, 499, 511, 11, 70, "TOCSubsubsection",ExpressionUUID->"752e7780-0583-431b-97c6-66f516e9073d"],
+Cell[19294, 512, 512, 11, 70, "TOCSubsubsection",ExpressionUUID->"86028904-baaf-40a1-bac7-c8e996257955"],
+Cell[19809, 525, 497, 11, 70, "TOCSubsubsection",ExpressionUUID->"197dd08f-7bf3-4227-bdfe-01c6cac92ced"],
+Cell[20309, 538, 515, 11, 70, "TOCSubsubsection",ExpressionUUID->"a8932d41-1d42-40a1-8d63-d66051449098"],
+Cell[20827, 551, 515, 11, 70, "TOCSubsubsection",ExpressionUUID->"864f15cf-97f7-42a9-a457-323b215b00f3"],
+Cell[21345, 564, 486, 11, 70, "TOCSubsubsection",ExpressionUUID->"cf0997e9-6a4e-4001-b088-b4722e82bbe8"],
+Cell[21834, 577, 492, 11, 70, "TOCSubsection",ExpressionUUID->"6b9dc36b-70e5-4051-9f69-1cef972d32b7"],
+Cell[22329, 590, 484, 11, 70, "TOCSubsection",ExpressionUUID->"d320abb1-fc9e-47ae-9576-5f60e7108380"],
+Cell[22816, 603, 534, 12, 70, "TOCSubsubsection",ExpressionUUID->"0fb8e2bc-fcc4-424e-8a0c-e10abb2f92bc"],
+Cell[23353, 617, 535, 12, 70, "TOCSubsubsection",ExpressionUUID->"8fa29cdf-d9a1-4b7d-85fc-cd1ee99c78ca"],
+Cell[23891, 631, 496, 11, 70, "TOCSubsubsection",ExpressionUUID->"5ca25cf2-3f4e-45ca-b8ac-5fe417844b16"],
+Cell[24390, 644, 548, 12, 70, "TOCSubsubsection",ExpressionUUID->"feb10942-d3ce-45e7-9558-10ef7efb077f"],
+Cell[24941, 658, 522, 11, 70, "TOCSubsubsection",ExpressionUUID->"99968d52-a532-4ba4-837f-2cbacac30bf3"],
+Cell[25466, 671, 488, 11, 70, "TOCSubsection",ExpressionUUID->"045ae8e1-9a4c-49e3-bae2-a79b8d470aa0"],
+Cell[25957, 684, 484, 11, 70, "TOCSubsubsection",ExpressionUUID->"78142dce-efd5-42af-ac83-894306e500ba"],
+Cell[26444, 697, 564, 12, 70, "TOCSubsubsection",ExpressionUUID->"ba0b7da6-f847-46a1-a121-4ee72f43acc7"],
+Cell[27011, 711, 531, 11, 70, "TOCSubsubsection",ExpressionUUID->"79ec1ab7-8213-4314-8993-e8b4fbd69005"],
+Cell[27545, 724, 548, 12, 70, "TOCSubsubsection",ExpressionUUID->"2b4e91ce-49cd-48d2-9e10-e7f18eb90748"],
+Cell[28096, 738, 503, 11, 70, "TOCSubsubsection",ExpressionUUID->"f7e2a8fc-02f0-4f10-bfa5-6b37eb19e891"],
+Cell[28602, 751, 529, 11, 70, "TOCSubsubsection",ExpressionUUID->"9e67255c-37a8-4402-a710-25924f6f7680"],
+Cell[29134, 764, 528, 11, 70, "TOCSubsubsection",ExpressionUUID->"1cd5ee0e-5f68-4c39-b997-7782a326e51d"],
+Cell[29665, 777, 484, 11, 70, "TOCSubsubsection",ExpressionUUID->"fd04d277-cdb8-44c3-8efb-9f735d0759df"],
+Cell[30152, 790, 484, 11, 70, "TOCSubsubsection",ExpressionUUID->"e50a1453-2233-4b45-aca0-2dc6fafa465a"],
+Cell[30639, 803, 490, 11, 70, "TOCSubsection",ExpressionUUID->"23ecb6a4-b118-4fba-9c4d-c2726d4f9ae6"],
+Cell[31132, 816, 485, 11, 70, "TOCSubsection",ExpressionUUID->"f0ca90ea-9505-47c5-a7b4-1040ac0af40a"],
+Cell[31620, 829, 494, 11, 70, "TOCSubsubsection",ExpressionUUID->"97681a03-5e5a-4f21-9877-ac811701f699"],
+Cell[32117, 842, 553, 12, 70, "TOCSubsubsection",ExpressionUUID->"72b582bb-ba90-4eb8-8630-ea34812d41cc"],
+Cell[32673, 856, 497, 11, 70, "TOCSubsubsection",ExpressionUUID->"db061430-abb1-43d8-8bdb-21f5f657ca09"],
+Cell[33173, 869, 505, 11, 70, "TOCSubsubsection",ExpressionUUID->"dc0ec1d8-cb8a-494c-8d48-a50054e5e914"],
+Cell[33681, 882, 478, 11, 70, "TOCSubsection",ExpressionUUID->"00947285-612e-49f4-9351-5824bea6d70a"],
+Cell[34162, 895, 487, 11, 70, "TOCSubsubsection",ExpressionUUID->"36f537a4-5177-45d2-9b2a-26fb86a21544"],
+Cell[34652, 908, 489, 11, 70, "TOCSubsubsection",ExpressionUUID->"4ce0d4d1-b5f4-49a9-8c79-e74cfa85a584"],
+Cell[35144, 921, 486, 11, 70, "TOCSubsubsection",ExpressionUUID->"fbf19ead-bc08-409c-a77b-63003fcca3c2"],
+Cell[35633, 934, 508, 11, 70, "TOCSubsubsection",ExpressionUUID->"2456ba06-d5a8-472a-8ada-45ad45e3ceb9"],
+Cell[36144, 947, 531, 11, 70, "TOCSubsubsection",ExpressionUUID->"93b8b2f3-30f5-4f13-bd5b-ae790f4cdc50"],
+Cell[36678, 960, 526, 11, 70, "TOCSubsubsection",ExpressionUUID->"7dc6c9cd-a8a2-4723-a745-6887ff6ba129"],
+Cell[37207, 973, 538, 12, 70, "TOCSubsubsection",ExpressionUUID->"cde0883b-53eb-40b3-b700-415b448353a3"],
+Cell[37748, 987, 510, 11, 70, "TOCSubsection",ExpressionUUID->"fdd92203-0677-4cdd-a00c-f45d6bce7dae"],
+Cell[38261, 1000, 493, 11, 70, "TOCSubsubsection",ExpressionUUID->"8e69b86e-305d-4f4c-94e4-c69d6b153ee5"],
+Cell[38757, 1013, 494, 11, 70, "TOCSubsubsection",ExpressionUUID->"bf9a1934-a1bd-4700-a0a9-4425ffe485c9"],
+Cell[39254, 1026, 504, 11, 70, "TOCSubsubsection",ExpressionUUID->"31749bf6-8338-42a0-a61a-7931372508bd"],
+Cell[39761, 1039, 507, 11, 70, "TOCSubsubsection",ExpressionUUID->"44055c6b-7468-4728-bdc3-1d60a285f4d7"],
+Cell[40271, 1052, 480, 11, 70, "TOCSubsection",ExpressionUUID->"ae3626af-943e-4092-a3da-21fac8097e61"],
+Cell[40754, 1065, 456, 11, 70, "TOCSection",ExpressionUUID->"18648653-84a7-4de8-a112-c11963c9efd1"],
+Cell[41213, 1078, 469, 11, 70, "TOCSubsection",ExpressionUUID->"f5dc9a32-c212-4478-bcc7-64732e32e630"],
+Cell[41685, 1091, 520, 12, 70, "TOCSubsection",ExpressionUUID->"219e447f-416a-4bf1-a649-6a6e79b7f03b"],
+Cell[42208, 1105, 477, 11, 70, "TOCSubsection",ExpressionUUID->"2d351dc1-886b-40a5-99f7-7d21603fd70c"],
+Cell[42688, 1118, 476, 11, 70, "TOCSubsection",ExpressionUUID->"c254c26b-8bcc-4b59-b9f8-033c660abeaf"],
+Cell[43167, 1131, 488, 11, 70, "TOCSubsubsection",ExpressionUUID->"7ccdd2ae-bc1d-4364-891a-272df3eb6d00"],
+Cell[43658, 1144, 528, 12, 70, "TOCSubsubsection",ExpressionUUID->"2f7e0324-642e-426b-8af2-ac8c37a472b7"],
+Cell[44189, 1158, 505, 11, 70, "TOCSubsubsection",ExpressionUUID->"74550029-48a9-466a-a9f1-892259f50535"],
+Cell[44697, 1171, 497, 11, 70, "TOCSubsubsection",ExpressionUUID->"c09d43e0-7259-411b-9089-15d977c5c95f"],
+Cell[45197, 1184, 495, 11, 70, "TOCSubsubsection",ExpressionUUID->"f7168705-66bc-480f-a748-53f8237ab193"],
+Cell[45695, 1197, 486, 11, 70, "TOCSubsection",ExpressionUUID->"67e037c4-7f36-4320-b9ae-e5978db14893"],
+Cell[46184, 1210, 491, 11, 70, "TOCSubsection",ExpressionUUID->"1fbdd2dc-46c4-4654-bbf8-e4d4520e39ce"],
+Cell[46678, 1223, 523, 12, 70, "TOCSubsubsection",ExpressionUUID->"efa1f9a1-0ee2-43f6-9512-314efb290e10"],
+Cell[47204, 1237, 470, 11, 70, "TOCSubsubsection",ExpressionUUID->"5afcd316-8187-46f5-91a4-b4d1534fa867"],
+Cell[47677, 1250, 476, 11, 70, "TOCSubsubsection",ExpressionUUID->"5657338e-f6fd-4899-9299-3a8aba0086af"],
+Cell[48156, 1263, 489, 11, 70, "TOCSubsubsection",ExpressionUUID->"e6faa358-5664-41d5-9ef4-97fe7f2b1151"],
+Cell[48648, 1276, 469, 11, 70, "TOCSubsubsection",ExpressionUUID->"6241626b-4d92-42de-9355-0700dedae69c"],
+Cell[49120, 1289, 526, 12, 70, "TOCSubsubsection",ExpressionUUID->"dd7642c1-758a-4817-a449-ab4383e08a27"],
+Cell[49649, 1303, 474, 11, 70, "TOCSubsubsection",ExpressionUUID->"3468b0bb-6908-4df6-9035-8adc23f8157d"],
+Cell[50126, 1316, 471, 11, 70, "TOCSubsubsection",ExpressionUUID->"f7dc8260-5dc9-40ab-b4fb-1769a3feec9b"],
+Cell[50600, 1329, 518, 12, 70, "TOCSubsection",ExpressionUUID->"de5c2c5a-0b03-4b4f-8e2d-fca08927cc9b"],
+Cell[51121, 1343, 502, 11, 70, "TOCSubsubsection",ExpressionUUID->"ae97ebd8-54ed-401a-a051-91b27b28d6ee"],
+Cell[51626, 1356, 480, 11, 70, "TOCSubsubsection",ExpressionUUID->"72aafbe1-6582-480a-b38f-52203acfa153"],
+Cell[52109, 1369, 482, 11, 70, "TOCSubsection",ExpressionUUID->"baa547e3-625a-4f09-85d5-57eb8c044627"],
+Cell[52594, 1382, 472, 11, 70, "TOCSubsubsection",ExpressionUUID->"917c465f-75cc-44ae-8a01-69295357f802"],
+Cell[53069, 1395, 472, 11, 70, "TOCSubsubsection",ExpressionUUID->"c9ff0433-bdab-4415-ae88-2b8479585545"],
+Cell[53544, 1408, 470, 11, 70, "TOCSubsubsection",ExpressionUUID->"9c92a71d-70fb-476a-acc7-cef9536110f7"],
+Cell[54017, 1421, 483, 11, 70, "TOCSubsection",ExpressionUUID->"08c67d98-ecf6-4322-87e6-0af7eac3b2c8"],
+Cell[54503, 1434, 467, 11, 70, "TOCSubsubsection",ExpressionUUID->"b776f014-75a4-4aa2-9c66-76bb2cef0bcd"],
+Cell[54973, 1447, 475, 11, 70, "TOCSubsubsection",ExpressionUUID->"0aefec85-464f-47a2-aae8-e58f5082d260"],
+Cell[55451, 1460, 473, 11, 70, "TOCSubsubsection",ExpressionUUID->"fda49313-31ae-4030-806e-007252b0d909"],
+Cell[55927, 1473, 490, 11, 70, "TOCSubsection",ExpressionUUID->"f8ccb1d3-9371-4a89-b6b1-e939fffae12b"],
+Cell[56420, 1486, 467, 11, 70, "TOCSubsubsection",ExpressionUUID->"66cb45ce-7f92-44be-811a-db960091d4fe"],
+Cell[56890, 1499, 468, 11, 70, "TOCSubsubsection",ExpressionUUID->"90d58d0b-6f1f-4812-b5e0-b6d2b21c076f"],
+Cell[57361, 1512, 468, 11, 70, "TOCSubsubsection",ExpressionUUID->"bd16c642-85f9-4174-abf8-a060339291bd"],
+Cell[57832, 1525, 464, 11, 70, "TOCSubsection",ExpressionUUID->"62e4ea14-6d36-422e-82a9-660bfb84bd80"],
+Cell[58299, 1538, 498, 11, 70, "TOCSection",ExpressionUUID->"3798a948-3316-4c33-9f51-7f18702c7eb0"],
+Cell[58800, 1551, 488, 11, 70, "TOCSubsection",ExpressionUUID->"03abb62c-0b21-4de5-9e0c-16421325305d"],
+Cell[59291, 1564, 494, 11, 70, "TOCSubsection",ExpressionUUID->"acc0fb17-6ea7-4435-8e13-e397305b5cab"],
+Cell[59788, 1577, 523, 11, 70, "TOCSubsubsection",ExpressionUUID->"4116d610-d5b6-438e-80c0-4e929d3f04cf"],
+Cell[60314, 1590, 518, 11, 70, "TOCSubsubsection",ExpressionUUID->"8ccc4faa-fdf1-4731-879e-82a38d445a8b"],
+Cell[60835, 1603, 531, 11, 70, "TOCSubsubsection",ExpressionUUID->"9d2628e2-2ddd-4b96-b46e-038f7b174bc8"],
+Cell[61369, 1616, 522, 11, 70, "TOCSubsubsection",ExpressionUUID->"b6dcdac4-a87b-4e80-822e-b47d8e233231"],
+Cell[61894, 1629, 525, 11, 70, "TOCSubsubsection",ExpressionUUID->"4eb9493e-c112-459d-aab2-423cc44758c8"],
+Cell[62422, 1642, 515, 11, 70, "TOCSubsubsection",ExpressionUUID->"0e100ead-d1c5-4711-98c4-9934a887c20b"],
+Cell[62940, 1655, 502, 11, 70, "TOCSubsubsection",ExpressionUUID->"8ee4e6ba-117b-48fd-93ab-cc35cb2b6f12"],
+Cell[63445, 1668, 513, 11, 70, "TOCSubsubsection",ExpressionUUID->"a6c880d2-762b-4564-b415-8c424fca24ab"],
+Cell[63961, 1681, 499, 11, 70, "TOCSubsubsection",ExpressionUUID->"68ac4d9d-5843-4b64-87da-310539cedfb7"],
+Cell[64463, 1694, 499, 11, 70, "TOCSubsubsection",ExpressionUUID->"353c2aee-da6d-4ed6-abee-cb02df625edc"],
+Cell[64965, 1707, 512, 11, 70, "TOCSubsection",ExpressionUUID->"4eda7c2c-12fe-40b0-979b-410b6773332e"],
+Cell[65480, 1720, 487, 11, 70, "TOCSubsubsection",ExpressionUUID->"20251f6a-6d6d-470b-b5ce-5555fa3121b0"],
+Cell[65970, 1733, 493, 11, 70, "TOCSubsubsection",ExpressionUUID->"90c4d388-535c-4895-bf30-b45788c01a97"],
+Cell[66466, 1746, 489, 11, 70, "TOCSubsubsection",ExpressionUUID->"ee40f868-6218-437d-b328-2be37a664e8d"],
+Cell[66958, 1759, 490, 11, 70, "TOCSubsubsection",ExpressionUUID->"78eef5f7-38e1-47df-b85a-7222ed50961a"],
+Cell[67451, 1772, 487, 11, 70, "TOCSubsubsection",ExpressionUUID->"49258094-392f-4462-8947-158fe9d8eefc"],
+Cell[67941, 1785, 487, 11, 70, "TOCSubsubsection",ExpressionUUID->"11706dba-274b-4453-bf08-ceea57c4c062"],
+Cell[68431, 1798, 508, 11, 70, "TOCSubsubsection",ExpressionUUID->"e3da9c97-c323-4438-88d8-eb403a70b424"],
+Cell[68942, 1811, 531, 11, 70, "TOCSubsubsection",ExpressionUUID->"733d5ae6-b6f3-4de5-befa-b140a717b5cb"],
+Cell[69476, 1824, 516, 11, 70, "TOCSubsection",ExpressionUUID->"4b80f3ad-99df-4b9c-a382-269e03b3244b"],
+Cell[69995, 1837, 515, 11, 70, "TOCSubsubsection",ExpressionUUID->"dd432922-6da7-4e7a-baa9-9210da700cec"],
+Cell[70513, 1850, 529, 11, 70, "TOCSubsubsection",ExpressionUUID->"feca63be-bb20-493d-91f3-b0115dae943d"],
+Cell[71045, 1863, 510, 11, 70, "TOCSubsubsection",ExpressionUUID->"f1340d2b-938c-4665-9531-15629a05fceb"],
+Cell[71558, 1876, 530, 11, 70, "TOCSubsubsection",ExpressionUUID->"1634008e-2025-4a5d-ae7c-9ae1102d182b"],
+Cell[72091, 1889, 530, 11, 70, "TOCSubsubsection",ExpressionUUID->"3f5c2cad-5ee0-403b-892d-fdf3e9862089"],
+Cell[72624, 1902, 526, 11, 70, "TOCSubsubsection",ExpressionUUID->"d7db4d99-0f26-4d26-8262-41463df01aae"],
+Cell[73153, 1915, 515, 11, 70, "TOCSubsubsection",ExpressionUUID->"da0a861f-693a-4092-8c68-c6c9a88c8447"],
+Cell[73671, 1928, 523, 11, 70, "TOCSubsubsection",ExpressionUUID->"f03d8477-22fd-4f30-822d-b6459c7e7e48"],
+Cell[74197, 1941, 507, 11, 70, "TOCSubsubsection",ExpressionUUID->"0c908e15-9872-46ae-87fe-7b54c22605a5"],
+Cell[74707, 1954, 518, 11, 70, "TOCSubsection",ExpressionUUID->"afb99fe8-9bd1-4079-9b67-9d7bf0025faf"],
+Cell[75228, 1967, 515, 11, 70, "TOCSubsubsection",ExpressionUUID->"6c12ec5f-550e-4914-9918-19ed278593f4"],
+Cell[75746, 1980, 525, 11, 70, "TOCSubsubsection",ExpressionUUID->"3c81dc77-4f9e-44a0-a270-e829429d7a90"],
+Cell[76274, 1993, 518, 11, 70, "TOCSubsubsection",ExpressionUUID->"1af1080a-9aa9-4817-81a5-45ed99f2d155"],
+Cell[76795, 2006, 532, 11, 70, "TOCSubsubsection",ExpressionUUID->"54020919-8e74-4bf7-980b-80a2b90655f0"],
+Cell[77330, 2019, 513, 11, 70, "TOCSubsubsection",ExpressionUUID->"a060c85a-bc6a-4e11-ab2a-6cfa26c7ea28"],
+Cell[77846, 2032, 553, 12, 70, "TOCSubsubsection",ExpressionUUID->"f37b497d-4d91-47d9-b726-7532dc371bb6"],
+Cell[78402, 2046, 521, 11, 70, "TOCSubsubsection",ExpressionUUID->"39d25225-a016-498b-9cbb-c06966b0f75d"],
+Cell[78926, 2059, 520, 11, 70, "TOCSubsubsection",ExpressionUUID->"eba7cbde-5a85-4158-bae1-85c7b8aa83e7"],
+Cell[79449, 2072, 541, 12, 70, "TOCSubsubsection",ExpressionUUID->"29a66440-855d-4099-a9cb-c980a92cbce8"],
+Cell[79993, 2086, 530, 11, 70, "TOCSubsubsection",ExpressionUUID->"f848c74c-db68-4767-9a93-031942505f18"],
+Cell[80526, 2099, 506, 11, 70, "TOCSubsection",ExpressionUUID->"c878cf43-0e9a-4fa7-b43b-9739af33cd81"],
+Cell[81035, 2112, 516, 11, 70, "TOCSubsubsection",ExpressionUUID->"c0636088-8d1e-479e-97af-899fccb5850f"],
+Cell[81554, 2125, 518, 11, 70, "TOCSubsubsection",ExpressionUUID->"7bef8b90-7531-47a9-a5ec-267444267453"],
+Cell[82075, 2138, 538, 12, 70, "TOCSubsubsection",ExpressionUUID->"ffb3455d-2b40-4b82-8470-bbf628484017"],
+Cell[82616, 2152, 525, 11, 70, "TOCSubsubsection",ExpressionUUID->"aedae79e-626a-4d94-9c6e-cc2520f499aa"],
+Cell[83144, 2165, 511, 11, 70, "TOCSubsection",ExpressionUUID->"e5a076ee-7f3c-483b-9461-2195e25b4e6a"],
+Cell[83658, 2178, 515, 11, 70, "TOCSubsubsection",ExpressionUUID->"e3cacc55-4f67-4081-9c41-a308632a1587"],
+Cell[84176, 2191, 505, 11, 70, "TOCSubsubsection",ExpressionUUID->"31127e2e-fe23-4882-9c63-0cfa0d5e2f88"],
+Cell[84684, 2204, 514, 11, 70, "TOCSubsubsection",ExpressionUUID->"33e31efa-b2f2-471b-a819-e9b19a6dd523"],
+Cell[85201, 2217, 507, 11, 70, "TOCSubsubsection",ExpressionUUID->"c06057e0-c8a4-4fe7-8709-7521c3f6f099"],
+Cell[85711, 2230, 518, 11, 70, "TOCSubsubsection",ExpressionUUID->"c319d130-63e0-4403-8af6-c1782e0e8015"],
+Cell[86232, 2243, 523, 11, 70, "TOCSubsubsection",ExpressionUUID->"e26b9740-e573-4b82-be55-be9de0a9e8a2"],
+Cell[86758, 2256, 539, 12, 70, "TOCSubsection",ExpressionUUID->"eabd34ad-40d8-4dad-88e3-85593387eb71"],
+Cell[87300, 2270, 488, 11, 70, "TOCSubsubsection",ExpressionUUID->"ab46c6da-378d-4e95-93fc-bed94eea8c13"],
+Cell[87791, 2283, 487, 11, 70, "TOCSubsubsection",ExpressionUUID->"6acddcfe-2b51-41fd-ae5a-ad0ad7514477"],
+Cell[88281, 2296, 486, 11, 70, "TOCSubsubsection",ExpressionUUID->"44f31672-782c-4234-ac6f-0d43db7ca848"],
+Cell[88770, 2309, 495, 11, 70, "TOCSubsection",ExpressionUUID->"c14069e9-d46a-47c4-bfbb-f5f2301751af"],
+Cell[89268, 2322, 526, 11, 70, "TOCSubsubsection",ExpressionUUID->"83fe6327-dbc8-4984-a724-e31c3b0e16aa"],
+Cell[89797, 2335, 524, 11, 70, "TOCSubsubsection",ExpressionUUID->"325b99cb-a61f-42e7-8873-f0df52b6e33d"],
+Cell[90324, 2348, 501, 11, 70, "TOCSubsubsection",ExpressionUUID->"c9f2a4a2-031f-47da-9f0f-5edf80928df6"],
+Cell[90828, 2361, 496, 11, 70, "TOCSubsubsection",ExpressionUUID->"17a3d49a-13e9-48f9-a8ce-23ceea6dc406"],
+Cell[91327, 2374, 501, 11, 70, "TOCSubsubsection",ExpressionUUID->"c11c663b-948c-47f9-a549-83ef6236be0f"],
+Cell[91831, 2387, 518, 11, 70, "TOCSubsubsection",ExpressionUUID->"1800623e-75ad-4da3-8e80-d5538702d2e7"],
+Cell[92352, 2400, 524, 11, 70, "TOCSubsubsection",ExpressionUUID->"0a49fecc-ceeb-4398-b3d2-608832dc8300"],
+Cell[92879, 2413, 519, 11, 70, "TOCSubsubsection",ExpressionUUID->"d26a217c-bb4b-4460-b116-b5ef290aaa32"],
+Cell[93401, 2426, 531, 12, 70, "TOCSubsection",ExpressionUUID->"1c8bc002-64f7-40b6-81db-f864ef9d4104"],
+Cell[93935, 2440, 490, 11, 70, "TOCSubsection",ExpressionUUID->"292e5a5a-b3cf-412d-ae2e-c0235d117d93"],
+Cell[94428, 2453, 498, 11, 70, "TOCSubsubsection",ExpressionUUID->"493f4d80-7dad-4249-8c51-42b97d280143"],
+Cell[94929, 2466, 518, 11, 70, "TOCSubsubsection",ExpressionUUID->"3b6f6fa3-ff8e-4f6d-979d-684b4b88fb50"],
+Cell[95450, 2479, 562, 12, 70, "TOCSubsubsection",ExpressionUUID->"9092e8bf-6d4f-4f44-96ea-88c161de60c6"],
+Cell[96015, 2493, 511, 11, 70, "TOCSubsection",ExpressionUUID->"9f2002f4-b91b-419c-8d84-cf82266ca9be"],
+Cell[96529, 2506, 505, 11, 70, "TOCSubsubsection",ExpressionUUID->"ebea85a1-19c5-475b-81e4-351517d971bd"],
+Cell[97037, 2519, 504, 11, 70, "TOCSubsubsection",ExpressionUUID->"b2c06035-06fa-45ce-91d1-6d9994e3b026"],
+Cell[97544, 2532, 483, 11, 70, "TOCSubsection",ExpressionUUID->"a88cbd65-e268-4016-b0e9-d05bf4bcc9a0"],
+Cell[98030, 2545, 509, 11, 70, "TOCSection",ExpressionUUID->"6e32b730-256c-438d-ae76-4149364ad04e"],
+Cell[98542, 2558, 482, 11, 70, "TOCSubsection",ExpressionUUID->"a5247ecc-698f-4130-9878-b5e6f26e9ae4"],
+Cell[99027, 2571, 497, 11, 70, "TOCSubsection",ExpressionUUID->"b9b62ec9-8de1-47a3-84b1-e143ad2beed2"],
+Cell[99527, 2584, 488, 11, 70, "TOCSubsubsection",ExpressionUUID->"6a8b0b25-a7b6-4ca1-b297-03dab145edc8"],
+Cell[100018, 2597, 479, 11, 70, "TOCSubsubsection",ExpressionUUID->"7770c5a4-1af0-4494-aee1-ed5cd0d3e353"],
+Cell[100500, 2610, 481, 11, 70, "TOCSubsubsection",ExpressionUUID->"fa563715-4d51-4100-8dfe-6962762d7787"],
+Cell[100984, 2623, 482, 11, 70, "TOCSubsubsection",ExpressionUUID->"e4d98d82-122c-4578-8e02-445b568a7738"],
+Cell[101469, 2636, 480, 11, 70, "TOCSubsubsection",ExpressionUUID->"b4dd457e-6072-44a7-9af7-a2fcb9db6bea"],
+Cell[101952, 2649, 486, 11, 70, "TOCSubsubsection",ExpressionUUID->"c2e5b613-a5ab-4080-868a-0609ad9415ae"],
+Cell[102441, 2662, 481, 11, 70, "TOCSubsubsection",ExpressionUUID->"07cbf768-dac5-4518-97d2-423207f27145"],
+Cell[102925, 2675, 522, 11, 70, "TOCSubsubsection",ExpressionUUID->"642e23ee-b4af-4c99-84f0-9ac1830d48c9"],
+Cell[103450, 2688, 485, 11, 70, "TOCSubsection",ExpressionUUID->"de4b2d54-2a17-4a27-9bd4-03f6f712bbc0"],
+Cell[103938, 2701, 482, 11, 70, "TOCSubsubsection",ExpressionUUID->"3fd15221-071e-45aa-9d3d-39b1b39fecf4"],
+Cell[104423, 2714, 485, 11, 70, "TOCSubsubsection",ExpressionUUID->"711918d3-6cf7-4011-991d-19128b64c6a0"],
+Cell[104911, 2727, 481, 11, 70, "TOCSubsubsection",ExpressionUUID->"c9eabc4e-56ad-4f12-84e4-73e0c105497f"],
+Cell[105395, 2740, 481, 11, 70, "TOCSubsubsection",ExpressionUUID->"24cedbad-c5eb-487e-bff3-d07993fcf801"],
+Cell[105879, 2753, 481, 11, 70, "TOCSubsection",ExpressionUUID->"759691ae-efd9-4e76-b360-4c16d9aec948"],
+Cell[106363, 2766, 493, 11, 70, "TOCSubsubsection",ExpressionUUID->"f37dcd7c-ba9d-40e6-bd81-b6db7098c4fc"],
+Cell[106859, 2779, 503, 11, 70, "TOCSubsubsection",ExpressionUUID->"260a6293-5b81-491d-8447-6de96cacfbe4"],
+Cell[107365, 2792, 487, 11, 70, "TOCSubsection",ExpressionUUID->"c39ecda4-e1c9-48e2-bb08-16f75a0c0e48"],
+Cell[107855, 2805, 510, 11, 70, "TOCSubsubsection",ExpressionUUID->"5e9dda80-0056-4acc-9360-2071351ad505"],
+Cell[108368, 2818, 490, 11, 70, "TOCSubsubsection",ExpressionUUID->"eda4d8f6-ffc2-4a1b-b10e-69c91cfcbfd5"],
+Cell[108861, 2831, 538, 12, 70, "TOCSubsubsection",ExpressionUUID->"f813f9c7-9697-43f7-974b-668f16b8cd05"],
+Cell[109402, 2845, 518, 11, 70, "TOCSubsubsection",ExpressionUUID->"1bc1fa98-6a88-4380-a10c-11ed2acf91b6"],
+Cell[109923, 2858, 517, 11, 70, "TOCSubsubsection",ExpressionUUID->"891c6cdd-3f96-493c-97bc-967d28038baf"],
+Cell[110443, 2871, 499, 11, 34, "TOCSubsection",ExpressionUUID->"9364c88c-6f9e-4658-8962-ac705a30cc69"],
+Cell[110945, 2884, 504, 11, 30, "TOCSubsubsection",ExpressionUUID->"47c42bd2-e9ab-49d5-8654-a66dfc426d83"],
+Cell[111452, 2897, 514, 11, 30, "TOCSubsubsection",ExpressionUUID->"0a2fa091-040b-4abe-97db-62b0dc28807e"],
+Cell[111969, 2910, 519, 11, 30, "TOCSubsubsection",ExpressionUUID->"789432b7-5fa8-4674-b031-ee2c95e9dc2c"],
+Cell[112491, 2923, 525, 11, 30, "TOCSubsubsection",ExpressionUUID->"10247d29-41a5-4596-bea7-86ca3a16d948"],
+Cell[113019, 2936, 538, 12, 30, "TOCSubsubsection",ExpressionUUID->"e76fbc72-3f80-458b-82d1-1c8f110c2cf0"],
+Cell[113560, 2950, 494, 11, 30, "TOCSubsubsection",ExpressionUUID->"8ecdce5d-33af-43d0-a4f6-4bdf7a7bd5e2"],
+Cell[114057, 2963, 553, 12, 30, "TOCSubsubsection",ExpressionUUID->"6fe23e03-7706-452c-8855-df12fd3fb645"],
+Cell[114613, 2977, 528, 11, 30, "TOCSubsubsection",ExpressionUUID->"d1602463-6731-4a50-9e97-b128a63ced54"],
+Cell[115144, 2990, 492, 11, 34, "TOCSubsection",ExpressionUUID->"3b1f29da-9d49-4b7e-ac28-edcacc4e143a"],
+Cell[115639, 3003, 483, 11, 30, "TOCSubsubsection",ExpressionUUID->"ce868335-4089-4b02-898a-874beb2d310d"],
+Cell[116125, 3016, 483, 11, 30, "TOCSubsubsection",ExpressionUUID->"c9065ccb-aa0f-4cf2-b38c-9e1e6c507e66"],
+Cell[116611, 3029, 477, 11, 34, "TOCSubsection",ExpressionUUID->"0981c368-0626-496d-b171-e55a163030c4"],
+Cell[117091, 3042, 534, 12, 40, "TOCSection",ExpressionUUID->"ea5e15f4-9ccc-4896-a9cc-52e73e0697b0"],
+Cell[117628, 3056, 490, 11, 34, "TOCSubsection",ExpressionUUID->"7df6ffe1-bb69-4872-8caf-6250f18b1074"],
+Cell[118121, 3069, 533, 12, 34, "TOCSubsection",ExpressionUUID->"25aa0db9-1f46-40f4-86f7-97f8acb3b31c"],
+Cell[118657, 3083, 520, 11, 34, "TOCSubsection",ExpressionUUID->"c083f004-1207-4d58-a4c5-1aea5f551a1e"],
+Cell[119180, 3096, 538, 12, 34, "TOCSubsection",ExpressionUUID->"181a3217-af0c-444b-8c9b-99b0fdbaa1ac"],
+Cell[119721, 3110, 530, 11, 34, "TOCSubsection",ExpressionUUID->"10a083a5-15cb-456e-b265-6ce9bc94406b"],
+Cell[120254, 3123, 485, 11, 34, "TOCSubsection",ExpressionUUID->"46cc5ca3-988f-4250-bb8c-31cd772608ca"],
+Cell[120742, 3136, 466, 11, 40, "TOCSection",ExpressionUUID->"8db30202-d6ad-4e79-af16-e9d5610c825f"],
+Cell[121211, 3149, 536, 12, 34, "TOCSubsection",ExpressionUUID->"94b4ec75-1180-42a6-92e6-a5230517aac1"],
+Cell[121750, 3163, 531, 12, 34, "TOCSubsection",ExpressionUUID->"7882defb-07f6-4960-b3b0-2e6357b2eb9e"],
+Cell[122284, 3177, 488, 11, 30, "TOCSubsubsection",ExpressionUUID->"b2a1af0b-201f-45a3-abf2-b1b54cff62fd"],
+Cell[122775, 3190, 515, 11, 30, "TOCSubsubsection",ExpressionUUID->"bf0ea1fc-e8ce-4240-b9f8-61acf62edc77"],
+Cell[123293, 3203, 494, 11, 30, "TOCSubsubsection",ExpressionUUID->"1c84de32-485f-4cdb-9dcd-019f41ce6f8c"],
+Cell[123790, 3216, 513, 11, 30, "TOCSubsubsection",ExpressionUUID->"cd18d735-f467-44c4-8530-3ba0deed16d7"],
+Cell[124306, 3229, 489, 11, 30, "TOCSubsubsection",ExpressionUUID->"c98561f1-827a-4f5a-9adb-fda48b265742"],
+Cell[124798, 3242, 490, 11, 30, "TOCSubsubsection",ExpressionUUID->"57d332b8-57bc-4b9b-90a5-798f8b1e3725"]
 }, Open  ]]
 }
 ]

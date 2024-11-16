@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       154,          7]
-NotebookDataLength[     41793,        861]
-NotebookOptionsPosition[     34646,        715]
-NotebookOutlinePosition[     35112,        732]
-CellTagsIndexPosition[     35069,        729]
+NotebookDataLength[     41887,        862]
+NotebookOptionsPosition[     34740,        716]
+NotebookOutlinePosition[     35206,        733]
+CellTagsIndexPosition[     35163,        730]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -337,12 +337,12 @@ Cell[TextData[{
 maintain very high level of backwards compatibility. This means that one \
 should not worry too much that solutions developed in the current version \
 will need a rewrite to work on the future versions (apart from possible \
-improvements related to availability of new built - in functions, if one is \
-so inclined)."
+improvements related to availability of new builit-in functions, if one is so \
+inclined)."
 }], "ItemNumbered",
  CellGroupingRules->{"GroupTogetherNestedGrouping", 15000.},
  CellChangeTimes->{{3.9397751060904303`*^9, 3.939775237009253*^9}, {
-  3.9397752704571457`*^9, 3.939775274720311*^9}},
+   3.9397752704571457`*^9, 3.939775274720311*^9}, 3.940740907473854*^9},
  CellID->736991676,ExpressionUUID->"78b6408f-6c98-4a1e-8b91-661b838278f5"],
 
 Cell[TextData[StyleBox["Support for parallel and distributed computing.",
@@ -355,7 +355,7 @@ Cell[TextData[StyleBox["Support for parallel and distributed computing.",
 
 Cell["\<\
 In addition to this, version 6 front-end contains a built-in mini-IDE (text \
-highlighting which is aware of the syntax of built - in commands, allows to \
+highlighting which is aware of the syntax of builit-in commands, allows to \
 automatically track scope of variables, etc.; package creating and testing \
 greatly simplified; interactive debugger). These features make version 6 a \
 full-blown development environment --- I personally found it much more fun to \
@@ -363,8 +363,8 @@ develop code in it than in the previous versions. Also, there is \
 Eclipse-based Wolfram Workbench IDE for development of larger projects.\
 \>", "Text",
  CellChangeTimes->{{3.9397753534122868`*^9, 3.9397753641969013`*^9}, {
-  3.9397756725604677`*^9, 3.939775718172306*^9}, {3.940533359152231*^9, 
-  3.940533359828179*^9}},
+   3.9397756725604677`*^9, 3.939775718172306*^9}, {3.940533359152231*^9, 
+   3.940533359828179*^9}, 3.940740907496047*^9},
  CellID->1519421113,ExpressionUUID->"04f0b7ab-d038-42dd-acfd-482f38872344"]
 }, Open  ]],
 
@@ -414,8 +414,8 @@ I firmly believe that the best way to learn Mathematica programming is to \
 learn it as a natural language. Mathematica programming language is very rich \
 and in fact \[OpenCurlyDoubleQuote]overcomplete\[CloseCurlyDoubleQuote] in \
 the sense that many built-in functions are in principle derivable from other \
-built - in functions or their combinations. However, it is not an \
-unstructured collection of functions \[OpenCurlyDoubleQuote]for everything\
+builit-in functions or their combinations. However, it is not an unstructured \
+collection of functions \[OpenCurlyDoubleQuote]for everything\
 \[CloseCurlyDoubleQuote] --- it is built on powerful principles and has a \
 uniform structure. To find a way through this large number of commands and \
 understand their relative importance and relevance for a particular problem, \
@@ -424,7 +424,7 @@ language, but then go through the many language idioms and illustrate the use \
 of each with many examples.\
 \>", "Text",
  CellChangeTimes->{{3.939775446187818*^9, 3.939775473772172*^9}, {
-  3.939775713838046*^9, 3.9397757141354733`*^9}},
+   3.939775713838046*^9, 3.9397757141354733`*^9}, 3.9407409075157013`*^9},
  CellID->1664952911,ExpressionUUID->"f5051ba8-4ab7-4300-b667-d6a1c139dc70"],
 
 Cell["\<\
@@ -649,15 +649,16 @@ Cell["\<\
 The book can be either read systematically or one can just look at the topic \
 of interest. Since it is generally example-based and centred around important \
 built-in functions, inter-dependencies of different chapters or sections are \
-generally not very strong, and mainly through the built - in functions used \
-in the examples. Another use of the book could be as an additional source of \
+generally not very strong, and mainly through the builit-in functions used in \
+the examples. Another use of the book could be as an additional source of \
 examples of use for various built-in functions, and in this capacity it could \
 supplement the standard examples from Mathematica Help or Mathematica Book. \
 However, I did not have in mind to just assemble the collection of totally \
 unrelated examples. So, for gaining a general understanding of the system \
 there could be certain advantage in systematic reading of the book.\
 \>", "Text",
- CellChangeTimes->{{3.9397760595775757`*^9, 3.9397760857074547`*^9}},
+ CellChangeTimes->{{3.9397760595775757`*^9, 3.9397760857074547`*^9}, 
+   3.940740907535907*^9},
  CellID->1693952152,ExpressionUUID->"747b6a3f-a92c-44f0-a156-53f95322099f"],
 
 Cell["\<\
@@ -786,80 +787,80 @@ Cell[14421, 310, 434, 8, 63, "ItemNumbered",ExpressionUUID->"15b4b326-8b86-4da9-
 Cell[14858, 320, 523, 10, 88, "ItemNumbered",ExpressionUUID->"a9513d5a-9655-47cb-95e6-9bdb57232f74",
  CellGroupingRules->{"GroupTogetherNestedGrouping", 15000.},
  CellID->1750616023],
-Cell[15384, 332, 741, 13, 137, "ItemNumbered",ExpressionUUID->"78b6408f-6c98-4a1e-8b91-661b838278f5",
+Cell[15384, 332, 763, 13, 137, "ItemNumbered",ExpressionUUID->"78b6408f-6c98-4a1e-8b91-661b838278f5",
  CellGroupingRules->{"GroupTogetherNestedGrouping", 15000.},
  CellID->736991676],
-Cell[16128, 347, 391, 5, 38, "ItemNumbered",ExpressionUUID->"3b44844e-edab-45c4-838b-c1ebd7f168a6",
+Cell[16150, 347, 391, 5, 38, "ItemNumbered",ExpressionUUID->"3b44844e-edab-45c4-838b-c1ebd7f168a6",
  CellGroupingRules->{"GroupTogetherNestedGrouping", 15000.},
  CellID->468762387]
 }, Open  ]],
-Cell[16534, 355, 798, 12, 222, "Text",ExpressionUUID->"04f0b7ab-d038-42dd-acfd-482f38872344",
+Cell[16556, 355, 821, 12, 222, "Text",ExpressionUUID->"04f0b7ab-d038-42dd-acfd-482f38872344",
  CellID->1519421113]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[17369, 372, 190, 2, 68, "Subsection",ExpressionUUID->"14dc57c6-7ce5-48e5-8105-55d276702e32",
+Cell[17414, 372, 190, 2, 68, "Subsection",ExpressionUUID->"14dc57c6-7ce5-48e5-8105-55d276702e32",
  CellID->1801166254],
-Cell[17562, 376, 774, 12, 193, "Text",ExpressionUUID->"6f95aa9d-aba7-4224-a1cf-e37386278535",
+Cell[17607, 376, 774, 12, 193, "Text",ExpressionUUID->"6f95aa9d-aba7-4224-a1cf-e37386278535",
  CellID->1686445267],
-Cell[18339, 390, 745, 12, 222, "Text",ExpressionUUID->"5729e1d0-2342-40ab-8540-08fed61985d4",
+Cell[18384, 390, 745, 12, 222, "Text",ExpressionUUID->"5729e1d0-2342-40ab-8540-08fed61985d4",
  CellID->964604723]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[19121, 407, 188, 2, 68, "Subsection",ExpressionUUID->"f2b80165-b976-4d69-9c43-102eafc90582",
+Cell[19166, 407, 188, 2, 68, "Subsection",ExpressionUUID->"f2b80165-b976-4d69-9c43-102eafc90582",
  CellID->363436330],
-Cell[19312, 411, 1088, 16, 311, "Text",ExpressionUUID->"f5051ba8-4ab7-4300-b667-d6a1c139dc70",
+Cell[19357, 411, 1112, 16, 311, "Text",ExpressionUUID->"f5051ba8-4ab7-4300-b667-d6a1c139dc70",
  CellID->1664952911],
-Cell[20403, 429, 1196, 17, 370, "Text",ExpressionUUID->"4d54388c-ba7d-4ece-a2a6-eb4617448446",
+Cell[20472, 429, 1196, 17, 370, "Text",ExpressionUUID->"4d54388c-ba7d-4ece-a2a6-eb4617448446",
  CellID->625538540],
-Cell[21602, 448, 1404, 20, 429, "Text",ExpressionUUID->"30d61641-49c0-4808-885c-bec1e1c97e48",
+Cell[21671, 448, 1404, 20, 429, "Text",ExpressionUUID->"30d61641-49c0-4808-885c-bec1e1c97e48",
  CellID->1238229025],
-Cell[23009, 470, 571, 9, 163, "Text",ExpressionUUID->"8a534f48-806b-40a0-91bd-5e857a4e9f07",
+Cell[23078, 470, 571, 9, 163, "Text",ExpressionUUID->"8a534f48-806b-40a0-91bd-5e857a4e9f07",
  CellID->1064600259],
-Cell[23583, 481, 380, 6, 104, "Text",ExpressionUUID->"accc9ffd-edc1-4cb5-a0d3-7e302d0ea062",
+Cell[23652, 481, 380, 6, 104, "Text",ExpressionUUID->"accc9ffd-edc1-4cb5-a0d3-7e302d0ea062",
  CellID->506995719]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[24000, 492, 178, 2, 68, "Subsection",ExpressionUUID->"cd19c2a2-441b-4cfb-9a87-af45c2863ba1",
+Cell[24069, 492, 178, 2, 68, "Subsection",ExpressionUUID->"cd19c2a2-441b-4cfb-9a87-af45c2863ba1",
  CellID->984496124],
-Cell[24181, 496, 900, 13, 281, "Text",ExpressionUUID->"b0c539e0-ec6a-4266-8906-18f3a615423d",
+Cell[24250, 496, 900, 13, 281, "Text",ExpressionUUID->"b0c539e0-ec6a-4266-8906-18f3a615423d",
  CellID->105509526]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[25118, 514, 193, 2, 68, "Subsection",ExpressionUUID->"501915be-30ba-4f52-a4a5-6fe6537a4235",
+Cell[25187, 514, 193, 2, 68, "Subsection",ExpressionUUID->"501915be-30ba-4f52-a4a5-6fe6537a4235",
  CellID->338534359],
-Cell[25314, 518, 193, 2, 45, "Text",ExpressionUUID->"55419f23-c9d9-49f1-9427-f92d9a25b90a",
+Cell[25383, 518, 193, 2, 45, "Text",ExpressionUUID->"55419f23-c9d9-49f1-9427-f92d9a25b90a",
  CellID->1791353757],
-Cell[25510, 522, 679, 14, 163, "Text",ExpressionUUID->"f2e366d7-1848-4116-a1d0-9aef8825bd14",
+Cell[25579, 522, 679, 14, 163, "Text",ExpressionUUID->"f2e366d7-1848-4116-a1d0-9aef8825bd14",
  CellID->1709346606],
-Cell[26192, 538, 528, 12, 104, "Text",ExpressionUUID->"970c3bd5-37a2-410d-9626-5a57bc428bc6",
+Cell[26261, 538, 528, 12, 104, "Text",ExpressionUUID->"970c3bd5-37a2-410d-9626-5a57bc428bc6",
  CellID->706017191],
-Cell[26723, 552, 595, 14, 134, "Text",ExpressionUUID->"0497560c-92fc-4fc1-b9d4-8ae0e1302706",
+Cell[26792, 552, 595, 14, 134, "Text",ExpressionUUID->"0497560c-92fc-4fc1-b9d4-8ae0e1302706",
  CellID->1727842242],
-Cell[27321, 568, 1033, 19, 281, "Text",ExpressionUUID->"9658f124-d1bb-4555-bba7-9b37e2728ccf",
+Cell[27390, 568, 1033, 19, 281, "Text",ExpressionUUID->"9658f124-d1bb-4555-bba7-9b37e2728ccf",
  CellID->507253652],
-Cell[28357, 589, 872, 17, 222, "Text",ExpressionUUID->"b5103203-ffca-4401-a551-a45a2440601a",
+Cell[28426, 589, 872, 17, 222, "Text",ExpressionUUID->"b5103203-ffca-4401-a551-a45a2440601a",
  CellID->1815484374],
-Cell[29232, 608, 771, 15, 193, "Text",ExpressionUUID->"82808922-522d-4080-9b58-85a3708db514",
+Cell[29301, 608, 771, 15, 193, "Text",ExpressionUUID->"82808922-522d-4080-9b58-85a3708db514",
  CellID->191430081],
-Cell[30006, 625, 343, 6, 75, "Text",ExpressionUUID->"6bfddd1b-1b0e-4353-90b6-0621d22978de",
+Cell[30075, 625, 343, 6, 75, "Text",ExpressionUUID->"6bfddd1b-1b0e-4353-90b6-0621d22978de",
  CellID->2130972808],
-Cell[30352, 633, 276, 5, 75, "Text",ExpressionUUID->"f817f18e-c7cb-462d-9cb0-390da647bf49",
+Cell[30421, 633, 276, 5, 75, "Text",ExpressionUUID->"f817f18e-c7cb-462d-9cb0-390da647bf49",
  CellID->1626830689]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[30665, 643, 187, 2, 68, "Subsection",ExpressionUUID->"6f0ddd9c-5459-4972-ad9d-35fb47b9c44b",
+Cell[30734, 643, 187, 2, 68, "Subsection",ExpressionUUID->"6f0ddd9c-5459-4972-ad9d-35fb47b9c44b",
  CellID->1104844191],
-Cell[30855, 647, 943, 13, 311, "Text",ExpressionUUID->"747b6a3f-a92c-44f0-a156-53f95322099f",
+Cell[30924, 647, 968, 14, 311, "Text",ExpressionUUID->"747b6a3f-a92c-44f0-a156-53f95322099f",
  CellID->1693952152],
-Cell[31801, 662, 790, 12, 222, "Text",ExpressionUUID->"79cf6f57-0bd2-4f04-9009-cfec2e0d706f",
+Cell[31895, 663, 790, 12, 222, "Text",ExpressionUUID->"79cf6f57-0bd2-4f04-9009-cfec2e0d706f",
  CellID->58358237]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[32628, 679, 168, 2, 68, "Subsection",ExpressionUUID->"edc28a2d-21a4-4bff-bfec-d11bbe74dbfa",
+Cell[32722, 680, 168, 2, 68, "Subsection",ExpressionUUID->"edc28a2d-21a4-4bff-bfec-d11bbe74dbfa",
  CellID->1167224270],
-Cell[32799, 683, 1207, 17, 370, "Text",ExpressionUUID->"5b251c36-e442-479a-844e-b28880a1412b",
+Cell[32893, 684, 1207, 17, 370, "Text",ExpressionUUID->"5b251c36-e442-479a-844e-b28880a1412b",
  CellID->275190545],
-Cell[34009, 702, 609, 9, 193, "Text",ExpressionUUID->"dd9f3c92-7982-4a42-8584-1fd1677acc1c",
+Cell[34103, 703, 609, 9, 193, "Text",ExpressionUUID->"dd9f3c92-7982-4a42-8584-1fd1677acc1c",
  CellID->948295796]
 }, Open  ]]
 }, Open  ]]

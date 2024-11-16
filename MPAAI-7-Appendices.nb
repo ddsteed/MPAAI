@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       154,          7]
-NotebookDataLength[     41546,        825]
-NotebookOptionsPosition[     35195,        694]
-NotebookOutlinePosition[     35661,        711]
-CellTagsIndexPosition[     35618,        708]
+NotebookDataLength[     44709,        986]
+NotebookOptionsPosition[     38350,        855]
+NotebookOutlinePosition[     38816,        872]
+CellTagsIndexPosition[     38773,        869]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -123,18 +123,28 @@ Appendix A: what is so special about Mathematica (a personal evaluation)\
  CellChangeTimes->{3.940301658062027*^9},
  CellID->861746629,ExpressionUUID->"f2bbfdc0-9961-4cd6-8983-69622afe1f4c"],
 
-Cell["\<\
-Mathematica is distant from many other programming languages in many ways. \
-One that seems most important to me is that it is not a minimal language, in \
-the sense I will explain. This leads to lots of ways of how any given problem \
-can be solved. Mathematica language supports all major programming \
-styles-procedural, rule-based, functional and object-oriented (OO is not \
-directly supported but can be implemented within Mathematica [3,4,1]) . This \
-richness of the language is a great strength since it allows to choose the \
-programming style which is best suited for a particular problem - some people \
-say that Mathematica language is \[OpenCurlyDoubleQuote]problem-oriented\
-\[CloseCurlyDoubleQuote].\
-\>", "Text",
+Cell[TextData[{
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " is distant from many other programming languages in many ways. One that \
+seems most important to me is that it is not a minimal language, in the sense \
+I will explain. This leads to lots of ways of how any given problem can be \
+solved. ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " language supports all major programming styles-procedural, rule-based, \
+functional and object-oriented (OO is not directly supported but can be \
+implemented within ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " [3,4,1]) . This richness of the language is a great strength since it \
+allows to choose the programming style which is best suited for a particular \
+problem - some people say that ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " language is \
+\[OpenCurlyDoubleQuote]problem-oriented\[CloseCurlyDoubleQuote]."
+}], "Text",
  CellChangeTimes->{{3.940301666819303*^9, 3.9403016852493477`*^9}, {
   3.940301715357417*^9, 3.940301729918747*^9}},
  CellID->745878235,ExpressionUUID->"a89dcfcf-7eaf-4420-9bc2-e17352abbab7"],
@@ -151,111 +161,138 @@ and interrupting the main programming workflow.\
   3.940301715357417*^9, 3.940301739192078*^9}},
  CellID->1055237326,ExpressionUUID->"79eb8212-9a11-4146-a216-aee21066f29d"],
 
-Cell["\<\
-The problem (pun unintended) is however that all the different solutions \
+Cell[TextData[{
+ "The problem (pun unintended) is however that all the different solutions \
 possible for a given problem, are inequivalent, primarily in terms of \
 efficiency, but also in terms of the code readability, ease of maintenance \
 and debugging. These issues will probably be of no concern for a pure \
 scientist who just needs to plot a graph or two, simplify some formula etc. \
 But this will certainly be a concern for people from the software development \
-community who may consider to use Mathematica as a tool for rapid \
-prototyping, for which, in my opinion, it has major advantages for complex \
-software.\
-\>", "Text",
+community who may consider to use ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " as a tool for rapid prototyping, for which, in my opinion, it has major \
+advantages for complex software."
+}], "Text",
  CellChangeTimes->{{3.940301666819303*^9, 3.9403016852493477`*^9}, {
   3.940301715357417*^9, 3.9403017615346737`*^9}},
  CellID->609863490,ExpressionUUID->"a2e7e426-3f48-4c9f-a202-c99e3c6c115d"],
 
-Cell["\<\
-When I program in C, and say solve some problem in two different ways, it is \
-not very likely that the performance of the two implementations will be \
+Cell[TextData[{
+ "When I program in C, and say solve some problem in two different ways, it \
+is not very likely that the performance of the two implementations will be \
 different more than a factor of 2 (unless I do something stupid, or when the \
 difference in solutions will be actually in algorithms of different \
-complexity). In Mathematica however, it is quite easy to get say 5 or 10 \
-different solutions where the performance of the most and least efficient may \
-differ in several orders of magnitude or have different computational \
-complexity altogether. Of course, the reason is that, programming in \
-Mathematica, we \[OpenCurlyDoubleQuote]sit\[CloseCurlyDoubleQuote] on top of \
-a lot of internal algorithms used to implement given built-in functions that \
-we are using. But from the user viewpoint, these performance differences are \
-often completely unobvious, until one gets a better understanding
-of how the system works.\
-\>", "Text",
+complexity). In ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " however, it is quite easy to get say 5 or 10 different solutions where the \
+performance of the most and least efficient may differ in several orders of \
+magnitude or have different computational complexity altogether. Of course, \
+the reason is that, programming in ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ ", we \[OpenCurlyDoubleQuote]sit\[CloseCurlyDoubleQuote] on top of a lot of \
+internal algorithms used to implement given built-in functions that we are \
+using. But from the user viewpoint, these performance differences are often \
+completely unobvious, until one gets a better understanding\nof how the \
+system works."
+}], "Text",
  CellChangeTimes->{{3.940301666819303*^9, 3.9403016852493477`*^9}, {
   3.940301715357417*^9, 3.940301790866282*^9}},
  CellID->1783006489,ExpressionUUID->"b54c3c99-bc79-48b9-ab18-45aff2d1881c"],
 
-Cell["\<\
-Imagine now that we are building a system which has 4 stages of information \
+Cell[TextData[{
+ "Imagine now that we are building a system which has 4 stages of information \
 processing, each one taking as an input a result from the previous one. And \
 then, on each stage we produce 2 different solutions which differ in \
 performance 10 times. At the end, we get one system working 10000 faster than \
 the other. In practice, this means that the \[OpenCurlyDoubleQuote]slow\
 \[CloseCurlyDoubleQuote] system in most cases will be completely useless, \
-given that there
-anyway exists an overhead due to the symbolic nature of Mathematica and a \
-very high level of its language. If one wants to build something serious and \
-interesting in Mathematica, one has to learn techniques to program in it \
-efficiently, or at the very least, be aware of certain performance pitfalls \
-associated with each programming style.\
-\>", "Text",
+given that there\nanyway exists an overhead due to the symbolic nature of ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " and a very high level of its language. If one wants to build something \
+serious and interesting in ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ ", one has to learn techniques to program in it efficiently, or at the very \
+least, be aware of certain performance pitfalls associated with each \
+programming style."
+}], "Text",
  CellChangeTimes->{{3.940301666819303*^9, 3.9403016852493477`*^9}, {
   3.940301715357417*^9, 3.940301809612973*^9}},
  CellID->1204860694,ExpressionUUID->"c72a757d-ce7e-4787-b299-e6aa2738eff2"],
 
-Cell["\<\
-At the same time, the great advantages that Mathematica brings are the ease \
-and speed of writing and debugging the code, the extremely small code size, \
-and the ability to stay on quite a high level of abstraction throughout the \
-process of solving the problem, without going into unnecessary low-level \
-details which hide the essence of the problem. This allows a single person to \
-manage substantial projects. Mathematica is a great \
-\[OpenCurlyDoubleQuote]thinking laboratory\[CloseCurlyDoubleQuote]. Due to \
-its highly interactive nature, it is also a great tool to design and analyze \
-algorithms. For me personally, this overweights the eventual complications \
-arising from the above performance issues, especially because once you \
-understand the system, you rarely get an unexpected
-behavior or nasty performance surprises.\
-\>", "Text",
+Cell[TextData[{
+ "At the same time, the great advantages that ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " brings are the ease and speed of writing and debugging the code, the \
+extremely small code size, and the ability to stay on quite a high level of \
+abstraction throughout the process of solving the problem, without going into \
+unnecessary low-level details which hide the essence of the problem. This \
+allows a single person to manage substantial projects. ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " is a great \[OpenCurlyDoubleQuote]thinking laboratory\
+\[CloseCurlyDoubleQuote]. Due to its highly interactive nature, it is also a \
+great tool to design and analyze algorithms. For me personally, this \
+overweights the eventual complications arising from the above performance \
+issues, especially because once you understand the system, you rarely get an \
+unexpected\nbehavior or nasty performance surprises."
+}], "Text",
  CellChangeTimes->{{3.940301666819303*^9, 3.9403016852493477`*^9}, {
   3.940301715357417*^9, 3.940301841283173*^9}},
  CellID->2021102960,ExpressionUUID->"483a69bf-ac3d-462d-b7f2-4bb3f89d07d1"],
 
-Cell["\<\
-Let us forget for a while about the most well-known goal of Mathematica - to \
-carry out mathematical transformations and solve various mathematical \
+Cell[TextData[{
+ "Let us forget for a while about the most well-known goal of ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " - to carry out mathematical transformations and solve various mathematical \
 problems (symbolically or numerically or both), and think of it as a \
 programming environment. The main questions then are: what are the main \
 ingredients of this environment, how are they different from their analogs in \
-other languages, what sort of problems can be
-solved better or easier, and which programming paradigms and ways of thinking \
-are encouraged in Mathematica.\
-\>", "Text",
+other languages, what sort of problems can be\nsolved better or easier, and \
+which programming paradigms and ways of thinking are encouraged in ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ "."
+}], "Text",
  CellChangeTimes->{{3.940301666819303*^9, 3.9403016852493477`*^9}, {
   3.940301715357417*^9, 3.9403018529526997`*^9}},
  CellID->178588829,ExpressionUUID->"b9f4f3dc-85f2-44cb-bc2f-0408b776e7a6"],
 
-Cell["\<\
-If I was asked to describe Mathematica in one sentence, I would say that it \
-represents a functional programming language built on top of a rule-based \
-engine, which operates on general symbolic trees (or, directed acyclic graphs \
-if you wish).\
-\>", "Text",
+Cell[TextData[{
+ "If I was asked to describe ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " in one sentence, I would say that it represents a functional programming \
+language built on top of a rule-based engine, which operates on general \
+symbolic trees (or, directed acyclic graphs if you wish)."
+}], "Text",
  CellChangeTimes->{{3.940301666819303*^9, 3.9403016852493477`*^9}, {
   3.940301715357417*^9, 3.940301863167899*^9}},
  CellID->1471297880,ExpressionUUID->"a55a96e1-bb06-4d38-bf66-854f56cf2408"],
 
-Cell["Mathematica mainly consists of the following blocks:", "Text",
+Cell[TextData[{
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " mainly consists of the following blocks:"
+}], "Text",
  CellChangeTimes->{{3.940301666819303*^9, 3.9403016852493477`*^9}, {
   3.940301715357417*^9, 3.9403018654480343`*^9}},
  CellID->1633572038,ExpressionUUID->"1d3a688d-92f6-47f4-94f5-1c2165c0ba50"],
 
-Cell["\<\
-1. Powerful rule-based engine with pattern-matching and evaluator built \
-around the general Mathematica expressions - we can think of this as a \
-programming environment defined on and optimized to work with general \
-symbolic trees.\
-\>", "Text",
+Cell[TextData[{
+ "1. Powerful rule-based engine with pattern-matching and evaluator built \
+around the general ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " expressions - we can think of this as a programming environment defined on \
+and optimized to work with general symbolic trees."
+}], "Text",
  CellChangeTimes->{{3.940301666819303*^9, 3.9403016852493477`*^9}, {
   3.940301715357417*^9, 3.940301910013247*^9}},
  CellID->218586052,ExpressionUUID->"cec5edc0-6418-444d-8259-d60a9bb36fa3"],
@@ -297,200 +334,252 @@ operations, etc), which are similar to those in the APL language. \
   3.940301715357417*^9, 3.940301915847603*^9}},
  CellID->10243278,ExpressionUUID->"67e3e115-9d82-435c-b535-d16a14364a72"],
 
-Cell["\<\
-4. Support of the functional programming paradigm by both the possibility of \
-defining pure (anonymous) functions and by efficient built-in higher-order \
+Cell[TextData[{
+ "4. Support of the functional programming paradigm by both the possibility \
+of defining pure (anonymous) functions and by efficient built-in higher-order \
 functions such as Apply, Map, Fold, etc. Due to the uniform representation of \
-everything as Mathematica expression, these higher-order functions (and thus \
-the FP programming style) apply to general Mathematica expressions rather \
-than just lists. This is a very
-powerful capability. \
-\>", "Text",
+everything as ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " expression, these higher-order functions (and thus the FP programming \
+style) apply to general ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " expressions rather than just lists. This is a very\npowerful capability. "
+}], "Text",
  CellChangeTimes->{{3.940301666819303*^9, 3.9403016852493477`*^9}, {
   3.940301715357417*^9, 3.940301939681588*^9}},
  CellID->41389484,ExpressionUUID->"dab9e646-38a5-4842-bff7-ef89e7e09155"],
 
-Cell["\<\
-The availability of the rule-based approach means basically that one can \
+Cell[TextData[{
+ "The availability of the rule-based approach means basically that one can \
 easily create a language describing any new object one wants, be it either a \
 more formal language with a grammar or just a collection of some objects and \
 relations between them. What is important is that this can be completely \
-syntax-based.
-By adding new rules to some built-in functions \
-(\[OpenCurlyDoubleQuote]overloading\[CloseCurlyDoubleQuote]) one can make \
-this new language immediately interact with rules that exist in Mathematica \
-kernel and thus take advantage of those.\
-\>", "Text",
+syntax-based.\nBy adding new rules to some built-in functions (\
+\[OpenCurlyDoubleQuote]overloading\[CloseCurlyDoubleQuote]) one can make this \
+new language immediately interact with rules that exist in ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " kernel and thus take advantage of those."
+}], "Text",
  CellChangeTimes->{{3.940301666819303*^9, 3.9403016852493477`*^9}, {
   3.940301715357417*^9, 3.9403019326903353`*^9}},
  CellID->837723952,ExpressionUUID->"6e9272e3-e40d-4f8d-b7f4-17eaac42089c"],
 
-Cell["\<\
-The rule-based approach also means that the language is very unrestrictive \
+Cell[TextData[{
+ "The rule-based approach also means that the language is very unrestrictive \
 (or should I say powerful) - it puts virtually no bounds on what types of \
 manipulations can be done in principle. As some extreme examples, one can \
 define functions that produce other functions, functions that change their \
 own definitions at run-time (for example, we may program a function that \
-destroys itself after it is done with the work, and
-even produce such \[OpenCurlyDoubleQuote]disposable\[CloseCurlyDoubleQuote] \
-functions at run-time by other functions), functions that manipulate the \
-definitions of other functions at run-time, and many more seemingly weird \
-possibilities. Techniques like dynamic programming, caching and memoization, \
-lexical closures etc are a common practice in Mathematica programming and \
-require little effort from the programmer. Also, if one feels that for a \
-particular problem a more \
-\[OpenCurlyDoubleQuote]rigid\[CloseCurlyDoubleQuote] or restrictive framework \
-(such as object orientation) is needed, it can be implemented within \
-Mathematica.\
-\>", "Text",
+destroys itself after it is done with the work, and\neven produce such \
+\[OpenCurlyDoubleQuote]disposable\[CloseCurlyDoubleQuote] functions at \
+run-time by other functions), functions that manipulate the definitions of \
+other functions at run-time, and many more seemingly weird possibilities. \
+Techniques like dynamic programming, caching and memoization, lexical \
+closures etc are a common practice in ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " programming and require little effort from the programmer. Also, if one \
+feels that for a particular problem a more \[OpenCurlyDoubleQuote]rigid\
+\[CloseCurlyDoubleQuote] or restrictive framework (such as object \
+orientation) is needed, it can be implemented within ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ "."
+}], "Text",
  CellChangeTimes->{{3.940301666819303*^9, 3.9403017075464973`*^9}, {
   3.940301945019726*^9, 3.940301971527583*^9}},
  CellID->1893177580,ExpressionUUID->"74375b59-f9d2-4c5b-abaa-212e2a640006"],
 
-Cell["\<\
-The availability and effectiveness of functional programming style allows to \
-both make the code more concise and create data structures on the fly (since \
-in this approach any complex data structure is represented by a possibly \
-nested list). If however one wants to shift the accents more towards data \
-structures, this is also possible and easy thanks to the syntax-based \
-pattern-matching and rule substitution. And because in Mathematica functional \
-programming can be performed on general Mathematica expressions (more general \
-than lists - this is made non-trivial by pattern-matching), one can also \
-combine the two programming styles to shift the relative roles of functions \
-and data structures as to feel most comfortable. It is typical in Mathematica \
-programming to use functional programming in the more exploratory stage and \
-then create more rigid data types and structures after the design has shaped.\
-\
-\>", "Text",
+Cell[TextData[{
+ "The availability and effectiveness of functional programming style allows \
+to both make the code more concise and create data structures on the fly \
+(since in this approach any complex data structure is represented by a \
+possibly nested list). If however one wants to shift the accents more towards \
+data structures, this is also possible and easy thanks to the syntax-based \
+pattern-matching and rule substitution. And because in ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " functional programming can be performed on general ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " expressions (more general than lists - this is made non-trivial by \
+pattern-matching), one can also combine the two programming styles to shift \
+the relative roles of functions and data structures as to feel most \
+comfortable. It is typical in ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " programming to use functional programming in the more exploratory stage \
+and then create more rigid data types and structures after the design has \
+shaped."
+}], "Text",
  CellChangeTimes->{{3.940301666819303*^9, 3.9403017075464973`*^9}, {
   3.940301945019726*^9, 3.9403020469040337`*^9}},
  CellID->1490084946,ExpressionUUID->"c54c67e1-50ea-4a55-9e05-28736c7854d6"],
 
-Cell["\<\
-The large number of built-in functions has both advantages and disadvantages. \
-To list just a few advantages: you get a huge collection of (often very \
-sophisticated) algorithms already implemented, tested etc., packaged in \
-built-ins. Extended Help system and error messages allow to very quickly \
-learn new functionality, write and debug programs. However, while the \
-capabilities of Mathematica such as pattern-matching and rules substitution \
-are great, they are also expensive in terms of performance. As a result, many \
-operations would be too slow if implemented directly in Mathematica language. \
-Therefore, they are implemented in a lower-level language such as C, and \
-packed into the Mathematica kernel. This solves the problem, but often makes \
-the performance hard to understand (especially for inexperienced users), \
-since the performance of user-defined and built-in functions can be \
-dramatically different.\
-\>", "Text",
+Cell[TextData[{
+ "The large number of built-in functions has both advantages and \
+disadvantages. To list just a few advantages: you get a huge collection of \
+(often very sophisticated) algorithms already implemented, tested etc., \
+packaged in built-ins. Extended Help system and error messages allow to very \
+quickly learn new functionality, write and debug programs. However, while the \
+capabilities of ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " such as pattern-matching and rules substitution are great, they are also \
+expensive in terms of performance. As a result, many operations would be too \
+slow if implemented directly in ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " language. Therefore, they are implemented in a lower-level language such \
+as C, and packed into the ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " kernel. This solves the problem, but often makes the performance hard to \
+understand (especially for inexperienced users), since the performance of \
+user-defined and built-in functions can be dramatically different."
+}], "Text",
  CellChangeTimes->{{3.940301666819303*^9, 3.9403017075464973`*^9}, {
   3.940301945019726*^9, 3.940302036040695*^9}},
  CellID->377220382,ExpressionUUID->"4564c488-9a95-4704-862f-317bcb50e560"],
 
-Cell["\<\
-All is not lost however. The general principles on which Mathematica is built \
-give the language overall consistency. This, plus a large number of quite \
-generic and efficient built-in higher-order functions (that is, functions \
-that manipulate other functions) allow for efficient general Mathematica \
-programming techniques. These techniques are not too difficult to learn, and \
-in some sense they split the entire Mathematica
-language into a \[OpenCurlyDoubleQuote]scripting\[CloseCurlyDoubleQuote] \
+Cell[TextData[{
+ "All is not lost however. The general principles on which ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " is built give the language overall consistency. This, plus a large number \
+of quite generic and efficient built-in higher-order functions (that is, \
+functions that manipulate other functions) allow for efficient general ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " programming techniques. These techniques are not too difficult to learn, \
+and in some sense they split the entire ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ "\nlanguage into a \[OpenCurlyDoubleQuote]scripting\[CloseCurlyDoubleQuote] \
 (quick to write, but often slow to execute), \
 \[OpenCurlyDoubleQuote]intermediate\[CloseCurlyDoubleQuote] (a bit more \
 thinking but faster code), and \[OpenCurlyDoubleQuote]system\
 \[CloseCurlyDoubleQuote] (less intuitive thinking, but yet much faster code) \
 language layers (please bear in mind that this classification is my own and \
-based on my personal experience, rather than a widely accepted one).\
-\>", "Text",
+based on my personal experience, rather than a widely accepted one)."
+}], "Text",
  CellChangeTimes->{{3.940301666819303*^9, 3.9403017075464973`*^9}, {
   3.940301945019726*^9, 3.9403020672064047`*^9}},
  CellID->6305664,ExpressionUUID->"43a9e8a2-da5c-432f-a24c-5df284a135a6"],
 
-Cell["\<\
-The part of the difficulty of learning Mathematica programming is that there \
-is no good formal distinction between these layers. Typically, the first is \
-characterized by heavy use of the procedural (or otherwise straightforward) \
-code, the second corresponds to use of functional programming and the third \
-by heavy use of optimized structural operations, but this is not an absolute \
-criteria. One and the same operation can play a \
-\[OpenCurlyDoubleQuote]scripting\[CloseCurlyDoubleQuote] role in one context \
-and \[OpenCurlyDoubleQuote]system\[CloseCurlyDoubleQuote] role in another.\
-\>", "Text",
+Cell[TextData[{
+ "The part of the difficulty of learning ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " programming is that there is no good formal distinction between these \
+layers. Typically, the first is characterized by heavy use of the procedural \
+(or otherwise straightforward) code, the second corresponds to use of \
+functional programming and the third by heavy use of optimized structural \
+operations, but this is not an absolute criteria. One and the same operation \
+can play a \[OpenCurlyDoubleQuote]scripting\[CloseCurlyDoubleQuote] role in \
+one context and \[OpenCurlyDoubleQuote]system\[CloseCurlyDoubleQuote] role in \
+another."
+}], "Text",
  CellChangeTimes->{{3.940301666819303*^9, 3.9403017075464973`*^9}, {
   3.940301945019726*^9, 3.940302087986248*^9}},
  CellID->1768214667,ExpressionUUID->"5da5f1f1-33c8-4c1c-b057-0dec7c5a666a"],
 
-Cell["\<\
-For many problems (especially purely scientific), \
+Cell[TextData[{
+ "For many problems (especially purely scientific), \
 \[OpenCurlyDoubleQuote]scripting\[CloseCurlyDoubleQuote] layer is sufficient. \
 This layer consists mainly in using built-in commands or gluing them with a \
-typically procedural code. A big part of the bad reputation that Mathematica \
-used to have for its \[OpenCurlyDoubleQuote]slow performance\
+typically procedural code. A big part of the bad reputation that ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " used to have for its \[OpenCurlyDoubleQuote]slow performance\
 \[CloseCurlyDoubleQuote] is related to the fact that most people are only \
 aware of this language layer, because it corresponds most directly to their \
-programming experience in other (procedural) languages.\
-\>", "Text",
+programming experience in other (procedural) languages."
+}], "Text",
  CellChangeTimes->{{3.940301666819303*^9, 3.9403017075464973`*^9}, {
   3.940301945019726*^9, 3.940302095938272*^9}},
  CellID->87364045,ExpressionUUID->"a33b2a25-9d60-49f6-91e5-9238756bf095"],
 
-Cell["\<\
-The other two layers serve several purposes, such as improving speed and \
+Cell[TextData[{
+ "The other two layers serve several purposes, such as improving speed and \
 quality of code design, generally improving performance, and removing certain \
-performance bottlenecks within Mathematica, without resorting to external \
-code (although this is also possible through connecting technologies such as \
-MathLink or J/Link). Also, and perhaps even more importantly, they provide a \
-programmer with new ways of thinking about the problems. Less important for \
-some scientific applications, these layers are much more important for \
-software development and prototype design.\
-\>", "Text",
+performance bottlenecks within ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ ", without resorting to external code (although this is also possible \
+through connecting technologies such as MathLink or J/Link). Also, and \
+perhaps even more importantly, they provide a programmer with new ways of \
+thinking about the problems. Less important for some scientific applications, \
+these layers are much more important for software development and prototype \
+design."
+}], "Text",
  CellChangeTimes->{{3.940301666819303*^9, 3.9403017075464973`*^9}, {
   3.940301945019726*^9, 3.940302129191455*^9}},
  CellID->1642000700,ExpressionUUID->"69a7a563-c2a5-4e94-9f4e-d80a635882b1"],
 
-Cell["\<\
-From the pragmatic point of view, the proper use of each of the above \
+Cell[TextData[{
+ "From the pragmatic point of view, the proper use of each of the above \
 capabilities individually, and the ability to choose the programming paradigm \
 that best fits a given problem, can greatly improve one\[CloseCurlyQuote]s \
-uses of Mathematica (both in terms of speed of writing and debugging the \
-program, and speed of the code execution).\
-\>", "Text",
+uses of ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " (both in terms of speed of writing and debugging the program, and speed of \
+the code execution)."
+}], "Text",
  CellChangeTimes->{{3.940301666819303*^9, 3.9403017075464973`*^9}, {
   3.940301945019726*^9, 3.940302133439178*^9}},
  CellID->901655617,ExpressionUUID->"41450d76-6f33-49be-9be8-58ae67123d0a"],
 
-Cell["\<\
-It probably does not make sense to master Mathematica on this level for \
-someone who needs it just occasionally, to compute an integral or two or plot \
-a graph or two. However, for a person who needs to routinely perform lots of \
-non-trivial checks and experiments (typical for computer \
-modelling/simulations or rapid prototyping), this level of use of Mathematica \
-will be very valuable. The end result of learning these
-techniques will be twofold: great reduction of time (both human and computer) \
-and code size for most problems, and the ability to push Mathematica a lot \
-further in solving hard or computationally-intensive problems, before \
-switching to more efficient specialized software or programming language.\
-\>", "Text",
+Cell[TextData[{
+ "It probably does not make sense to master ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " on this level for someone who needs it just occasionally, to compute an \
+integral or two or plot a graph or two. However, for a person who needs to \
+routinely perform lots of non-trivial checks and experiments (typical for \
+computer modelling/simulations or rapid prototyping), this level of use of ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " will be very valuable. The end result of learning these\ntechniques will \
+be twofold: great reduction of time (both human and computer) and code size \
+for most problems, and the ability to push ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " a lot further in solving hard or computationally-intensive problems, \
+before switching to more efficient specialized software or programming \
+language."
+}], "Text",
  CellChangeTimes->{{3.940301666819303*^9, 3.9403017075464973`*^9}, {
   3.940301945019726*^9, 3.940302141256261*^9}},
  CellID->2130833087,ExpressionUUID->"14d03484-73c9-4ae8-86b0-3618d24ac84b"],
 
-Cell["\<\
-From the programmer\[CloseCurlyQuote]s point of view, the speed of writing \
+Cell[TextData[{
+ "From the programmer\[CloseCurlyQuote]s point of view, the speed of writing \
 and debugging the code combined with its typically small size allows a single \
 person to manage quite large projects. The mechanism of packages provides a \
 support for larger scale programming. In addition, by combining the above \
 functionality in non-trivial ways, one can develop different and possibly \
 novel ways of both programming and thinking about problems. The underlying \
-rule-based nature of Mathematica makes it possible to remove many \
-restrictions on what can be done in principle, typical for more traditional \
-languages. The price to pay is often efficiency issues. Getting familiar with \
-Mathematica on a deeper level can help deal with them in many cases.\
-\>", "Text",
+rule-based nature of ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " makes it possible to remove many restrictions on what can be done in \
+principle, typical for more traditional languages. The price to pay is often \
+efficiency issues. Getting familiar with ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " on a deeper level can help deal with them in many cases."
+}], "Text",
  CellChangeTimes->{{3.940301666819303*^9, 3.9403017075464973`*^9}, {
   3.940301945019726*^9, 3.940302165043165*^9}},
  CellID->316613031,ExpressionUUID->"bd4e1692-8010-4b99-988b-dd68431b6d19"],
 
-Cell["\<\
-For non-trivial and/or computationally demanding problems, containing many \
+Cell[TextData[{
+ "For non-trivial and/or computationally demanding problems, containing many \
 steps, it is rather dangerous in my view to take the \
 \[OpenCurlyDoubleQuote]recipe\[CloseCurlyDoubleQuote] approach and search in \
 the Help etc for similar problems solved (this certainly helps a great deal, \
@@ -498,12 +587,17 @@ but you have to understand the code). Even if the solution you find is \
 optimal for some other problem, there are many subtleties which may turn your \
 even slightly modified code wrong or inefficient. Learning these subtleties \
 by trial and error may be faster for every given case, but does not pay off \
-at the end, if one has to frequently use Mathematica. On the other hand, \
-learning a coherent picture of Mathematica programming will ensure that you \
-always pick the right idiom for the problem. Also, all the mentioned \
-subtleties are then naturally understood within this framework, since on a \
-deeper level they simply reflect the way the system works.\
-\>", "Text",
+at the end, if one has to frequently use ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ ". On the other hand, learning a coherent picture of ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " programming will ensure that you always pick the right idiom for the \
+problem. Also, all the mentioned subtleties are then naturally understood \
+within this framework, since on a deeper level they simply reflect the way \
+the system works."
+}], "Text",
  CellChangeTimes->{{3.940301666819303*^9, 3.9403017075464973`*^9}, {
   3.940301945019726*^9, 3.940302183477648*^9}},
  CellID->1388638713,ExpressionUUID->"caa25e33-6744-4ca3-8e77-9ead45f381b9"]
@@ -517,18 +611,25 @@ Appendix B Some of my favorite books on Mathematica - brief reviews\
  CellChangeTimes->{3.940302216214897*^9},
  CellID->673586047,ExpressionUUID->"828936f9-2633-4739-88a1-f66ba5158229"],
 
-Cell["\<\
-Here I would like to review some selected books. The choice of books to \
+Cell[TextData[{
+ "Here I would like to review some selected books. The choice of books to \
 review is very personal. It is very likely that there are some very good \
 books missing here which I simply didn\[CloseCurlyQuote]t have a chance to \
 look at. Also, I left out all books which are field-specific - the books \
-below are all focused on Mathematica programming proper (although many of \
-them contain lots of examples of how Mathematica can be applied to solve \
-problems in various fields). Also, one should not consider the reviews below \
-as some advice to prefer one book to another. All these books equally belong \
-to the shelf of the Mathematica programmer, and each has its unique strength \
-and value, which I tried to briefly describe below.\
-\>", "Text",
+below are all focused on ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " programming proper (although many of them contain lots of examples of how ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " can be applied to solve problems in various fields). Also, one should not \
+consider the reviews below as some advice to prefer one book to another. All \
+these books equally belong to the shelf of the ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " programmer, and each has its unique strength and value, which I tried to \
+briefly describe below."
+}], "Text",
  CellChangeTimes->{{3.9403022227525597`*^9, 3.940302233927198*^9}},
  CellID->1574388592,ExpressionUUID->"4113eff2-fd03-4c7d-b7c8-55b636dfcfa2"],
 
@@ -543,17 +644,28 @@ Cell["by Stephen Wolfram", "Text",
  CellChangeTimes->{{3.940493509402771*^9, 3.940493512083515*^9}},
  CellID->396564874,ExpressionUUID->"11fdeae7-ffc5-4241-b6f1-7e3c7a82a563"],
 
-Cell["\<\
-Written by the creator of Mathematica, this is the most authoritative and \
-detailed account on Mathematica in all its aspects. The book is written in a \
-very clear way, and contains lots of examples. Essential for understanding \
-the Mathematica principles and language. Everyone serious about Mathematica \
-programming has to read it at least once. The limitation is that example \
-problems are mostly limited to those
-which can be solved with a very few lines of code (in Mathematica, this does \
-not mean that they are always trivial). Will not teach directly some \
-specifics of writing larger programs.\
-\>", "Text",
+Cell[TextData[{
+ "Written by the creator of ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ ", this is the most authoritative and detailed account on ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " in all its aspects. The book is written in a very clear way, and contains \
+lots of examples. Essential for understanding the ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " principles and language. Everyone serious about ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " programming has to read it at least once. The limitation is that example \
+problems are mostly limited to those\nwhich can be solved with a very few \
+lines of code (in ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ ", this does not mean that they are always trivial). Will not teach directly \
+some specifics of writing larger programs."
+}], "Text",
  CellChangeTimes->{{3.940302249033657*^9, 3.940302257219529*^9}},
  CellID->178467019,ExpressionUUID->"c2d67b7b-9b95-4a20-b145-68d9da69a8d1"]
 }, Open  ]],
@@ -569,21 +681,28 @@ Cell["by Paul Wellin, Richard Gaylord and Samuel Kamin", "Text",
  CellChangeTimes->{{3.9404935212087297`*^9, 3.940493522777285*^9}},
  CellID->806777336,ExpressionUUID->"8e790572-9b2b-4465-a3a5-5b3416851c90"],
 
-Cell["\<\
-A great introductory textbook on Mathematica programming - probably the best \
-in its class. Best place to start learning Mathematica programming if you are \
-a complete beginner. Even if you are not, you are still likely to learn new \
-things from it. Has a lot of overlap with the present tutorial. Covers wider \
-range of topics, in particular notebook, frontend and graphics programming. \
-Contains lots of quite useful exercises.
+Cell[TextData[{
+ "A great introductory textbook on ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " programming - probably the best in its class. Best place to start learning \
+",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " programming if you are a complete beginner. Even if you are not, you are \
+still likely to learn new things from it. Has a lot of overlap with the \
+present tutorial. Covers wider range of topics, in particular notebook, \
+frontend and graphics programming. Contains lots of quite useful exercises.\n\
 Authors do not particularly emphasize efficiency (at least, not to a degree I \
 tried to do it in this text), but are pretty careful not to include \
 inefficient implementations without saying it. Material is organized somewhat \
 differently though, more according to different programming styles. The \
 authors focus more on showing how certain problems from various branches of \
-science can be solved in Mathematica, while I
-focus more on the language features.\
-\>", "Text",
+science can be solved in ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ ", while I\nfocus more on the language features."
+}], "Text",
  CellChangeTimes->{{3.940302273534318*^9, 3.940302282734682*^9}},
  CellID->572604697,ExpressionUUID->"c90cf706-0ca5-4834-96a6-c1a79591e17e"]
 }, Open  ]],
@@ -598,16 +717,26 @@ Cell["by Roman Maeder", "Text",
  CellChangeTimes->{{3.9404935322829113`*^9, 3.940493533533313*^9}},
  CellID->294938994,ExpressionUUID->"a3d2b317-b147-4281-b90f-d76a8ab51264"],
 
-Cell["\<\
-A classic text on Mathematica programming from one of the original designers \
-of Mathematica. Very elegantly written, contains lots of useful examples, \
-particularly of larger Mathematica programs. Its goal is not to be complete \
-with all the small details, but to be essential. Is a harder read than the \
-previous book, but is readily recommended as a second one. The more one \
-already knows about Mathematica programming, the more one appreciates this \
-book. Great reference for writing packages. Contains certain discussions \
-which are hard to find elsewhere.\
-\>", "Text",
+Cell[TextData[{
+ "A classic text on ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " programming from one of the original designers of ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ ". Very elegantly written, contains lots of useful examples, particularly of \
+larger ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " programs. Its goal is not to be complete with all the small details, but \
+to be essential. Is a harder read than the previous book, but is readily \
+recommended as a second one. The more one already knows about ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " programming, the more one appreciates this book. Great reference for \
+writing packages. Contains certain discussions which are hard to find \
+elsewhere."
+}], "Text",
  CellChangeTimes->{{3.940302306861947*^9, 3.94030231673146*^9}},
  CellID->1875241930,ExpressionUUID->"8f681d3c-e500-4ab8-9ba9-4c21d5aa7c06"]
 }, Open  ]],
@@ -622,21 +751,32 @@ Cell["by David Wagner", "Text",
  CellChangeTimes->{{3.9404935452223253`*^9, 3.940493546329452*^9}},
  CellID->1949766072,ExpressionUUID->"64a90dca-efe5-4e0e-b393-f99190a6478b"],
 
-Cell["\<\
-Probably the best book on advanced Mathematica programming, devoted entirely \
-to Mathematica language. Written by a computer scientist, and from a computer \
-science viewpoint. This book made a real difference in my Mathematica \
-education and opened my eyes on many things. Those familiar with it will \
+Cell[TextData[{
+ "Probably the best book on advanced ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " programming, devoted entirely to ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " language. Written by a computer scientist, and from a computer science \
+viewpoint. This book made a real difference in my ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " education and opened my eyes on many things. Those familiar with it will \
 undoubtedly see its influence on the present tutorial. Explains many \
-subtleties, tricks and techniques, and
-also explains why, not just how. Emphasizes performance and teaches \
-performance-tuning techniques. This book can help make a quantum jump in one\
-\[CloseCurlyQuote]s abilities as a Mathematica programmer. Readily \
-recommended to anyone willing to create non-trivial applications in \
-Mathematica. While it covers version 3 only, this matters very little since \
-almost everything it discusses remains true in newer versions. Unfortunately, \
-went out of print.\
-\>", "Text",
+subtleties, tricks and techniques, and\nalso explains why, not just how. \
+Emphasizes performance and teaches performance-tuning techniques. This book \
+can help make a quantum jump in one\[CloseCurlyQuote]s abilities as a ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " programmer. Readily recommended to anyone willing to create non-trivial \
+applications in ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ ". While it covers version 3 only, this matters very little since almost \
+everything it discusses remains true in newer versions. Unfortunately, went \
+out of print."
+}], "Text",
  CellChangeTimes->{{3.9403026955042477`*^9, 3.9403027084595947`*^9}},
  CellID->1464264057,ExpressionUUID->"7d46d7a0-d98c-401a-adaf-f83470df41f6"]
 }, Open  ]],
@@ -651,18 +791,29 @@ Cell["by John Gray", "Text",
  CellChangeTimes->{{3.9404935555232353`*^9, 3.9404935565636177`*^9}},
  CellID->1265402531,ExpressionUUID->"cb1e1fda-0965-4044-b214-53a42a285687"],
 
-Cell["\<\
-Many non-trivial applications of Mathematica programming in this book. A big \
-part of it is also devoted to teach Mathematica programming, and is \
-absolutely worth reading. Contains several large applications such as \
-object-oriented graph theory in Mathematica. One of the very few places \
-(apart from Maeder\[CloseCurlyQuote]s books) where the object-oriented \
-extension to Mathematica, developed by R.Maeder, is explained in
-detail and illustrated with non-trivial examples. A slight downside is that \
-sometimes inefficient solutions are presented without warnings, but this is a \
-minor flaw - you anyway will have to develop your own instincts for this if \
-you enter serious Mathematica programming.\
-\>", "Text",
+Cell[TextData[{
+ "Many non-trivial applications of ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " programming in this book. A big part of it is also devoted to teach ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " programming, and is absolutely worth reading. Contains several large \
+applications such as object-oriented graph theory in ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ ". One of the very few places (apart from Maeder\[CloseCurlyQuote]s books) \
+where the object-oriented extension to ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ ", developed by R.Maeder, is explained in\ndetail and illustrated with \
+non-trivial examples. A slight downside is that sometimes inefficient \
+solutions are presented without warnings, but this is a minor flaw - you \
+anyway will have to develop your own instincts for this if you enter serious ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " programming."
+}], "Text",
  CellChangeTimes->{{3.94030289243921*^9, 3.940302900071213*^9}},
  CellID->1986210908,ExpressionUUID->"b25d6a06-b273-4a55-91c2-2ca038e209bb"]
 }, Open  ]],
@@ -677,15 +828,25 @@ Cell["by Michael Trott", "Text",
  CellChangeTimes->{{3.940493566340464*^9, 3.940493567362966*^9}},
  CellID->918552592,ExpressionUUID->"1b2077d0-9920-4501-913f-2f3a91e218fa"],
 
-Cell["\<\
-Written the Mathematica insider and expert, these amazing 4 volumes represent \
-by far the most advanced treatment of Mathematica programming in application \
-to numerous problems of contemporary science that I am aware of. Contains an \
-overwhelming collection of non-trivial examples, and more small details about \
-Mathematica that you will ever want to know. These books show what is \
-possible when one is armed with the fullest power of Mathematica. Essential \
-for advanced users.\
-\>", "Text",
+Cell[TextData[{
+ "Written the ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " insider and expert, these amazing 4 volumes represent by far the most \
+advanced treatment of ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " programming in application to numerous problems of contemporary science \
+that I am aware of. Contains an overwhelming collection of non-trivial \
+examples, and more small details about ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ " that you will ever want to know. These books show what is possible when \
+one is armed with the fullest power of ",
+ StyleBox["Mathematica",
+  FontSlant->"Italic"],
+ ". Essential for advanced users."
+}], "Text",
  CellChangeTimes->{{3.9403029120140047`*^9, 3.940302927627015*^9}},
  CellID->1906720689,ExpressionUUID->"82534da9-fc06-497a-8ed4-aaaf7ec893df"]
 }, Open  ]]
@@ -719,110 +880,110 @@ Cell[3889, 110, 259, 5, 133, "Section",ExpressionUUID->"10a6e5ef-b16a-4b15-84b6-
 Cell[CellGroupData[{
 Cell[4173, 119, 219, 4, 68, "Subsection",ExpressionUUID->"f2bbfdc0-9961-4cd6-8983-69622afe1f4c",
  CellID->861746629],
-Cell[4395, 125, 931, 14, 252, "Text",ExpressionUUID->"a89dcfcf-7eaf-4420-9bc2-e17352abbab7",
+Cell[4395, 125, 1103, 24, 252, "Text",ExpressionUUID->"a89dcfcf-7eaf-4420-9bc2-e17352abbab7",
  CellID->745878235],
-Cell[5329, 141, 639, 10, 163, "Text",ExpressionUUID->"79eb8212-9a11-4146-a216-aee21066f29d",
+Cell[5501, 151, 639, 10, 163, "Text",ExpressionUUID->"79eb8212-9a11-4146-a216-aee21066f29d",
  CellID->1055237326],
-Cell[5971, 153, 826, 13, 222, "Text",ExpressionUUID->"a2e7e426-3f48-4c9f-a202-c99e3c6c115d",
+Cell[6143, 163, 874, 15, 222, "Text",ExpressionUUID->"a2e7e426-3f48-4c9f-a202-c99e3c6c115d",
  CellID->609863490],
-Cell[6800, 168, 1144, 17, 340, "Text",ExpressionUUID->"b54c3c99-bc79-48b9-ab18-45aff2d1881c",
+Cell[7020, 180, 1238, 22, 340, "Text",ExpressionUUID->"b54c3c99-bc79-48b9-ab18-45aff2d1881c",
  CellID->1783006489],
-Cell[7947, 187, 1037, 16, 281, "Text",ExpressionUUID->"c72a757d-ce7e-4787-b299-e6aa2738eff2",
+Cell[8261, 204, 1129, 20, 281, "Text",ExpressionUUID->"c72a757d-ce7e-4787-b299-e6aa2738eff2",
  CellID->1204860694],
-Cell[8987, 205, 1058, 16, 311, "Text",ExpressionUUID->"483a69bf-ac3d-462d-b7f2-4bb3f89d07d1",
+Cell[9393, 226, 1150, 20, 311, "Text",ExpressionUUID->"483a69bf-ac3d-462d-b7f2-4bb3f89d07d1",
  CellID->2021102960],
-Cell[10048, 223, 750, 12, 222, "Text",ExpressionUUID->"b9f4f3dc-85f2-44cb-bc2f-0408b776e7a6",
+Cell[10546, 248, 842, 16, 222, "Text",ExpressionUUID->"b9f4f3dc-85f2-44cb-bc2f-0408b776e7a6",
  CellID->178588829],
-Cell[10801, 237, 464, 8, 104, "Text",ExpressionUUID->"a55a96e1-bb06-4d38-bf66-854f56cf2408",
+Cell[11391, 266, 512, 10, 104, "Text",ExpressionUUID->"a55a96e1-bb06-4d38-bf66-854f56cf2408",
  CellID->1471297880],
-Cell[11268, 247, 263, 3, 45, "Text",ExpressionUUID->"1d3a688d-92f6-47f4-94f5-1c2165c0ba50",
+Cell[11906, 278, 316, 7, 45, "Text",ExpressionUUID->"1d3a688d-92f6-47f4-94f5-1c2165c0ba50",
  CellID->1633572038],
-Cell[11534, 252, 450, 8, 104, "Text",ExpressionUUID->"cec5edc0-6418-444d-8259-d60a9bb36fa3",
+Cell[12225, 287, 498, 10, 104, "Text",ExpressionUUID->"cec5edc0-6418-444d-8259-d60a9bb36fa3",
  CellID->218586052],
-Cell[11987, 262, 972, 14, 281, "Text",ExpressionUUID->"933af0ac-5534-42d4-90df-921ef2265756",
+Cell[12726, 299, 972, 14, 281, "Text",ExpressionUUID->"933af0ac-5534-42d4-90df-921ef2265756",
  CellID->802135169],
-Cell[12962, 278, 627, 10, 163, "Text",ExpressionUUID->"65068d14-ffd9-4b09-baf8-83fb1b893aac",
+Cell[13701, 315, 627, 10, 163, "Text",ExpressionUUID->"65068d14-ffd9-4b09-baf8-83fb1b893aac",
  CellID->2053321505],
-Cell[13592, 290, 437, 7, 104, "Text",ExpressionUUID->"67e3e115-9d82-435c-b535-d16a14364a72",
+Cell[14331, 327, 437, 7, 104, "Text",ExpressionUUID->"67e3e115-9d82-435c-b535-d16a14364a72",
  CellID->10243278],
-Cell[14032, 299, 659, 11, 193, "Text",ExpressionUUID->"dab9e646-38a5-4842-bff7-ef89e7e09155",
+Cell[14771, 336, 751, 15, 193, "Text",ExpressionUUID->"dab9e646-38a5-4842-bff7-ef89e7e09155",
  CellID->41389484],
-Cell[14694, 312, 783, 13, 222, "Text",ExpressionUUID->"6e9272e3-e40d-4f8d-b7f4-17eaac42089c",
+Cell[15525, 353, 832, 14, 222, "Text",ExpressionUUID->"6e9272e3-e40d-4f8d-b7f4-17eaac42089c",
  CellID->837723952],
-Cell[15480, 327, 1300, 20, 370, "Text",ExpressionUUID->"74375b59-f9d2-4c5b-abaa-212e2a640006",
+Cell[16360, 369, 1392, 24, 370, "Text",ExpressionUUID->"74375b59-f9d2-4c5b-abaa-212e2a640006",
  CellID->1893177580],
-Cell[16783, 349, 1150, 17, 340, "Text",ExpressionUUID->"c54c67e1-50ea-4a55-9e05-28736c7854d6",
+Cell[17755, 395, 1282, 24, 340, "Text",ExpressionUUID->"c54c67e1-50ea-4a55-9e05-28736c7854d6",
  CellID->1490084946],
-Cell[17936, 368, 1151, 17, 370, "Text",ExpressionUUID->"4564c488-9a95-4704-862f-317bcb50e560",
+Cell[19040, 421, 1283, 24, 340, "Text",ExpressionUUID->"4564c488-9a95-4704-862f-317bcb50e560",
  CellID->377220382],
-Cell[19090, 387, 1133, 17, 281, "Text",ExpressionUUID->"43a9e8a2-da5c-432f-a24c-5df284a135a6",
+Cell[20326, 447, 1266, 23, 281, "Text",ExpressionUUID->"43a9e8a2-da5c-432f-a24c-5df284a135a6",
  CellID->6305664],
-Cell[20226, 406, 812, 12, 193, "Text",ExpressionUUID->"5da5f1f1-33c8-4c1c-b057-0dec7c5a666a",
+Cell[21595, 472, 862, 15, 193, "Text",ExpressionUUID->"5da5f1f1-33c8-4c1c-b057-0dec7c5a666a",
  CellID->1768214667],
-Cell[21041, 420, 775, 12, 193, "Text",ExpressionUUID->"a33b2a25-9d60-49f6-91e5-9238756bf095",
+Cell[22460, 489, 823, 14, 193, "Text",ExpressionUUID->"a33b2a25-9d60-49f6-91e5-9238756bf095",
  CellID->87364045],
-Cell[21819, 434, 799, 12, 222, "Text",ExpressionUUID->"69a7a563-c2a5-4e94-9f4e-d80a635882b1",
+Cell[23286, 505, 849, 15, 222, "Text",ExpressionUUID->"69a7a563-c2a5-4e94-9f4e-d80a635882b1",
  CellID->1642000700],
-Cell[22621, 448, 562, 9, 134, "Text",ExpressionUUID->"41450d76-6f33-49be-9be8-58ae67123d0a",
+Cell[24138, 522, 612, 12, 134, "Text",ExpressionUUID->"41450d76-6f33-49be-9be8-58ae67123d0a",
  CellID->901655617],
-Cell[23186, 459, 947, 14, 281, "Text",ExpressionUUID->"14d03484-73c9-4ae8-86b0-3618d24ac84b",
+Cell[24753, 536, 1082, 21, 281, "Text",ExpressionUUID->"14d03484-73c9-4ae8-86b0-3618d24ac84b",
  CellID->2130833087],
-Cell[24136, 475, 974, 14, 281, "Text",ExpressionUUID->"bd4e1692-8010-4b99-988b-dd68431b6d19",
+Cell[25838, 559, 1065, 19, 281, "Text",ExpressionUUID->"bd4e1692-8010-4b99-988b-dd68431b6d19",
  CellID->316613031],
-Cell[25113, 491, 1175, 17, 340, "Text",ExpressionUUID->"caa25e33-6744-4ca3-8e77-9ead45f381b9",
+Cell[26906, 580, 1266, 22, 340, "Text",ExpressionUUID->"caa25e33-6744-4ca3-8e77-9ead45f381b9",
  CellID->1388638713]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[26325, 513, 214, 4, 68, "Subsection",ExpressionUUID->"828936f9-2633-4739-88a1-f66ba5158229",
+Cell[28209, 607, 214, 4, 68, "Subsection",ExpressionUUID->"828936f9-2633-4739-88a1-f66ba5158229",
  CellID->673586047],
-Cell[26542, 519, 908, 13, 281, "Text",ExpressionUUID->"4113eff2-fd03-4c7d-b7c8-55b636dfcfa2",
+Cell[28426, 613, 1040, 20, 281, "Text",ExpressionUUID->"4113eff2-fd03-4c7d-b7c8-55b636dfcfa2",
  CellID->1574388592],
 Cell[CellGroupData[{
-Cell[27475, 536, 213, 3, 66, "Subsubsection",ExpressionUUID->"02c91f5d-d8aa-41c9-acd2-b8611c9985ee",
+Cell[29491, 637, 213, 3, 66, "Subsubsection",ExpressionUUID->"02c91f5d-d8aa-41c9-acd2-b8611c9985ee",
  CellID->147205309],
-Cell[27691, 541, 175, 2, 45, "Text",ExpressionUUID->"11fdeae7-ffc5-4241-b6f1-7e3c7a82a563",
+Cell[29707, 642, 175, 2, 45, "Text",ExpressionUUID->"11fdeae7-ffc5-4241-b6f1-7e3c7a82a563",
  CellID->396564874],
-Cell[27869, 545, 774, 12, 252, "Text",ExpressionUUID->"c2d67b7b-9b95-4a20-b145-68d9da69a8d1",
+Cell[29885, 646, 991, 23, 252, "Text",ExpressionUUID->"c2d67b7b-9b95-4a20-b145-68d9da69a8d1",
  CellID->178467019]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[28680, 562, 242, 3, 66, "Subsubsection",ExpressionUUID->"a0e1dad4-d61b-4d15-9a3d-87f8a101711a",
+Cell[30913, 674, 242, 3, 66, "Subsubsection",ExpressionUUID->"a0e1dad4-d61b-4d15-9a3d-87f8a101711a",
  CellID->1735885615],
-Cell[28925, 567, 207, 2, 45, "Text",ExpressionUUID->"8e790572-9b2b-4465-a3a5-5b3416851c90",
+Cell[31158, 679, 207, 2, 45, "Text",ExpressionUUID->"8e790572-9b2b-4465-a3a5-5b3416851c90",
  CellID->806777336],
-Cell[29135, 571, 1064, 16, 340, "Text",ExpressionUUID->"c90cf706-0ca5-4834-96a6-c1a79591e17e",
+Cell[31368, 683, 1202, 23, 340, "Text",ExpressionUUID->"c90cf706-0ca5-4834-96a6-c1a79591e17e",
  CellID->572604697]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[30236, 592, 189, 2, 66, "Subsubsection",ExpressionUUID->"8dbebc1b-05bf-4e33-abaf-0e511c1c0194",
+Cell[32607, 711, 189, 2, 66, "Subsubsection",ExpressionUUID->"8dbebc1b-05bf-4e33-abaf-0e511c1c0194",
  CellID->489993904],
-Cell[30428, 596, 174, 2, 45, "Text",ExpressionUUID->"a3d2b317-b147-4281-b90f-d76a8ab51264",
+Cell[32799, 715, 174, 2, 45, "Text",ExpressionUUID->"a3d2b317-b147-4281-b90f-d76a8ab51264",
  CellID->294938994],
-Cell[30605, 600, 734, 11, 222, "Text",ExpressionUUID->"8f681d3c-e500-4ab8-9ba9-4c21d5aa7c06",
+Cell[32976, 719, 909, 21, 222, "Text",ExpressionUUID->"8f681d3c-e500-4ab8-9ba9-4c21d5aa7c06",
  CellID->1875241930]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[31376, 616, 212, 2, 66, "Subsubsection",ExpressionUUID->"6d340cf3-5acc-4fff-a401-cd5b8af4c051",
+Cell[33922, 745, 212, 2, 66, "Subsubsection",ExpressionUUID->"6d340cf3-5acc-4fff-a401-cd5b8af4c051",
  CellID->1251733114],
-Cell[31591, 620, 175, 2, 45, "Text",ExpressionUUID->"64a90dca-efe5-4e0e-b393-f99190a6478b",
+Cell[34137, 749, 175, 2, 45, "Text",ExpressionUUID->"64a90dca-efe5-4e0e-b393-f99190a6478b",
  CellID->1949766072],
-Cell[31769, 624, 1049, 16, 340, "Text",ExpressionUUID->"7d46d7a0-d98c-401a-adaf-f83470df41f6",
+Cell[34315, 753, 1266, 27, 340, "Text",ExpressionUUID->"7d46d7a0-d98c-401a-adaf-f83470df41f6",
  CellID->1464264057]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[32855, 645, 185, 2, 66, "Subsubsection",ExpressionUUID->"3ad08a53-4d55-4043-84e7-e6c079d744b1",
+Cell[35618, 785, 185, 2, 66, "Subsubsection",ExpressionUUID->"3ad08a53-4d55-4043-84e7-e6c079d744b1",
  CellID->507760977],
-Cell[33043, 649, 174, 2, 45, "Text",ExpressionUUID->"cb1e1fda-0965-4044-b214-53a42a285687",
+Cell[35806, 789, 174, 2, 45, "Text",ExpressionUUID->"cb1e1fda-0965-4044-b214-53a42a285687",
  CellID->1265402531],
-Cell[33220, 653, 876, 13, 281, "Text",ExpressionUUID->"b25d6a06-b273-4a55-91c2-2ca038e209bb",
+Cell[35983, 793, 1093, 24, 281, "Text",ExpressionUUID->"b25d6a06-b273-4a55-91c2-2ca038e209bb",
  CellID->1986210908]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[34133, 671, 188, 2, 66, "Subsubsection",ExpressionUUID->"0fa3dd7c-bb95-4ac3-9849-9dcedaa4ac9b",
+Cell[37113, 822, 188, 2, 66, "Subsubsection",ExpressionUUID->"0fa3dd7c-bb95-4ac3-9849-9dcedaa4ac9b",
  CellID->626329748],
-Cell[34324, 675, 173, 2, 45, "Text",ExpressionUUID->"1b2077d0-9920-4501-913f-2f3a91e218fa",
+Cell[37304, 826, 173, 2, 45, "Text",ExpressionUUID->"1b2077d0-9920-4501-913f-2f3a91e218fa",
  CellID->918552592],
-Cell[34500, 679, 655, 10, 222, "Text",ExpressionUUID->"82534da9-fc06-497a-8ed4-aaaf7ec893df",
+Cell[37480, 830, 830, 20, 193, "Text",ExpressionUUID->"82534da9-fc06-497a-8ed4-aaaf7ec893df",
  CellID->1906720689]
 }, Open  ]]
 }, Open  ]]
